@@ -1,607 +1,612 @@
 [
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/arithmetic/arithmetic.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/arithmetic.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/arithmetic/arithmetic.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/arithmetic.cpp",
   "file": "/home/user/plll-1.0/plll/src/arithmetic/arithmetic.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/arithmetic/arithmetic-gmp.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/arithmetic-gmp.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/arithmetic/arithmetic-gmp.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/arithmetic-gmp.cpp",
   "file": "/home/user/plll-1.0/plll/src/arithmetic/arithmetic-gmp.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/arithmetic/rational.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/rational.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/arithmetic/rational.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/rational.cpp",
   "file": "/home/user/plll-1.0/plll/src/arithmetic/rational.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/arithmetic/primes.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/primes.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/arithmetic/primes.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/primes.cpp",
   "file": "/home/user/plll-1.0/plll/src/arithmetic/primes.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/arithmetic/factor.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/factor.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/arithmetic/factor.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/factor.cpp",
   "file": "/home/user/plll-1.0/plll/src/arithmetic/factor.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/arithmetic/ddqd-wrapper.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/ddqd-wrapper.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/arithmetic/ddqd-wrapper.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/ddqd-wrapper.cpp",
   "file": "/home/user/plll-1.0/plll/src/arithmetic/ddqd-wrapper.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/linalg/linalg.cpp.o -c /home/user/plll-1.0/plll/src/linalg/linalg.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/linalg/linalg.cpp.o -c /home/user/plll-1.0/plll/src/linalg/linalg.cpp",
   "file": "/home/user/plll-1.0/plll/src/linalg/linalg.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/lll2.cpp.o -c /home/user/plll-1.0/plll/src/lattices/lll2.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/lll2.cpp.o -c /home/user/plll-1.0/plll/src/lattices/lll2.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/lll2.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/lll2-multiplexer.cpp.o -c /home/user/plll-1.0/plll/src/lattices/lll2-multiplexer.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/lll2-multiplexer.cpp.o -c /home/user/plll-1.0/plll/src/lattices/lll2-multiplexer.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/lll2-multiplexer.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/transform-impl.cpp.o -c /home/user/plll-1.0/plll/src/lattices/transform-impl.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/transform-impl.cpp.o -c /home/user/plll-1.0/plll/src/lattices/transform-impl.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/transform-impl.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/utilities/arguments.cpp.o -c /home/user/plll-1.0/plll/src/utilities/arguments.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/utilities/arguments.cpp.o -c /home/user/plll-1.0/plll/src/utilities/arguments.cpp",
   "file": "/home/user/plll-1.0/plll/src/utilities/arguments.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/utilities/timer.cpp.o -c /home/user/plll-1.0/plll/src/utilities/timer.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/utilities/timer.cpp.o -c /home/user/plll-1.0/plll/src/utilities/timer.cpp",
   "file": "/home/user/plll-1.0/plll/src/utilities/timer.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/utilities/keccak.cpp.o -c /home/user/plll-1.0/plll/src/utilities/keccak.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/utilities/keccak.cpp.o -c /home/user/plll-1.0/plll/src/utilities/keccak.cpp",
   "file": "/home/user/plll-1.0/plll/src/utilities/keccak.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/utilities/dlalloc.cpp.o -c /home/user/plll-1.0/plll/src/utilities/dlalloc.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/utilities/dlalloc.cpp.o -c /home/user/plll-1.0/plll/src/utilities/dlalloc.cpp",
   "file": "/home/user/plll-1.0/plll/src/utilities/dlalloc.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/utilities/myalloc.cpp.o -c /home/user/plll-1.0/plll/src/utilities/myalloc.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/utilities/myalloc.cpp.o -c /home/user/plll-1.0/plll/src/utilities/myalloc.cpp",
   "file": "/home/user/plll-1.0/plll/src/utilities/myalloc.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -o CMakeFiles/libplll-shared.dir/src/utilities/taskmanager.cpp.o -c /home/user/plll-1.0/plll/src/utilities/taskmanager.cpp",
+  "command": "/usr/bin/g++-7  -Dlibplll_shared_EXPORTS -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG -fPIC   -std=gnu++11 -o CMakeFiles/libplll-shared.dir/src/utilities/taskmanager.cpp.o -c /home/user/plll-1.0/plll/src/utilities/taskmanager.cpp",
   "file": "/home/user/plll-1.0/plll/src/utilities/taskmanager.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/arithmetic.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/arithmetic.cpp",
   "file": "/home/user/plll-1.0/plll/src/arithmetic/arithmetic.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic-gmp.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/arithmetic-gmp.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic-gmp.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/arithmetic-gmp.cpp",
   "file": "/home/user/plll-1.0/plll/src/arithmetic/arithmetic-gmp.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/arithmetic/rational.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/rational.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/arithmetic/rational.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/rational.cpp",
   "file": "/home/user/plll-1.0/plll/src/arithmetic/rational.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/arithmetic/primes.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/primes.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/arithmetic/primes.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/primes.cpp",
   "file": "/home/user/plll-1.0/plll/src/arithmetic/primes.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/arithmetic/factor.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/factor.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/arithmetic/factor.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/factor.cpp",
   "file": "/home/user/plll-1.0/plll/src/arithmetic/factor.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/arithmetic/ddqd-wrapper.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/ddqd-wrapper.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/arithmetic/ddqd-wrapper.cpp.o -c /home/user/plll-1.0/plll/src/arithmetic/ddqd-wrapper.cpp",
   "file": "/home/user/plll-1.0/plll/src/arithmetic/ddqd-wrapper.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/linalg/linalg.cpp.o -c /home/user/plll-1.0/plll/src/linalg/linalg.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/linalg/linalg.cpp.o -c /home/user/plll-1.0/plll/src/linalg/linalg.cpp",
   "file": "/home/user/plll-1.0/plll/src/linalg/linalg.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/lll2.cpp.o -c /home/user/plll-1.0/plll/src/lattices/lll2.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/lll2.cpp.o -c /home/user/plll-1.0/plll/src/lattices/lll2.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/lll2.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/lll2-multiplexer.cpp.o -c /home/user/plll-1.0/plll/src/lattices/lll2-multiplexer.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/lll2-multiplexer.cpp.o -c /home/user/plll-1.0/plll/src/lattices/lll2-multiplexer.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/lll2-multiplexer.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/transform-impl.cpp.o -c /home/user/plll-1.0/plll/src/lattices/transform-impl.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/transform-impl.cpp.o -c /home/user/plll-1.0/plll/src/lattices/transform-impl.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/transform-impl.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.o -c /home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp",
   "file": "/home/user/plll-1.0/plll/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/utilities/arguments.cpp.o -c /home/user/plll-1.0/plll/src/utilities/arguments.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/utilities/arguments.cpp.o -c /home/user/plll-1.0/plll/src/utilities/arguments.cpp",
   "file": "/home/user/plll-1.0/plll/src/utilities/arguments.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/utilities/timer.cpp.o -c /home/user/plll-1.0/plll/src/utilities/timer.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/utilities/timer.cpp.o -c /home/user/plll-1.0/plll/src/utilities/timer.cpp",
   "file": "/home/user/plll-1.0/plll/src/utilities/timer.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/utilities/keccak.cpp.o -c /home/user/plll-1.0/plll/src/utilities/keccak.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/utilities/keccak.cpp.o -c /home/user/plll-1.0/plll/src/utilities/keccak.cpp",
   "file": "/home/user/plll-1.0/plll/src/utilities/keccak.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/utilities/dlalloc.cpp.o -c /home/user/plll-1.0/plll/src/utilities/dlalloc.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/utilities/dlalloc.cpp.o -c /home/user/plll-1.0/plll/src/utilities/dlalloc.cpp",
   "file": "/home/user/plll-1.0/plll/src/utilities/dlalloc.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/utilities/myalloc.cpp.o -c /home/user/plll-1.0/plll/src/utilities/myalloc.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/utilities/myalloc.cpp.o -c /home/user/plll-1.0/plll/src/utilities/myalloc.cpp",
   "file": "/home/user/plll-1.0/plll/src/utilities/myalloc.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/plll",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/libplll-static.dir/src/utilities/taskmanager.cpp.o -c /home/user/plll-1.0/plll/src/utilities/taskmanager.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/libplll-static.dir/src/utilities/taskmanager.cpp.o -c /home/user/plll-1.0/plll/src/utilities/taskmanager.cpp",
   "file": "/home/user/plll-1.0/plll/src/utilities/taskmanager.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/tests",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/test-rng.dir/src/test-rng.cpp.o -c /home/user/plll-1.0/tests/src/test-rng.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/test-rng.dir/src/test-rng.cpp.o -c /home/user/plll-1.0/tests/src/test-rng.cpp",
   "file": "/home/user/plll-1.0/tests/src/test-rng.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/tests",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/test-real.dir/src/test-real.cpp.o -c /home/user/plll-1.0/tests/src/test-real.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/test-real.dir/src/test-real.cpp.o -c /home/user/plll-1.0/tests/src/test-real.cpp",
   "file": "/home/user/plll-1.0/tests/src/test-real.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/tests",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/test-plll.dir/src/test-plll.cpp.o -c /home/user/plll-1.0/tests/src/test-plll.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/test-plll.dir/src/test-plll.cpp.o -c /home/user/plll-1.0/tests/src/test-plll.cpp",
   "file": "/home/user/plll-1.0/tests/src/test-plll.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/tests",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/test-vecmat.dir/src/test-vecmat.cpp.o -c /home/user/plll-1.0/tests/src/test-vecmat.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/test-vecmat.dir/src/test-vecmat.cpp.o -c /home/user/plll-1.0/tests/src/test-vecmat.cpp",
   "file": "/home/user/plll-1.0/tests/src/test-vecmat.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/tests",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/test-arithmetic.dir/src/test-arithmetic.cpp.o -c /home/user/plll-1.0/tests/src/test-arithmetic.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/test-arithmetic.dir/src/test-arithmetic.cpp.o -c /home/user/plll-1.0/tests/src/test-arithmetic.cpp",
   "file": "/home/user/plll-1.0/tests/src/test-arithmetic.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/tests",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/test-taskman.dir/src/test-taskman.cpp.o -c /home/user/plll-1.0/tests/src/test-taskman.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/test-taskman.dir/src/test-taskman.cpp.o -c /home/user/plll-1.0/tests/src/test-taskman.cpp",
   "file": "/home/user/plll-1.0/tests/src/test-taskman.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/tests",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/test-int.dir/src/test-int.cpp.o -c /home/user/plll-1.0/tests/src/test-int.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/test-int.dir/src/test-int.cpp.o -c /home/user/plll-1.0/tests/src/test-int.cpp",
   "file": "/home/user/plll-1.0/tests/src/test-int.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/tests",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/test-nfpint.dir/src/test-nfpint.cpp.o -c /home/user/plll-1.0/tests/src/test-nfpint.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/test-nfpint.dir/src/test-nfpint.cpp.o -c /home/user/plll-1.0/tests/src/test-nfpint.cpp",
   "file": "/home/user/plll-1.0/tests/src/test-nfpint.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/tests",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/test-ensurehugeexponents.dir/src/test-ensurehugeexponents.cpp.o -c /home/user/plll-1.0/tests/src/test-ensurehugeexponents.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/test-ensurehugeexponents.dir/src/test-ensurehugeexponents.cpp.o -c /home/user/plll-1.0/tests/src/test-ensurehugeexponents.cpp",
   "file": "/home/user/plll-1.0/tests/src/test-ensurehugeexponents.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/tests",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/test-voronoi.dir/src/test-voronoi.cpp.o -c /home/user/plll-1.0/tests/src/test-voronoi.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/test-voronoi.dir/src/test-voronoi.cpp.o -c /home/user/plll-1.0/tests/src/test-voronoi.cpp",
   "file": "/home/user/plll-1.0/tests/src/test-voronoi.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/tests",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/test-hnf.dir/src/test-hnf.cpp.o -c /home/user/plll-1.0/tests/src/test-hnf.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/test-hnf.dir/src/test-hnf.cpp.o -c /home/user/plll-1.0/tests/src/test-hnf.cpp",
   "file": "/home/user/plll-1.0/tests/src/test-hnf.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/tests",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/timing-vecmat.dir/src/timing-vecmat.cpp.o -c /home/user/plll-1.0/tests/src/timing-vecmat.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/timing-vecmat.dir/src/timing-vecmat.cpp.o -c /home/user/plll-1.0/tests/src/timing-vecmat.cpp",
   "file": "/home/user/plll-1.0/tests/src/timing-vecmat.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/tools",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/plll.dir/src/plll.cpp.o -c /home/user/plll-1.0/tools/src/plll.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/plll.dir/src/plll.cpp.o -c /home/user/plll-1.0/tools/src/plll.cpp",
   "file": "/home/user/plll-1.0/tools/src/plll.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/tools",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/pruningoptimize.dir/src/pruningoptimize.cpp.o -c /home/user/plll-1.0/tools/src/pruningoptimize.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/plll/include-internal   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/pruningoptimize.dir/src/pruningoptimize.cpp.o -c /home/user/plll-1.0/tools/src/pruningoptimize.cpp",
   "file": "/home/user/plll-1.0/tools/src/pruningoptimize.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/examples",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/example-01.dir/src/example-01.cpp.o -c /home/user/plll-1.0/examples/src/example-01.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/example-01.dir/src/example-01.cpp.o -c /home/user/plll-1.0/examples/src/example-01.cpp",
   "file": "/home/user/plll-1.0/examples/src/example-01.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/examples",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/example-02.dir/src/example-02.cpp.o -c /home/user/plll-1.0/examples/src/example-02.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/example-02.dir/src/example-02.cpp.o -c /home/user/plll-1.0/examples/src/example-02.cpp",
   "file": "/home/user/plll-1.0/examples/src/example-02.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/svp",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -o CMakeFiles/svp.dir/src/svp.cpp.o -c /home/user/plll-1.0/svp/src/svp.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/build/packages/eigen   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/svp2.dir/src/svp2.cpp.o -c /home/user/plll-1.0/svp/src/svp2.cpp",
+  "file": "/home/user/plll-1.0/svp/src/svp2.cpp"
+},
+{
+  "directory": "/home/user/plll-1.0/build/svp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/build/packages/eigen   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/svp.dir/src/svp.cpp.o -c /home/user/plll-1.0/svp/src/svp.cpp",
   "file": "/home/user/plll-1.0/svp/src/svp.cpp"
 }
 ]

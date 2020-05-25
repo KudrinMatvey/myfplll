@@ -53,9 +53,10 @@
 /home/user/plll-1.0/build/examples/CMakeFiles/list_install_components.dir
 /home/user/plll-1.0/build/examples/CMakeFiles/install.dir
 /home/user/plll-1.0/build/svp/CMakeFiles/install/strip.dir
+/home/user/plll-1.0/build/svp/CMakeFiles/install/local.dir
+/home/user/plll-1.0/build/svp/CMakeFiles/svp2.dir
 /home/user/plll-1.0/build/svp/CMakeFiles/edit_cache.dir
 /home/user/plll-1.0/build/svp/CMakeFiles/rebuild_cache.dir
 /home/user/plll-1.0/build/svp/CMakeFiles/list_install_components.dir
-/home/user/plll-1.0/build/svp/CMakeFiles/install/local.dir
 /home/user/plll-1.0/build/svp/CMakeFiles/svp.dir
 /home/user/plll-1.0/build/svp/CMakeFiles/install.dir

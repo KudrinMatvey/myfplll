@@ -21,6 +21,8 @@ if(NOT (GMP_INCLUDE_DIR AND GMP_LIBRARIES))
 endif(NOT (GMP_INCLUDE_DIR AND GMP_LIBRARIES))
 set(libraries ${libraries} ${GMP_LIBRARIES})
 set(libraries_shared ${libraries_shared} ${GMP_LIBRARIES})
+find_package (Eigen3 3.3 REQUIRED NO_MODULE)
+include_directories(${EIGEN_INCLUDES})
 
 find_package(MPFR REQUIRED)
 include_directories(${MPFR_INCLUDES})

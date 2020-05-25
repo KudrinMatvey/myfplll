@@ -22,6 +22,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../svp/CMakeLists.txt"
   "../tests/CMakeLists.txt"
   "../tools/CMakeLists.txt"
+  "/usr/local/share/eigen3/cmake/Eigen3Config.cmake"
+  "/usr/local/share/eigen3/cmake/Eigen3ConfigVersion.cmake"
+  "/usr/local/share/eigen3/cmake/Eigen3Targets.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"
@@ -88,5 +91,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "tools/CMakeFiles/pruningoptimize.dir/DependInfo.cmake"
   "examples/CMakeFiles/example-01.dir/DependInfo.cmake"
   "examples/CMakeFiles/example-02.dir/DependInfo.cmake"
+  "svp/CMakeFiles/svp2.dir/DependInfo.cmake"
   "svp/CMakeFiles/svp.dir/DependInfo.cmake"
   )

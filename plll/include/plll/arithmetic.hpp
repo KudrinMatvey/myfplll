@@ -1597,14 +1597,14 @@ namespace plll
                 {
                     std::istringstream ss(s);
                     ss >> res;
-                    return ss;
+                    return static_cast<bool>(ss);
                 }
             
                 static bool convert(typename Context::Type & res, const char * s, const Context & c)
                 {
                     std::istringstream ss(s);
                     ss >> res;
-                    return ss;
+                    return static_cast<bool>(ss);
                 }
             
                 static RetVal1 convert(const std::string & s, const Context & c)

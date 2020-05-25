@@ -391,6 +391,19 @@ example-02/fast:
 .PHONY : example-02/fast
 
 #=============================================================================
+# Target rules for targets named svp2
+
+# Build rule for target.
+svp2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 svp2
+.PHONY : svp2
+
+# fast build rule for target.
+svp2/fast:
+	$(MAKE) -f svp/CMakeFiles/svp2.dir/build.make svp/CMakeFiles/svp2.dir/build
+.PHONY : svp2/fast
+
+#=============================================================================
 # Target rules for targets named svp
 
 # Build rule for target.
@@ -433,6 +446,7 @@ help:
 	@echo "... pruningoptimize"
 	@echo "... example-01"
 	@echo "... example-02"
+	@echo "... svp2"
 	@echo "... svp"
 .PHONY : help
 

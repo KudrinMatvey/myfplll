@@ -68,6 +68,18 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -99,18 +111,6 @@ list_install_components:
 list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
@@ -157,6 +157,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+svp/CMakeFiles/svp2.dir/rule:
+	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 svp/CMakeFiles/svp2.dir/rule
+.PHONY : svp/CMakeFiles/svp2.dir/rule
+
+# Convenience name for target.
+svp2: svp/CMakeFiles/svp2.dir/rule
+
+.PHONY : svp2
+
+# fast build rule for target.
+svp2/fast:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/svp2.dir/build.make svp/CMakeFiles/svp2.dir/build
+.PHONY : svp2/fast
+
+# Convenience name for target.
 svp/CMakeFiles/svp.dir/rule:
 	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 svp/CMakeFiles/svp.dir/rule
 .PHONY : svp/CMakeFiles/svp.dir/rule
@@ -198,6 +213,33 @@ src/svp.cpp.s:
 	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/svp.dir/build.make svp/CMakeFiles/svp.dir/src/svp.cpp.s
 .PHONY : src/svp.cpp.s
 
+src/svp2.o: src/svp2.cpp.o
+
+.PHONY : src/svp2.o
+
+# target to build an object file
+src/svp2.cpp.o:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/svp2.dir/build.make svp/CMakeFiles/svp2.dir/src/svp2.cpp.o
+.PHONY : src/svp2.cpp.o
+
+src/svp2.i: src/svp2.cpp.i
+
+.PHONY : src/svp2.i
+
+# target to preprocess a source file
+src/svp2.cpp.i:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/svp2.dir/build.make svp/CMakeFiles/svp2.dir/src/svp2.cpp.i
+.PHONY : src/svp2.cpp.i
+
+src/svp2.s: src/svp2.cpp.s
+
+.PHONY : src/svp2.s
+
+# target to generate assembly for a file
+src/svp2.cpp.s:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/svp2.dir/build.make svp/CMakeFiles/svp2.dir/src/svp2.cpp.s
+.PHONY : src/svp2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -205,15 +247,19 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
+	@echo "... install/local"
+	@echo "... svp2"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... list_install_components"
-	@echo "... install/local"
 	@echo "... svp"
 	@echo "... install"
 	@echo "... src/svp.o"
 	@echo "... src/svp.i"
 	@echo "... src/svp.s"
+	@echo "... src/svp2.o"
+	@echo "... src/svp2.i"
+	@echo "... src/svp2.s"
 .PHONY : help
 
 

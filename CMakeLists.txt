@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 project(pLLL)
-
+set (CMAKE_CXX_STANDARD 11)
+set(EIGEN3_ROOT ${EIGEN3_INCLUDE_DIR}/packages/eigen)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${PROJECT_SOURCE_DIR}/cmake/)
 message(${CMAKE_MODULE_PATH})
 #include(CheckLanguage)
@@ -52,7 +53,8 @@ add_subdirectory(tools)
 add_subdirectory(doc)
 add_subdirectory(examples)
 add_subdirectory(svp)
-
+set(EIGEN3_INCLUDE_DIR ${PROJECT_BINARY_DIR}/packages/eigen)
+INCLUDE_DIRECTORIES ( "${EIGEN3_INCLUDE_DIR}" )
 
 message(STATUS "-----------------------------------------------------------------------------------------")
 message(STATUS "Source DIR is ${PROJECT_SOURCE_DIR}")
