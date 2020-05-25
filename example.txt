@@ -13,10 +13,16 @@ dimm: 8 iter: 0 diff: 2|
 ]
  summ: 1296
 
-lll duration 0
+gauss iter : 1082|
+gauss duration: 11
 
-gauss iter : 1088|
-gauss duration: 10
+list iter : 1089|
+list duration: 9shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-10 -8 3 -10 3 6 6 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 8 2 1
 ---------------------------------------------
@@ -33,10 +39,16 @@ dimm: 8 iter: 1 diff: 2|
 ]
  summ: 1403
 
-lll duration 0
-
-gauss iter : 1093|
+gauss iter : 1084|
 gauss duration: 6
+
+list iter : 1084|
+list duration: 8shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+3 6 -3 -5 -4 -6 -14 8 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 8 2 2
 ---------------------------------------------
@@ -53,10 +65,16 @@ dimm: 8 iter: 2 diff: 2|
 ]
  summ: 1195
 
-lll duration 0
-
-gauss iter : 1077|
+gauss iter : 1065|
 gauss duration: 5
+
+list iter : 1092|
+list duration: 9shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 6 5 3 -12 -16 -2 -12 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 8 4 0
 ---------------------------------------------
@@ -73,10 +91,16 @@ dimm: 8 iter: 0 diff: 4|
 ]
  summ: 2702
 
-lll duration 0
-
 gauss iter : 1102|
-gauss duration: 8
+gauss duration: 9
+
+list iter : 1074|
+list duration: 8shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+11 10 4 -3 4 8 10 25 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 8 4 1
 ---------------------------------------------
@@ -93,10 +117,16 @@ dimm: 8 iter: 1 diff: 4|
 ]
  summ: 2718
 
-lll duration 0
+gauss iter : 1102|
+gauss duration: 7
 
-gauss iter : 1093|
-gauss duration: 6
+list iter : 1108|
+list duration: 10shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+10 -16 3 -17 -8 -38 4 4 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 8 4 2
 ---------------------------------------------
@@ -113,10 +143,16 @@ dimm: 8 iter: 2 diff: 4|
 ]
  summ: 2484
 
-lll duration 0
+gauss iter : 1101|
+gauss duration: 9
 
-gauss iter : 1122|
-gauss duration: 7
+list iter : 1085|
+list duration: 9shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+15 11 -14 11 -21 -3 -4 -3 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 8 6 0
 ---------------------------------------------
@@ -133,10 +169,16 @@ dimm: 8 iter: 0 diff: 6|
 ]
  summ: 3425
 
-lll duration 0
-
 gauss iter : 1103|
-gauss duration: 7
+gauss duration: 40
+
+list iter : 1086|
+list duration: 10shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-28 -17 9 -11 -23 5 -1 -25 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 8 6 1
 ---------------------------------------------
@@ -153,10 +195,16 @@ dimm: 8 iter: 1 diff: 6|
 ]
  summ: 3872
 
-lll duration 0
-
-gauss iter : 1112|
+gauss iter : 1104|
 gauss duration: 7
+
+list iter : 1086|
+list duration: 8shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+23 8 -26 29 -15 -7 -24 3 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 8 6 2
 ---------------------------------------------
@@ -173,10 +221,16 @@ dimm: 8 iter: 2 diff: 6|
 ]
  summ: 4161
 
-lll duration 0
+gauss iter : 1124|
+gauss duration: 8
 
-gauss iter : 1120|
-gauss duration: 14
+list iter : 1099|
+list duration: 10shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+8 -2 -13 16 23 7 -4 9 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 8 8 0
 ---------------------------------------------
@@ -193,10 +247,16 @@ dimm: 8 iter: 0 diff: 8|
 ]
  summ: 5871
 
-lll duration 0
+gauss iter : 1091|
+gauss duration: 18
 
-gauss iter : 1079|
-gauss duration: 14
+list iter : 1079|
+list duration: 9shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+20 0 -24 9 35 34 45 11 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 8 8 1
 ---------------------------------------------
@@ -213,10 +273,16 @@ dimm: 8 iter: 1 diff: 8|
 ]
  summ: 4904
 
-lll duration 0
-
-gauss iter : 1060|
+gauss iter : 1098|
 gauss duration: 6
+
+list iter : 1087|
+list duration: 8shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+8 59 -30 -6 -1 -16 -22 -35 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 8 8 2
 ---------------------------------------------
@@ -233,10 +299,16 @@ dimm: 8 iter: 2 diff: 8|
 ]
  summ: 5025
 
-lll duration 0
+gauss iter : 1077|
+gauss duration: 7
 
-gauss iter : 1081|
-gauss duration: 6
+list iter : 1082|
+list duration: 9shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-74 10 31 34 -9 17 -30 15 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 8 10 0
 ---------------------------------------------
@@ -253,10 +325,16 @@ dimm: 8 iter: 0 diff: 10|
 ]
  summ: 5841
 
-lll duration 0
-
-gauss iter : 1090|
+gauss iter : 1136|
 gauss duration: 7
+
+list iter : 1075|
+list duration: 7shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+49 -46 17 57 72 33 16 -3 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 8 10 1
 ---------------------------------------------
@@ -273,10 +351,16 @@ dimm: 8 iter: 1 diff: 10|
 ]
  summ: 6359
 
-lll duration 0
+gauss iter : 1082|
+gauss duration: 6
 
-gauss iter : 1072|
-gauss duration: 8
+list iter : 1077|
+list duration: 7shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+25 7 -50 -49 -63 56 8 -61 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 8 10 2
 ---------------------------------------------
@@ -293,10 +377,16 @@ dimm: 8 iter: 2 diff: 10|
 ]
  summ: 6323
 
-lll duration 0
-
-gauss iter : 1132|
+gauss iter : 1098|
 gauss duration: 11
+
+list iter : 1085|
+list duration: 11shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+32 -18 4 -15 -14 2 15 -9 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 10 2 0
 ---------------------------------------------
@@ -315,10 +405,16 @@ dimm: 10 iter: 0 diff: 2|
 ]
  summ: 1850
 
-lll duration 0
+gauss iter : 1129|
+gauss duration: 10
 
-gauss iter : 1148|
-gauss duration: 9
+list iter : 1166|
+list duration: 18shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-5 2 -15 9 12 1 -3 13 4 5 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 10 2 1
 ---------------------------------------------
@@ -337,10 +433,16 @@ dimm: 10 iter: 1 diff: 2|
 ]
  summ: 2068
 
-lll duration 0
+gauss iter : 1153|
+gauss duration: 14
 
-gauss iter : 1126|
-gauss duration: 12
+list iter : 1119|
+list duration: 15shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-3 3 10 -4 -14 4 -4 -9 -5 2 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 10 2 2
 ---------------------------------------------
@@ -359,10 +461,16 @@ dimm: 10 iter: 2 diff: 2|
 ]
  summ: 1911
 
-lll duration 0
+gauss iter : 1124|
+gauss duration: 10
 
-gauss iter : 1132|
-gauss duration: 9
+list iter : 1136|
+list duration: 16shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-6 9 -2 4 -8 -2 10 3 0 1 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 10 4 0
 ---------------------------------------------
@@ -381,10 +489,16 @@ dimm: 10 iter: 0 diff: 4|
 ]
  summ: 3602
 
-lll duration 0
+gauss iter : 1140|
+gauss duration: 10
 
-gauss iter : 1139|
-gauss duration: 9
+list iter : 1130|
+list duration: 16shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-5 20 -11 12 -15 -43 -15 -12 -5 -4 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 10 4 1
 ---------------------------------------------
@@ -403,10 +517,16 @@ dimm: 10 iter: 1 diff: 4|
 ]
  summ: 4034
 
-lll duration 0
+gauss iter : 1143|
+gauss duration: 9
 
-gauss iter : 1159|
-gauss duration: 11
+list iter : 1126|
+list duration: 16shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+22 12 -14 -11 12 18 -27 -1 20 -7 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 10 4 2
 ---------------------------------------------
@@ -425,10 +545,16 @@ dimm: 10 iter: 2 diff: 4|
 ]
  summ: 3878
 
-lll duration 0
+gauss iter : 1132|
+gauss duration: 10
 
-gauss iter : 1125|
-gauss duration: 9
+list iter : 1139|
+list duration: 15shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-14 -1 38 21 -17 -3 -12 5 -30 -7 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 10 6 0
 ---------------------------------------------
@@ -447,10 +573,16 @@ dimm: 10 iter: 0 diff: 6|
 ]
  summ: 6056
 
-lll duration 0
+gauss iter : 1144|
+gauss duration: 9
 
-gauss iter : 1146|
-gauss duration: 10
+list iter : 1129|
+list duration: 15shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+18 -47 14 -11 -47 15 5 -3 -44 -14 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 10 6 1
 ---------------------------------------------
@@ -469,10 +601,16 @@ dimm: 10 iter: 1 diff: 6|
 ]
  summ: 6155
 
-lll duration 0
+gauss iter : 1131|
+gauss duration: 16
 
-gauss iter : 1115|
-gauss duration: 11
+list iter : 1149|
+list duration: 18shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-40 5 4 -17 4 9 -6 31 -4 4 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 10 6 2
 ---------------------------------------------
@@ -491,10 +629,16 @@ dimm: 10 iter: 2 diff: 6|
 ]
  summ: 5913
 
-lll duration 0
+gauss iter : 1163|
+gauss duration: 14
 
-gauss iter : 1132|
-gauss duration: 13
+list iter : 1158|
+list duration: 20shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+22 13 -3 11 17 13 36 -14 3 -1 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 10 8 0
 ---------------------------------------------
@@ -513,10 +657,16 @@ dimm: 10 iter: 0 diff: 8|
 ]
  summ: 7651
 
-lll duration 0
+gauss iter : 1133|
+gauss duration: 9
 
-gauss iter : 1130|
-gauss duration: 10
+list iter : 1152|
+list duration: 17shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+36 -70 19 -37 42 48 -3 34 8 37 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 10 8 1
 ---------------------------------------------
@@ -535,10 +685,16 @@ dimm: 10 iter: 1 diff: 8|
 ]
  summ: 7791
 
-lll duration 0
+gauss iter : 1113|
+gauss duration: 9
 
-gauss iter : 1127|
-gauss duration: 14
+list iter : 1148|
+list duration: 19shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 31 -41 3 12 60 -18 -11 49 26 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 10 8 2
 ---------------------------------------------
@@ -557,10 +713,16 @@ dimm: 10 iter: 2 diff: 8|
 ]
  summ: 7815
 
-lll duration 0
+gauss iter : 1154|
+gauss duration: 11
 
-gauss iter : 1132|
-gauss duration: 12
+list iter : 1137|
+list duration: 17shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+4 -11 3 59 0 -27 -5 11 18 -21 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 10 10 0
 ---------------------------------------------
@@ -579,10 +741,16 @@ dimm: 10 iter: 0 diff: 10|
 ]
  summ: 9945
 
-lll duration 0
+gauss iter : 1161|
+gauss duration: 8
 
-gauss iter : 1129|
-gauss duration: 9
+list iter : 1110|
+list duration: 13shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+109 -14 -69 39 -26 -26 -20 32 50 -35 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 10 10 1
 ---------------------------------------------
@@ -601,10 +769,16 @@ dimm: 10 iter: 1 diff: 10|
 ]
  summ: 10355
 
-lll duration 0
+gauss iter : 1141|
+gauss duration: 13
 
-gauss iter : 1148|
-gauss duration: 14
+list iter : 1143|
+list duration: 18shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 27 36 36 -47 20 -31 5 -1 36 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 10 10 2
 ---------------------------------------------
@@ -623,10 +797,16 @@ dimm: 10 iter: 2 diff: 10|
 ]
  summ: 10074
 
-lll duration 0
-
-gauss iter : 1138|
+gauss iter : 1144|
 gauss duration: 10
+
+list iter : 1153|
+list duration: 17shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-9 -10 -49 -58 48 -45 22 -64 -24 -51 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 12 2 0
 ---------------------------------------------
@@ -647,10 +827,16 @@ dimm: 12 iter: 0 diff: 2|
 ]
  summ: 2877
 
-lll duration 0
+gauss iter : 1215|
+gauss duration: 19
 
-gauss iter : 1220|
-gauss duration: 15
+list iter : 1225|
+list duration: 31shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+2 4 -2 0 10 3 -14 8 -1 -11 4 -12 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 12 2 1
 ---------------------------------------------
@@ -671,10 +857,16 @@ dimm: 12 iter: 1 diff: 2|
 ]
  summ: 2674
 
-lll duration 0
+gauss iter : 1211|
+gauss duration: 14
 
-gauss iter : 1200|
-gauss duration: 16
+list iter : 1213|
+list duration: 28shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-2 6 -10 -5 -10 -18 3 -8 13 -4 -13 -3 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 12 2 2
 ---------------------------------------------
@@ -695,10 +887,16 @@ dimm: 12 iter: 2 diff: 2|
 ]
  summ: 2603
 
-lll duration 0
+gauss iter : 1228|
+gauss duration: 13
 
-gauss iter : 1213|
-gauss duration: 15
+list iter : 1220|
+list duration: 29shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+9 -11 -7 -13 18 12 4 3 -12 8 -4 2 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 12 4 0
 ---------------------------------------------
@@ -719,10 +917,16 @@ dimm: 12 iter: 0 diff: 4|
 ]
  summ: 5807
 
-lll duration 0
-
-gauss iter : 1221|
+gauss iter : 1212|
 gauss duration: 16
+
+list iter : 1261|
+list duration: 32shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+37 -18 13 1 32 12 -9 1 26 -4 9 17 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 12 4 1
 ---------------------------------------------
@@ -743,10 +947,16 @@ dimm: 12 iter: 1 diff: 4|
 ]
  summ: 6069
 
-lll duration 0
+gauss iter : 1218|
+gauss duration: 15
 
-gauss iter : 1202|
-gauss duration: 16
+list iter : 1236|
+list duration: 29shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-16 -15 4 15 3 -1 2 27 -21 2 6 34 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 12 4 2
 ---------------------------------------------
@@ -767,10 +977,16 @@ dimm: 12 iter: 2 diff: 4|
 ]
  summ: 5347
 
-lll duration 0
+gauss iter : 1226|
+gauss duration: 16
 
-gauss iter : 1213|
-gauss duration: 15
+list iter : 1256|
+list duration: 32shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-5 23 -2 10 -41 21 -21 -17 4 -9 11 7 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 12 6 0
 ---------------------------------------------
@@ -791,10 +1007,16 @@ dimm: 12 iter: 0 diff: 6|
 ]
  summ: 8378
 
-lll duration 0
+gauss iter : 1203|
+gauss duration: 13
 
-gauss iter : 1235|
-gauss duration: 15
+list iter : 1226|
+list duration: 30shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+2 -8 3 -7 54 -19 41 6 10 18 -21 28 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 12 6 1
 ---------------------------------------------
@@ -815,10 +1037,16 @@ dimm: 12 iter: 1 diff: 6|
 ]
  summ: 8993
 
-lll duration 0
+gauss iter : 1227|
+gauss duration: 18
 
-gauss iter : 1249|
-gauss duration: 20
+list iter : 1241|
+list duration: 32shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+17 21 4 17 41 18 -27 51 -12 18 -26 15 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 12 6 2
 ---------------------------------------------
@@ -839,10 +1067,16 @@ dimm: 12 iter: 2 diff: 6|
 ]
  summ: 8362
 
-lll duration 0
+gauss iter : 1216|
+gauss duration: 15
 
-gauss iter : 1235|
-gauss duration: 14
+list iter : 1215|
+list duration: 29shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+59 -5 2 21 41 9 12 10 -34 45 -10 45 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 12 8 0
 ---------------------------------------------
@@ -863,10 +1097,16 @@ dimm: 12 iter: 0 diff: 8|
 ]
  summ: 11998
 
-lll duration 0
-
-gauss iter : 1230|
+gauss iter : 1251|
 gauss duration: 21
+
+list iter : 1260|
+list duration: 33shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-15 34 -30 45 3 5 33 33 0 7 17 61 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 12 8 1
 ---------------------------------------------
@@ -887,10 +1127,16 @@ dimm: 12 iter: 1 diff: 8|
 ]
  summ: 11342
 
-lll duration 0
+gauss iter : 1232|
+gauss duration: 20
 
-gauss iter : 1262|
-gauss duration: 19
+list iter : 1252|
+list duration: 66shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+3 -24 -48 -12 21 36 1 -2 -9 28 -2 11 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 12 8 2
 ---------------------------------------------
@@ -911,10 +1157,16 @@ dimm: 12 iter: 2 diff: 8|
 ]
  summ: 11012
 
-lll duration 0
+gauss iter : 1181|
+gauss duration: 36
 
-gauss iter : 1202|
-gauss duration: 14
+list iter : 1212|
+list duration: 39shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+23 -14 -6 -45 -14 -10 -12 20 -16 84 10 51 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 12 10 0
 ---------------------------------------------
@@ -935,10 +1187,16 @@ dimm: 12 iter: 0 diff: 10|
 ]
  summ: 14271
 
-lll duration 0
+gauss iter : 1245|
+gauss duration: 23
 
-gauss iter : 1225|
-gauss duration: 25
+list iter : 1266|
+list duration: 38shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+10 9 15 -19 18 75 -5 -11 -5 -38 -46 -10 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 12 10 1
 ---------------------------------------------
@@ -959,10 +1217,16 @@ dimm: 12 iter: 1 diff: 10|
 ]
  summ: 13617
 
-lll duration 0
+gauss iter : 1238|
+gauss duration: 18
 
-gauss iter : 1218|
-gauss duration: 19
+list iter : 1263|
+list duration: 36shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+65 -1 -58 42 -40 -16 -12 -50 -54 -24 1 14 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 12 10 2
 ---------------------------------------------
@@ -983,10 +1247,16 @@ dimm: 12 iter: 2 diff: 10|
 ]
  summ: 15447
 
-lll duration 0
+gauss iter : 1186|
+gauss duration: 24
 
-gauss iter : 1213|
-gauss duration: 16
+list iter : 1208|
+list duration: 30shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+17 1 -3 -27 -57 -11 -34 -33 0 105 14 -50 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 14 2 0
 ---------------------------------------------
@@ -1009,10 +1279,16 @@ dimm: 14 iter: 0 diff: 2|
 ]
  summ: 3703
 
-lll duration 0
+gauss iter : 1412|
+gauss duration: 33
 
-gauss iter : 1367|
-gauss duration: 27
+list iter : 1387|
+list duration: 64shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+12 3 1 7 -2 -2 -1 6 2 6 7 10 20 -4 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 14 2 1
 ---------------------------------------------
@@ -1035,10 +1311,16 @@ dimm: 14 iter: 1 diff: 2|
 ]
  summ: 3640
 
-lll duration 0
+gauss iter : 1344|
+gauss duration: 22
 
-gauss iter : 1301|
-gauss duration: 23
+list iter : 1381|
+list duration: 62shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-6 6 11 -17 14 -15 -10 3 -3 4 1 -5 7 -9 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 14 2 2
 ---------------------------------------------
@@ -1061,10 +1343,16 @@ dimm: 14 iter: 2 diff: 2|
 ]
  summ: 4047
 
-lll duration 0
+gauss iter : 1334|
+gauss duration: 29
 
-gauss iter : 1372|
-gauss duration: 28
+list iter : 1360|
+list duration: 56shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 5 -15 0 -4 7 -1 2 -10 -9 8 18 -3 -12 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 14 4 0
 ---------------------------------------------
@@ -1087,10 +1375,16 @@ dimm: 14 iter: 0 diff: 4|
 ]
  summ: 8106
 
-lll duration 0
-
-gauss iter : 1348|
+gauss iter : 1397|
 gauss duration: 33
+
+list iter : 1338|
+list duration: 54shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-28 -21 6 -10 26 23 4 -6 -6 5 10 14 13 -3 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 14 4 1
 ---------------------------------------------
@@ -1113,10 +1407,16 @@ dimm: 14 iter: 1 diff: 4|
 ]
  summ: 7924
 
-lll duration 0
-
 gauss iter : 1333|
-gauss duration: 26
+gauss duration: 23
+
+list iter : 1392|
+list duration: 56shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-20 9 -24 4 2 -26 -31 2 4 2 -47 -13 -32 10 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 14 4 2
 ---------------------------------------------
@@ -1139,10 +1439,16 @@ dimm: 14 iter: 2 diff: 4|
 ]
  summ: 7620
 
-lll duration 0
+gauss iter : 1435|
+gauss duration: 36
 
-gauss iter : 1414|
-gauss duration: 40
+list iter : 1372|
+list duration: 62shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+2 7 -13 1 9 24 -20 -4 -22 5 6 27 -11 9 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 14 6 0
 ---------------------------------------------
@@ -1165,10 +1471,16 @@ dimm: 14 iter: 0 diff: 6|
 ]
  summ: 11616
 
-lll duration 0
+gauss iter : 1330|
+gauss duration: 30
 
-gauss iter : 1339|
-gauss duration: 31
+list iter : 1386|
+list duration: 61shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+7 -13 -10 44 25 -24 11 -21 10 6 -37 -3 -33 -19 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 14 6 1
 ---------------------------------------------
@@ -1191,10 +1503,16 @@ dimm: 14 iter: 1 diff: 6|
 ]
  summ: 10851
 
-lll duration 0
-
-gauss iter : 1338|
+gauss iter : 1376|
 gauss duration: 30
+
+list iter : 1364|
+list duration: 56shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-11 -20 -32 12 -31 20 1 -42 34 6 -11 34 1 -9 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 14 6 2
 ---------------------------------------------
@@ -1217,10 +1535,16 @@ dimm: 14 iter: 2 diff: 6|
 ]
  summ: 11007
 
-lll duration 0
+gauss iter : 1359|
+gauss duration: 25
 
-gauss iter : 1324|
-gauss duration: 28
+list iter : 1365|
+list duration: 55shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-24 37 -23 23 41 -11 48 -2 -6 2 -4 -3 39 -31 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 14 8 0
 ---------------------------------------------
@@ -1243,10 +1567,16 @@ dimm: 14 iter: 0 diff: 8|
 ]
  summ: 15050
 
-lll duration 0
+gauss iter : 1419|
+gauss duration: 23
 
-gauss iter : 1329|
-gauss duration: 25
+list iter : 1358|
+list duration: 54shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+56 2 3 14 43 24 -3 -5 -29 10 19 -39 -11 -38 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 14 8 1
 ---------------------------------------------
@@ -1269,10 +1599,16 @@ dimm: 14 iter: 1 diff: 8|
 ]
  summ: 15194
 
-lll duration 0
+gauss iter : 1308|
+gauss duration: 26
 
-gauss iter : 1324|
-gauss duration: 23
+list iter : 1309|
+list duration: 48shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+13 62 -42 -48 -16 5 -8 34 27 -6 35 -68 56 2 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 14 8 2
 ---------------------------------------------
@@ -1295,10 +1631,16 @@ dimm: 14 iter: 2 diff: 8|
 ]
  summ: 15952
 
-lll duration 0
+gauss iter : 1378|
+gauss duration: 18
 
-gauss iter : 1357|
-gauss duration: 25
+list iter : 1374|
+list duration: 52shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-12 -14 -10 -4 28 -66 -24 8 -7 -1 -8 55 85 31 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 14 10 0
 ---------------------------------------------
@@ -1321,10 +1663,16 @@ dimm: 14 iter: 0 diff: 10|
 ]
  summ: 18811
 
-lll duration 0
+gauss iter : 1315|
+gauss duration: 28
 
-gauss iter : 1313|
-gauss duration: 24
+list iter : 1331|
+list duration: 53shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+59 61 -5 -51 8 21 -47 30 9 0 27 27 44 -56 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 14 10 1
 ---------------------------------------------
@@ -1347,10 +1695,16 @@ dimm: 14 iter: 1 diff: 10|
 ]
  summ: 20858
 
-lll duration 0
-
-gauss iter : 1347|
+gauss iter : 1349|
 gauss duration: 28
+
+list iter : 1366|
+list duration: 54shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+40 -48 -9 76 17 -81 -37 -32 52 -41 59 23 -32 11 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 
 14 10 2
 ---------------------------------------------
@@ -1373,8 +1727,14 @@ dimm: 14 iter: 2 diff: 10|
 ]
  summ: 18741
 
-lll duration 0
+gauss iter : 1343|
+gauss duration: 28
 
-gauss iter : 1378|
-gauss duration: 30
+list iter : 1364|
+list duration: 57shortest
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+8 39 -16 -74 -12 -38 43 14 -1 48 -45 -15 34 8 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
 

@@ -13,7 +13,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/include"
   "../plll/include"
   "plll/include"
-  "packages/eigen"
   )
 
 # Targets to which this target links.

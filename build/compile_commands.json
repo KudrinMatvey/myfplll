@@ -601,12 +601,12 @@
 },
 {
   "directory": "/home/user/plll-1.0/build/svp",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/build/packages/eigen   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/svp2.dir/src/svp2.cpp.o -c /home/user/plll-1.0/svp/src/svp2.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -isystem /usr/local/include/eigen3   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/svp2.dir/src/svp2.cpp.o -c /home/user/plll-1.0/svp/src/svp2.cpp",
   "file": "/home/user/plll-1.0/svp/src/svp2.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/svp",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/build/packages/eigen   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/svp.dir/src/svp.cpp.o -c /home/user/plll-1.0/svp/src/svp.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/svp.dir/src/svp.cpp.o -c /home/user/plll-1.0/svp/src/svp.cpp",
   "file": "/home/user/plll-1.0/svp/src/svp.cpp"
 }
 ]

@@ -6,5 +6,5 @@ CXX_FLAGS =  -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-lon
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -I/home/user/plll-1.0/build/packages/eigen 
+CXX_INCLUDES = -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include 
 

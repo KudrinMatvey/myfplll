@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
+  "../cmake/FindEigen3.cmake"
   "../cmake/FindGMP.cmake"
   "../cmake/FindMPFR.cmake"
   "../doc/CMakeLists.txt"
