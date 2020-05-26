@@ -59,7 +59,13 @@ int main()
     
     plll::LatticeReduction lr;
     lr.setLattice(A);
-    lr.lll();
+    // lr.lll();
+
+    lr.setSVPMode(plll::LatticeReduction::SVP_VoronoiCellSVP);
+    // cout<<"mat";
+
+    // lr.setMinCallbackFunction(f(file, res), f_LI(file, res));
+    lr.svp();
     
     std::cout << lr.getLattice() << "\n";
 }

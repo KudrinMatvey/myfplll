@@ -1,3 +1,4 @@
+#include <plll.hpp>
 #include <Eigen/Dense>
 #include <random>
 #include <iostream>
@@ -10,6 +11,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <cmath>
+#include <regex>
 
 using namespace std;
 //namespace plt = matplotlibcpp;
@@ -18,8 +20,14 @@ using Matrix = vector<vector<T>>;
 using _type = float;
 constexpr double _c = 0.9;
 
+struct matrix_with_det
+{
+    int det;
+    Matrix<int> mat;
+};
+
 template <typename T>
-void getCofactor(Matrix<T>& A, Matrix<T>& temp, int p, int q, int n)
+void getCofactor(Matrix<T> &A, Matrix<T> &temp, int p, int q, int n)
 {
     int i = 0, j = 0;
 
@@ -48,7 +56,7 @@ void getCofactor(Matrix<T>& A, Matrix<T>& temp, int p, int q, int n)
 /* Recursive function for finding determinant of matrix.
    n is current dimension of A[][]. */
 template <typename T>
-T determinant(Matrix<T>& A, int n)
+T determinant(Matrix<T> &A, int n)
 {
 
     //  Base case : if matrix contains single element
@@ -74,7 +82,7 @@ T determinant(Matrix<T>& A, int n)
 }
 
 // Function to get adjoint of A[N][N] in adj[N][N].
-void adjoint(Matrix<_type>& A, Matrix<_type>& adj)
+void adjoint(Matrix<_type> &A, Matrix<_type> &adj)
 {
     int n = A.size();
     if (n == 1)
@@ -107,7 +115,7 @@ void adjoint(Matrix<_type>& A, Matrix<_type>& adj)
 
 // Function to calculate and store inverse, returns false if
 // matrix is singular
-bool inverse(Matrix<_type>& A, Matrix<_type>& inverse)
+bool inverse(Matrix<_type> &A, Matrix<_type> &inverse)
 {
     // Find determinant of A[][]
     int det = determinant(A, A.size());
@@ -137,7 +145,7 @@ bool inverse(Matrix<_type>& A, Matrix<_type>& inverse)
 }
 
 template <typename T, typename T2>
-double dotProduct(const vector<T>& v1, const vector<T2>& v2)
+double dotProduct(const vector<T> &v1, const vector<T2> &v2)
 {
     double ret = 0;
     for (int i = 0; i < v1.size(); ++i)
@@ -146,15 +154,15 @@ double dotProduct(const vector<T>& v1, const vector<T2>& v2)
 }
 
 template <typename T>
-vector<T> operator*(const double& c, const vector<T>& v)
+vector<T> operator*(const double &c, const vector<T> &v)
 {
     vector<T> ret = v;
-    for (auto& d : ret)
+    for (auto &d : ret)
         d *= c;
     return ret;
 }
 
-vector<_type> operator*(Matrix<_type>& M, const vector<_type>& v)
+vector<_type> operator*(Matrix<_type> &M, const vector<_type> &v)
 {
     int n = v.size();
     vector<_type> res(n, 0);
@@ -168,7 +176,7 @@ vector<_type> operator*(Matrix<_type>& M, const vector<_type>& v)
     return res;
 }
 template <typename T, typename T2>
-vector<T2> subtract(const vector<T>& v1, const vector<T2>& v2)
+vector<T2> subtract(const vector<T> &v1, const vector<T2> &v2)
 {
     vector<T2> ret(v1.size());
     for (int i = 0; i < v1.size(); ++i)
@@ -176,7 +184,7 @@ vector<T2> subtract(const vector<T>& v1, const vector<T2>& v2)
     return ret;
 }
 template <typename T, typename T2>
-vector<T> operator-(const vector<T>& v1, const vector<T2>& v2)
+vector<T> operator-(const vector<T> &v1, const vector<T2> &v2)
 {
     vector<T> ret(v1.size());
     for (int i = 0; i < v1.size(); ++i)
@@ -184,7 +192,7 @@ vector<T> operator-(const vector<T>& v1, const vector<T2>& v2)
     return ret;
 }
 template <typename T>
-vector<T> inverse(const vector<T>& v1)
+vector<T> inverse(const vector<T> &v1)
 {
     vector<T> ret(v1.size());
     for (int i = 0; i < v1.size(); ++i)
@@ -192,7 +200,7 @@ vector<T> inverse(const vector<T>& v1)
     return ret;
 }
 template <typename T>
-bool operator==(const vector<T>& v1, const vector<T>& v2)
+bool operator==(const vector<T> &v1, const vector<T> &v2)
 {
     if (v1.size() == v2.size())
     {
@@ -254,7 +262,7 @@ bool operator==(const vector<T>& v1, const vector<T>& v2)
         return false;
 }
 template <typename T>
-vector<T> operator+(const vector<T>& v1, const vector<T>& v2)
+vector<T> operator+(const vector<T> &v1, const vector<T> &v2)
 {
     vector<T> ret(v1.size());
     for (int i = 0; i < v1.size(); ++i)
@@ -270,19 +278,19 @@ vector<_type> roundV(vector<_type> a)
     return a;
 }
 
-vector<_type> proj(const vector<_type>& v1, const vector<_type>& v2)
+vector<_type> proj(const vector<_type> &v1, const vector<_type> &v2)
 {
     vector<_type> proj = (dotProduct(v1, v2) / dotProduct(v1, v1)) * v1;
     return proj;
 }
 
-vector<_type> proj(const vector<_type>& v1, const vector<int>& v2)
+vector<_type> proj(const vector<_type> &v1, const vector<int> &v2)
 {
     vector<_type> proj = (dotProduct(v1, v2) / dotProduct(v1, v1)) * v1;
     return proj;
 }
 
-Matrix<_type> gSchmidt(const Matrix<int>& vspace)
+Matrix<_type> gSchmidt(const Matrix<int> &vspace)
 {
     Matrix<_type> uspace(vspace.size(), vector<_type>(vspace[0].size()));
     for (int i = 0; i < vspace[0].size(); i++)
@@ -298,7 +306,7 @@ Matrix<_type> gSchmidt(const Matrix<int>& vspace)
     }
     return uspace;
 }
-Matrix<_type> gSchmidt(const Matrix<_type>& vspace, int limit)
+Matrix<_type> gSchmidt(const Matrix<_type> &vspace, int limit)
 {
     Matrix<_type> uspace;
     for (int i = 0; i <= limit; ++i)
@@ -312,59 +320,59 @@ Matrix<_type> gSchmidt(const Matrix<_type>& vspace, int limit)
     return uspace;
 }
 template <typename T>
-void printVS(const Matrix<T>& vspace)
+void printVS(const Matrix<T> &vspace)
 {
-    for (auto& v : vspace)
+    for (auto &v : vspace)
     {
         cout << '|';
-        for (auto& d : v)
+        for (auto &d : v)
             cout << d << ' ';
         cout << "|\n";
     }
 }
 template <typename T>
-void printVS(const Matrix<T>& vspace, ostream& file)
+void printVS(const Matrix<T> &vspace, ostream &file)
 {
     file << '[';
-    for (auto& v : vspace)
+    for (auto &v : vspace)
     {
         file << '[';
-        for (auto& d : v)
+        for (auto &d : v)
             file << d << ' ';
         file << "]\n";
     }
     file << "]\n";
 }
 template <typename T>
-void printVec(const vector<T>& v)
+void printVec(const vector<T> &v)
 {
     cout << endl;
     cout << "$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
-    for (auto& d : v)
+    for (auto &d : v)
         cout << d << ' ';
     cout << "$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
 }
 template <typename T>
-void printVec(const vector<T>& v, ostream& file)
+void printVec(const vector<T> &v, ostream &file)
 {
     file << endl;
     file << "$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
-    for (auto& d : v)
+    for (auto &d : v)
         file << d << ' ';
     file << endl
-        << "$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+         << "$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
 }
 template <typename T>
-float mu(int k1, int k2, Matrix<T>* m, Matrix<_type>* gsm)
+float mu(int k1, int k2, Matrix<T> *m, Matrix<_type> *gsm)
 {
     T init = 0;
-    vector<T>* a = &m->at(k1);
-    vector<_type>* b = &gsm->at(k2);
+    vector<T> *a = &m->at(k1);
+    vector<_type> *b = &gsm->at(k2);
     return std::inner_product(a->begin(), a->end(), b->begin(), init) /
-        std::inner_product(b->begin(), b->end(), b->begin(), init);
+           std::inner_product(b->begin(), b->end(), b->begin(), init);
 }
 template <typename T, typename T2>
-float mu(vector<T>& a, vector<T2>& b)
+float mu(vector<T> &a, vector<T2> &b)
 {
     float init = 0.0;
     double d = std::inner_product(a.begin(), a.end(), b.begin(), init);
@@ -372,18 +380,17 @@ float mu(vector<T>& a, vector<T2>& b)
     return d / dd;
 }
 template <typename T>
-double squaredLengthOfVector(vector<T>* v)
+double squaredLengthOfVector(vector<T> *v)
 {
     return std::inner_product(v->begin(), v->end(), v->begin(), 0.0);
 }
 template <typename T>
-double squaredLengthOfVector(vector<T>& v)
+double squaredLengthOfVector(vector<T> &v)
 {
     return std::inner_product(v.begin(), v.end(), v.begin(), 0.0);
 }
 
-
-int KabatianskyLevenshteinC(Matrix<int>& M)
+int KabatianskyLevenshteinC(Matrix<int> &M)
 {
     float angle = 1;
     for (int i = 0; i < M.size(); i++)
@@ -393,21 +400,21 @@ int KabatianskyLevenshteinC(Matrix<int>& M)
         {
             auto v2 = M[j];
             float t = dotProduct(v1, v2) / (sqrt(squaredLengthOfVector(&v1)) *
-                sqrt(squaredLengthOfVector(&v2)));
+                                            sqrt(squaredLengthOfVector(&v2)));
             angle = fmin(angle, t);
         }
     }
     return fmax((int)(-1.0 / 2.0 * log(1 - cos(angle)) - 0.099), 1);
 }
 
-vector<int> lll_reduce(vector<_type>& gsreducing, vector<int>& target,
-    vector<int>& reducing)
+vector<int> lll_reduce(vector<_type> &gsreducing, vector<int> &target,
+                       vector<int> &reducing)
 {
     vector<int> t = target - round(mu(target, gsreducing)) * reducing;
     return t;
 }
 
-void LLL(Matrix<int>& B, ostream& o)
+void LLL(Matrix<int> &B, ostream &o)
 {
     bool cont;
     Matrix<_type> gramSmidt;
@@ -439,7 +446,7 @@ void LLL(Matrix<int>& B, ostream& o)
     o << "lll iter : " << iter << "|\n";
 }
 
-void LLL(Matrix<int>& B)
+void LLL(Matrix<int> &B)
 {
     bool cont;
     Matrix<_type> gramSmidt;
@@ -468,7 +475,7 @@ void LLL(Matrix<int>& B)
     } while (cont);
 }
 // opera 918
-void LLL2(Matrix<int>& B)
+void LLL2(Matrix<int> &B)
 {
     bool cont;
     Matrix<_type> gramSmidt;
@@ -480,7 +487,7 @@ void LLL2(Matrix<int>& B)
         cont = false;
         for (int i = 1; i < B.size(); i++)
         {
-            for (int j = i -1; j >0; j--)
+            for (int j = i - 1; j > 0; j--)
             {
                 B.at(i) = lll_reduce(gramSmidt.at(j), B.at(i), B.at(j));
             }
@@ -548,7 +555,7 @@ void preparePlot(Matrix<_type> res, Matrix<_type> og)
     plt::plot({ og.at(1).at(0) }, { og.at(1).at(1) }, "g*");*/
 }
 //https://tel.archives-ouvertes.fr/tel-01245066v2/document
-vector<int> kleinSample(Matrix<int>& B, Matrix<_type>& GSO, float deviation, vector<int>& c)
+vector<int> kleinSample(Matrix<int> &B, Matrix<_type> &GSO, float deviation, vector<int> &c)
 {
     vector<int> v(c.size(), 0);
     std::random_device mch;
@@ -571,7 +578,7 @@ vector<int> kleinSample(Matrix<int>& B, Matrix<_type>& GSO, float deviation, vec
 }
 
 // todo discover
-vector<_type> sample_gaussian(Matrix<_type>& B)
+vector<_type> sample_gaussian(Matrix<_type> &B)
 {
     vector<_type> a;
     a = (5 - rand() % 10) * B.back();
@@ -580,7 +587,7 @@ vector<_type> sample_gaussian(Matrix<_type>& B)
     return a;
 }
 
-bool reduce(vector<int>& p, Matrix<int>& L, vector<double>& lengths)
+bool reduce(vector<int> &p, Matrix<int> &L, vector<double> &lengths)
 {
     double s = squaredLengthOfVector(p);
     for (size_t i = 0; i < L.size(); i++)
@@ -599,12 +606,12 @@ bool reduce(vector<int>& p, Matrix<int>& L, vector<double>& lengths)
     return false;
 }
 
-vector<int> gauss_reduce(vector<int>& v_new, Matrix<int>& L, Matrix<int>& S, vector<double>& lengths)
+vector<int> gauss_reduce(vector<int> &v_new, Matrix<int> &L, Matrix<int> &S, vector<double> &lengths)
 {
     bool cont = true;
     while (cont)
     {
-        auto same = std::find_if(L.begin(), L.end(), [&v_new](vector<int>& v) { return v_new == v; });
+        auto same = std::find_if(L.begin(), L.end(), [&v_new](vector<int> &v) { return v_new == v; });
         if (same != L.end())
         {
             return vector<int>(v_new.size());
@@ -645,7 +652,7 @@ vector<int> gauss_reduce(vector<int>& v_new, Matrix<int>& L, Matrix<int>& S, vec
 }
 // https://cseweb.ucsd.edu/~daniele/papers/Sieve.pdf
 // c= 1000
-vector<int> gaussSieve(Matrix<int>& B, float bound, ostream& o)
+vector<int> gaussSieve(Matrix<int> &B, float bound, ostream &o)
 {
     Matrix<int> L, S;
     vector<int> v_new;
@@ -725,7 +732,7 @@ vector<_type> mod(vector<_type> vec, Matrix<_type> m)
     return m * roundV(r * vec);
 }
 
-void ListReduce(vector<int>& p, Matrix<int>& L, vector<double>& lengths)
+void ListReduce(vector<int> &p, Matrix<int> &L, vector<double> &lengths)
 {
     bool cont = true;
     while (cont)
@@ -747,7 +754,7 @@ void ListReduce(vector<int>& p, Matrix<int>& L, vector<double>& lengths)
 }
 //https://math.stackexchange.com/questions/396382/what-does-this-dollar-sign-over-arrow-in-function-mapping-mean
 //https://eprint.iacr.org/2014/714.pdf
-vector<int> ListSieve(Matrix<int>& B, float bound, ostream& o)
+vector<int> ListSieve(Matrix<int> &B, float bound, ostream &o)
 {
     Matrix<int> L;
     Matrix<_type> gramSmidt = gSchmidt(B);
@@ -806,7 +813,7 @@ vector<int> ListSieve(Matrix<int>& B, float bound, ostream& o)
     return shortestVector;
 }
 
-vector<int> sumVectorsWithCoeff(Matrix<int>& matrix, vector<int>& c)
+vector<int> sumVectorsWithCoeff(Matrix<int> &matrix, vector<int> &c)
 {
     vector<int> a(c.size(), 0);
     for (size_t i = 0; i < c.size(); i++)
@@ -816,7 +823,7 @@ vector<int> sumVectorsWithCoeff(Matrix<int>& matrix, vector<int>& c)
     return a;
 }
 
-bool checkifBiggerByEachCoordinate(vector<int>& a, vector<int>& b)
+bool checkifBiggerByEachCoordinate(vector<int> &a, vector<int> &b)
 {
     for (size_t i = 0; i < a.size(); i++)
     {
@@ -826,7 +833,7 @@ bool checkifBiggerByEachCoordinate(vector<int>& a, vector<int>& b)
     return true;
 }
 
-vector<int> LLLenumerate(Matrix<int>& matrix, ofstream& myfile)
+vector<int> LLLenumerate(Matrix<int> &matrix, ofstream &myfile)
 {
     Matrix<int> enumeration;
     int n = matrix.size();
@@ -849,7 +856,7 @@ vector<int> LLLenumerate(Matrix<int>& matrix, ofstream& myfile)
     }
     for (int i = 0; i < n;)
     {
-        int& a = c[i];
+        int &a = c[i];
         if (a == -lim)
         {
             for (int j = 0; j < i; j++)
@@ -902,22 +909,22 @@ vector<int> LLLenumerate(Matrix<int>& matrix, ofstream& myfile)
 }
 
 //https://web.eecs.umich.edu/~cpeikert/pubs/lattice-survey.pdf
-Matrix<int> generateLattice(int dimm, int diff, int iter, bool print, ofstream& file)
+Matrix<int> generateLattice(int dimm, int diff, int iter, bool print, ofstream &file)
 {
     Matrix<int> m(dimm, vector<int>(dimm, 0));
 
     file << "---------------------------------------------\n\n"
-        << "dimm: " << dimm << " iter: " << iter << " diff: " << diff << "|\n";
+         << "dimm: " << dimm << " iter: " << iter << " diff: " << diff << "|\n";
     int summ = 0;
-    //srand(time(0));
+    srand(time(0));
     file << '[';
-    for (auto& v : m)
+    for (auto &v : m)
     {
         file << '[';
-        for (auto& el : v)
+        for (auto &el : v)
         {
             float f = rand();
-            el = f / RAND_MAX * (float)diff * 20;
+            el = f / RAND_MAX * (float)diff * 3;
             summ += el;
             file << el << ' ';
         }
@@ -973,7 +980,7 @@ Matrix<int> generateLattice(int dimm, int diff, int iter, bool print, ofstream& 
 //    for (auto& v : B) {
 //        res = res + mu(t, v) * v;
 //    }
-//    // not sure about this 
+//    // not sure about this
 //    int p = 0;
 //    while(true) {
 //        p++;
@@ -1064,94 +1071,235 @@ Matrix<int> generateLattice(int dimm, int diff, int iter, bool print, ofstream& 
 //        Voronoi = computeVcell(newB, Voronoi, pow(2, 0.5 * i));
 //    }
 //}
+// void printShortestVector(const plll::linalg::math_matrix<plll::arithmetic::Integer> & A,
+//                          unsigned index, const plll::arithmetic::Integer & sqnorm)
+// {
+//     std::cout << "The currently shortest vector is " << A.row(index)
+//               << " with squared norm " << sqnorm << " (Integer)\n";
+// }
+// void printShortestVector_LI(const plll::linalg::math_matrix<plll::arithmetic::NInt<long> > & A,
+//                             unsigned index, const plll::arithmetic::NInt<long> & sqnorm)
+// {
+//     std::cout << "The currently shortest vector is " << A.row(index)
+//               << " with squared norm " << sqnorm << " (NInt<long>)\n";
+// }
+
+plll::LatticeReduction::MinCallbackFunction_LI f_LI(ostream &file, vector<int> &r)
+{
+    return [&r, &file](const plll::linalg::math_matrix<plll::arithmetic::NInt<long>> &A,
+                       unsigned index, const plll::arithmetic::NInt<long> &sqnorm) {
+        auto i = A.row(index).enumerate();
+        int iter = 0;
+        while (i.has_current())
+        {
+            r[iter++] = plll::arithmetic::convert<int>(i.current());
+            i.next();
+        }
+        file << "The currently shortest vector is " << A.row(index)
+             << " with squared norm " << sqnorm << " (Integer)\n";
+    };
+}
+
+plll::LatticeReduction::MinCallbackFunction f(ostream &file, vector<int> &r)
+{
+    return [&r, &file](const plll::linalg::math_matrix<plll::arithmetic::Integer> &A,
+                       unsigned index, const plll::arithmetic::Integer &sqnorm) {
+        auto i = A.row(index).enumerate();
+        int iter = 0;
+        while (i.has_current())
+        {
+            r[iter++] = plll::arithmetic::convert<int>(i.current());
+            i.next();
+        }
+        file << "The currently shortest vector is " << A.row(index)
+             << " with squared norm " << sqnorm << " (Integer)\n";
+    };
+}
+vector<int> shortestVectorByVoronoi(Matrix<int> &B, int dimm, ostream &file)
+{
+    cout << "mat";
+    vector<int> res(dimm);
+    cout << "mat";
+    plll::linalg::base_matrix<plll::arithmetic::Integer> mat(dimm, dimm);
+    cout << "mat";
+
+    plll::linalg::base_matrix<plll::arithmetic::Integer>::Enumerator iterr = mat.enumerate();
+    cout << "mat";
+
+    int i = 0, x, y;
+    while (iterr.has_current())
+    {
+        x = i / dimm;
+        y = i % dimm;
+        iterr.current() = plll::arithmetic::Integer(B[x][y]);
+        iterr.next();
+        i++;
+    }
+    cout << mat << endl;
+    plll::LatticeReduction lr;
+    //cin >> mat;
+    plll::linalg::math_matrix<plll::arithmetic::Integer> A(mat);
+    lr.setLattice(A);
+    lr.setSVPMode(plll::LatticeReduction::SVP_VoronoiCellSVP);
+    cout << "mat";
+
+    lr.setMinCallbackFunction(f(file, res), f_LI(file, res));
+    lr.svp();
+    file << "voronoi res " << lr.getLattice() << endl
+         << endl;
+    mat = lr.getLattice();
+    iterr = mat.enumerate();
+    for (int i = 0; i < dimm; i++)
+    {
+        res[i] = plll::arithmetic::convert<int>(iterr.current());
+        iterr.next();
+    }
+    return res;
+}
+
+matrix_with_det readFromFile(ifstream &myfile)
+{
+    matrix_with_det res;
+    string line;
+    std::regex e("det.*");
+    getline(myfile, line);
+    cout << line << endl;
+    while (!regex_match(line, e))
+    {
+        if (myfile.eof())
+        {
+            res.det = 0;
+            return res;
+        }
+        getline(myfile, line);
+        cout << line << "k" << endl;
+    }
+    std::regex e2("\\d+");
+    std::smatch sm;
+
+    std::regex_search(line, sm, e2);
+    int dimm = stoi(sm.str());
+    line = sm.suffix().str();
+    std::regex_search(line, sm, e2);
+    int det = stoi(sm.str());
+    Matrix<int> matr(dimm, vector<int>(dimm));
+
+    for (int i = 0; i < dimm; i++)
+    {
+        getline(myfile, line);
+        int j = 0;
+        while (std::regex_search(line, sm, e2))
+        {
+            matr[i][j++] = stoi(sm.str());
+            line = sm.suffix().str();
+        }
+        cout << endl;
+    }
+    res.det = det;
+    res.mat = matr;
+    return res;
+}
+
+void printResVector(vector<int> &v, string method, ostream &o)
+{
+    o << endl
+      << method << endl
+      << "[ ";
+    for (auto &a : v)
+    {
+        o << a << " ";
+    }
+    o << "] " << endl;
+}
 
 int main()
 {
+
     ofstream myfile;
+
+    ifstream datafile;
     myfile.open("example.txt");
-    try
+
+    datafile.open("data.txt");
+
+    // try
+    // {
+    // for (int dimm = 14; dimm < 13; dimm += 2)
+    // {
+    //     for (int diff = 1; diff <= 5; diff += 2)
+    //     {
+    //         for (int iter = 0; iter < 3; iter++)
+    //         {
+    matrix_with_det md = readFromFile(datafile);
+    cout << md.det;
+    // matrix_with_det md = readFromFile(datafile);
+
+    while(md.det != 0) {
+    cout << "det" << md.det;
+
+ Matrix<int> matrix = md.mat;
+    Matrix<int> matrix2 = matrix;
+    Matrix<int> matrix3 = matrix;
+    Matrix<int> original(matrix2);
+    Matrix<float> gramSmidt = gSchmidt(matrix);
+
+    cout << "starting voronoi" << endl;
+    auto t1 = std::chrono::high_resolution_clock::now();
+    int dimm = matrix.size();
+    cout << "t";
+    auto vector_voronoi = shortestVectorByVoronoi(matrix, matrix.size(), myfile);
+    auto t2 = std::chrono::high_resolution_clock::now();
+    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(t2 - t1).count();
+    myfile << "voronoi duration " << duration;
+    myfile << "\n\n";
+
+    float bound = 1.01 * (sqrt(dimm)) * pow(abs(md.det), 1.0 / dimm);
+    cout << "starting gauss" << endl;
+    t1 = std::chrono::high_resolution_clock::now();
+    vector<int> sv = gaussSieve(matrix2, bound, myfile);
+    t2 = std::chrono::high_resolution_clock::now();
+    duration = std::chrono::duration_cast<std::chrono::milliseconds>(t2 - t1).count();
+    myfile << "gauss duration: " << duration;
+    myfile << "\n\n";
+    cout << "f\n\n";
+
+    cout << "starting list" << endl;
+    t1 = std::chrono::high_resolution_clock::now();
+    vector<int> v3 = ListSieve(matrix3, bound, myfile);
+    // auto vector_voronoi = v3;
+    t2 = std::chrono::high_resolution_clock::now();
+    duration = std::chrono::duration_cast<std::chrono::milliseconds>(t2 - t1).count();
+    myfile << "list duration: " << duration;
+
+    if (squaredLengthOfVector(vector_voronoi) != squaredLengthOfVector(sv) || squaredLengthOfVector(sv) != squaredLengthOfVector(vector_voronoi))
     {
-        for (int dimm = 8; dimm < 15; dimm += 2)
-        {
-            for (int diff = 2; diff <= 10; diff += 2)
-            {
-                for (int iter = 0; iter < 3; iter++)
-                {
-                    myfile << dimm << " " << diff << " " << iter << endl;
-                    Matrix<int> matrix = generateLattice(dimm, diff, iter, true, myfile);
-                    Matrix<int> matrix2 = matrix;
-                    Matrix<int> matrix3 = matrix;
-                    Matrix<int> original(matrix2);
-                    Matrix<float> gramSmidt = gSchmidt(matrix);
-                    //Eigen::Matrix<double, Eigen::Dynamic, Eigen::Dynamic> mm(dimm, dimm);
-                    //for (int i = 0; i < dimm; i++)
-                    //{
-                    //    for (int j = 0; j < dimm; j++)
-                    //    {
-                    //        mm(i, j) = matrix[i][j];
-                    //    }
-                    //}
+        myfile << "found different norms of vectors";
 
-                    // cout << "starting lll" << endl;
-                    // auto t1 = std::chrono::high_resolution_clock::now();
-                    //LLL(matrix, myfile);
-                    //printVs(matrix, myfile);
-                    //vector<int> lllshortest = LLLenumerate(matrix, myfile);
-                    // auto t2 = std::chrono::high_resolution_clock::now();
-                    // auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(t2 - t1).count();
-                    // myfile << "lll duration " << duration;
-                    // myfile << "\n\n";
-
-                    //long long det = mm.determinant();
-                    //// double pp = abs(det);
-                    //double pp = 1;
-                    // float bound = 1.01 * (sqrt(dimm)) * pow(pp, 1.0 / dimm);
-                    float bound = 1.01 ;
-                    //myfile << "det: " << (long long)det << "\nbound: " << bound << endl;
-
-                    cout << "starting gauss" << endl;
-                    auto t1 = std::chrono::high_resolution_clock::now();
-                    vector<int> sv = gaussSieve(matrix2, bound, myfile);
-                    auto t2 = std::chrono::high_resolution_clock::now();
-                    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(t2 - t1).count();
-                    myfile << "gauss duration: " << duration;
-                    myfile << "\n\n";
-                    cout << "f\n\n";
-
-                    cout << "starting list" << endl;
-                    t1 = std::chrono::high_resolution_clock::now();
-                    vector<int> v3 = ListSieve(matrix3, bound, myfile);
-                    t2 = std::chrono::high_resolution_clock::now();
-                    duration = std::chrono::duration_cast<std::chrono::milliseconds>(t2 - t1).count();
-                    myfile << "list duration: " << duration;
-
-                    if (!(v3 == sv))
-                    {
-                       myfile << "\n\n\n\n !!!!!! error \n\n\n\n";
-                       myfile << "gauss" << endl;
-                       printVec(sv, myfile);
-                       myfile << "\n\n";
-                       myfile << "list" << endl;
-                       printVec(v3, myfile);
-                       myfile << "\n\n";
-                       myfile << "lll" << endl;
-                       myfile << "gauss length: " << (long)squaredLengthOfVector(sv) << "\n\n list length: " << (long)squaredLengthOfVector(v3)
-                           << "\n\n lll length: " << " \n\n\n\n";
-                    }
-                    else
-                    {
-                       myfile << "shortest" << endl;
-                       printVec(sv, myfile);
-                    }
-                    myfile << "\n\n";
-                }
-            }
-        }
+        printResVector(vector_voronoi, "voronoi", myfile);
+        printResVector(sv, "gauss", myfile);
+        printResVector(v3, "list", myfile);
     }
-    catch (exception e)
+    else
     {
-        cout << e.what();
+        myfile << endl
+               << "shortest with norm" << (long)squaredLengthOfVector(sv) << endl;
+        printVec(sv, myfile);
     }
+    myfile << "\n\n";
+    md = readFromFile(datafile);
+
+    }
+
+    // myfile << dimm << " " << diff << " " << iter << endl;
+   
+    //         }
+    //     }
+    // }
+    // }
+    // catch (exception e)
+    // {
+    //     cout << e.what();
+    // }
     myfile.close();
     return 0;
 }

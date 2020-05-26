@@ -59,7 +59,13 @@
         "cinttypes": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp",
-        "dense": "cpp"
+        "dense": "cpp",
+        "alignedvector3": "cpp",
+        "condition_variable": "cpp",
+        "regex": "cpp",
+        "hash_map": "cpp",
+        "future": "cpp",
+        "mutex": "cpp"
     },
     "git.ignoreLimitWarning": true
 }

@@ -1094,6 +1094,10 @@ namespace plll
             static long long mpz_get_ll(const mpz_t &);
 
         public:
+
+            inline long long get_as_int(){
+              return mpz_get_ll(d_value);
+            }
             /**
                \brief The context type.
              */
