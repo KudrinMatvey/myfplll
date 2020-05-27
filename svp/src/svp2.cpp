@@ -17,6 +17,7 @@ using namespace std;
 //namespace plt = matplotlibcpp;
 template <class T>
 using Matrix = vector<vector<T>>;
+using sec_type = std::chrono::microseconds;
 using _type = float;
 constexpr double _c = 0.9;
 
@@ -662,7 +663,7 @@ vector<int> gaussSieve(Matrix<int> &B, float bound, ostream &o)
     //int c = KabatianskyLevenshteinC(B);
     map<int, int> _map;
 
-    int c = 1000;
+    size_t max_number_of_collistions = 200;
     do
     {
         _map.insert(make_pair(iter, K));
@@ -694,7 +695,8 @@ vector<int> gaussSieve(Matrix<int> &B, float bound, ostream &o)
             L.push_back(v_new);
             squarelengthsVector.push_back(squaredLengthOfVector(v_new));
         }
-    } while (K < c || L.size() == 0);
+        max_number_of_collistions = std::max(max_number_of_collistions, L.size());
+    } while (10 * K < max_number_of_collistions + 2000 || L.size() == 0);
     vector<int> shortestVector = L[0];
     int _a = 0, count = 0;
     for (int i = 1; i < L.size(); i++)
@@ -761,9 +763,9 @@ vector<int> ListSieve(Matrix<int> &B, float bound, ostream &o)
     vector<int> a(B[0].size(), 0);
     vector<double> lengths;
     map<int, int> _map;
-    int K = 1000;
+    size_t max_number_of_collistions = 200;
     int iter = 0;
-    for (int i = 0, k = 0; i < K || L.size() == 0; k++)
+    for (int i = 0, k = 0; 10*i < max_number_of_collistions + 2000 || L.size() == 0; k++)
     {
         iter++;
         vector<int> v = kleinSample(B, gramSmidt, 1, a);
@@ -792,6 +794,8 @@ vector<int> ListSieve(Matrix<int> &B, float bound, ostream &o)
             L.push_back(v);
             lengths.push_back(squaredLengthOfVector(v));
         }
+        max_number_of_collistions = std::max(max_number_of_collistions, L.size());
+
     }
     vector<int> shortestVector = L[0];
     int _a = 0, count = 0;
@@ -1178,11 +1182,13 @@ matrix_with_det readFromFile(ifstream &myfile)
     std::smatch sm;
 
     std::regex_search(line, sm, e2);
-    int dimm = stoi(sm.str());
-    line = sm.suffix().str();
-    std::regex_search(line, sm, e2);
     int det = stoi(sm.str());
+    line = sm.suffix().str();
+    cout << "\ndet " << det;
+    std::regex_search(line, sm, e2);
+    int dimm = stoi(sm.str());
     Matrix<int> matr(dimm, vector<int>(dimm));
+    cout << "\ndimm " << dimm;
 
     for (int i = 0; i < dimm; i++)
     {
@@ -1195,6 +1201,7 @@ matrix_with_det readFromFile(ifstream &myfile)
         }
         cout << endl;
     }
+    printVS(matr);
     res.det = det;
     res.mat = matr;
     return res;
@@ -1203,7 +1210,7 @@ matrix_with_det readFromFile(ifstream &myfile)
 void printResVector(vector<int> &v, string method, ostream &o)
 {
     o << endl
-      << method << endl
+      << method << " size: " << sqrt(squaredLengthOfVector(v)) << endl
       << "[ ";
     for (auto &a : v)
     {
@@ -1221,77 +1228,99 @@ int main()
     myfile.open("example.txt");
 
     datafile.open("data.txt");
-
-    // try
-    // {
-    // for (int dimm = 14; dimm < 13; dimm += 2)
-    // {
-    //     for (int diff = 1; diff <= 5; diff += 2)
-    //     {
-    //         for (int iter = 0; iter < 3; iter++)
-    //         {
     matrix_with_det md = readFromFile(datafile);
     cout << md.det;
-    // matrix_with_det md = readFromFile(datafile);
 
-    while(md.det != 0) {
-    cout << "det" << md.det;
-
- Matrix<int> matrix = md.mat;
-    Matrix<int> matrix2 = matrix;
-    Matrix<int> matrix3 = matrix;
-    Matrix<int> original(matrix2);
-    Matrix<float> gramSmidt = gSchmidt(matrix);
-
-    cout << "starting voronoi" << endl;
-    auto t1 = std::chrono::high_resolution_clock::now();
-    int dimm = matrix.size();
-    cout << "t";
-    auto vector_voronoi = shortestVectorByVoronoi(matrix, matrix.size(), myfile);
-    auto t2 = std::chrono::high_resolution_clock::now();
-    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(t2 - t1).count();
-    myfile << "voronoi duration " << duration;
-    myfile << "\n\n";
-
-    float bound = 1.01 * (sqrt(dimm)) * pow(abs(md.det), 1.0 / dimm);
-    cout << "starting gauss" << endl;
-    t1 = std::chrono::high_resolution_clock::now();
-    vector<int> sv = gaussSieve(matrix2, bound, myfile);
-    t2 = std::chrono::high_resolution_clock::now();
-    duration = std::chrono::duration_cast<std::chrono::milliseconds>(t2 - t1).count();
-    myfile << "gauss duration: " << duration;
-    myfile << "\n\n";
-    cout << "f\n\n";
-
-    cout << "starting list" << endl;
-    t1 = std::chrono::high_resolution_clock::now();
-    vector<int> v3 = ListSieve(matrix3, bound, myfile);
-    // auto vector_voronoi = v3;
-    t2 = std::chrono::high_resolution_clock::now();
-    duration = std::chrono::duration_cast<std::chrono::milliseconds>(t2 - t1).count();
-    myfile << "list duration: " << duration;
-
-    if (squaredLengthOfVector(vector_voronoi) != squaredLengthOfVector(sv) || squaredLengthOfVector(sv) != squaredLengthOfVector(vector_voronoi))
+    while (md.det != 0)
     {
-        myfile << "found different norms of vectors";
+        cout << "det" << md.det;
 
-        printResVector(vector_voronoi, "voronoi", myfile);
-        printResVector(sv, "gauss", myfile);
-        printResVector(v3, "list", myfile);
-    }
-    else
-    {
-        myfile << endl
-               << "shortest with norm" << (long)squaredLengthOfVector(sv) << endl;
-        printVec(sv, myfile);
-    }
-    myfile << "\n\n";
-    md = readFromFile(datafile);
+        Matrix<int> matrix = md.mat;
+        Matrix<int> matrix2 = matrix;
+        Matrix<int> matrix3 = matrix;
+        Matrix<int> original(matrix2);
+        Matrix<float> gramSmidt = gSchmidt(matrix);
 
+        cout << "starting voronoi" << endl;
+        auto t1 = std::chrono::high_resolution_clock::now();
+        int dimm = matrix.size();
+        cout << "t";
+        auto vector_voronoi = shortestVectorByVoronoi(matrix, matrix.size(), myfile);
+        auto t2 = std::chrono::high_resolution_clock::now();
+        auto duration = std::chrono::duration_cast<sec_type>(t2 - t1).count();
+        myfile << "voronoi duration " << duration << endl;
+        myfile << "\n\n";
+
+        float bound = 1;
+        // bound = 1;
+        cout << "starting gauss" << endl;
+        t1 = std::chrono::high_resolution_clock::now();
+        vector<int> sv = gaussSieve(matrix2, bound, myfile);
+        t2 = std::chrono::high_resolution_clock::now();
+        duration = std::chrono::duration_cast<sec_type>(t2 - t1).count();
+        myfile << "gauss duration: " << duration << endl;
+        myfile << "\n\n";
+        cout << "f\n\n";
+
+        cout << "starting list" << endl;
+        t1 = std::chrono::high_resolution_clock::now();
+        vector<int> v3 = ListSieve(matrix3, bound, myfile);
+        // auto vector_voronoi = v3;
+        t2 = std::chrono::high_resolution_clock::now();
+        duration = std::chrono::duration_cast<sec_type>(t2 - t1).count();
+        myfile << "list duration: " << duration << endl;
+
+        bound = 1.01 * (sqrt(dimm)) * pow(abs(md.det), 1.0 / dimm);
+        myfile << "bound " << bound << endl;
+        t1 = std::chrono::high_resolution_clock::now();
+        vector<int> gauss_with_bound = gaussSieve(matrix2, bound, myfile);
+        t2 = std::chrono::high_resolution_clock::now();
+        duration = std::chrono::duration_cast<sec_type>(t2 - t1).count();
+        myfile << "gauss with bound duration: " << duration << endl;
+        myfile << "\n\n";
+        cout << "f\n\n";
+
+        cout << "starting bound list" << endl;
+        t1 = std::chrono::high_resolution_clock::now();
+        vector<int> list_with_bound = ListSieve(matrix3, bound, myfile);
+        // auto vector_voronoi = v3;
+        t2 = std::chrono::high_resolution_clock::now();
+        duration = std::chrono::duration_cast<sec_type>(t2 - t1).count();
+        myfile << "list with bound duration: " << duration;
+
+        if (squaredLengthOfVector(list_with_bound) != squaredLengthOfVector(gauss_with_bound))
+        {
+            myfile << "found different norms of vectors";
+            printResVector(list_with_bound, "list with bound", myfile);
+            printResVector(gauss_with_bound, "gauss with bound", myfile);
+        }
+        else
+        {
+            myfile << endl
+                   << "shortest with bound norm" << (long)squaredLengthOfVector(gauss_with_bound) << endl;
+            printVec(gauss_with_bound, myfile);
+        }
+
+        if (squaredLengthOfVector(vector_voronoi) != squaredLengthOfVector(sv) || squaredLengthOfVector(sv) != squaredLengthOfVector(vector_voronoi))
+        {
+            myfile << "found different norms of vectors";
+
+            printResVector(vector_voronoi, "voronoi", myfile);
+            printResVector(sv, "gauss", myfile);
+            printResVector(v3, "list", myfile);
+        }
+        else
+        {
+            myfile << endl
+                   << "shortest with norm" << (long)squaredLengthOfVector(sv) << endl;
+            printVec(sv, myfile);
+        }
+        myfile << "---------------------------------------------------------------------\n\n";
+        md = readFromFile(datafile);
     }
 
     // myfile << dimm << " " << diff << " " << iter << endl;
-   
+
     //         }
     //     }
     // }
