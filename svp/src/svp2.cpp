@@ -1167,26 +1167,34 @@ matrix_with_det readFromFile(ifstream &myfile)
     string line;
     std::regex e("det.*");
     getline(myfile, line);
-    cout << line << endl;
-    while (!regex_match(line, e))
-    {
+    // cout << line << endl;
+    // while (!regex_match(line, e))
+    // {
         if (myfile.eof())
         {
             res.det = 0;
             return res;
         }
-        getline(myfile, line);
-        cout << line << "k" << endl;
-    }
+    //     getline(myfile, line);
+    //     cout << line << "k" << endl;
+    // }
     std::regex e2("\\d+");
     std::smatch sm;
 
-    std::regex_search(line, sm, e2);
-    int det = stoi(sm.str());
-    line = sm.suffix().str();
-    cout << "\ndet " << det;
-    std::regex_search(line, sm, e2);
-    int dimm = stoi(sm.str());
+    // std::regex_search(line, sm, e2);
+    int det = 3;
+    // line = sm.suffix().str();
+    // cout << "\ndet " << det;
+    // std::regex_search(line, sm, e2);
+    int dimm = 3;
+   
+    // std::regex_search(line, sm, e2);
+    // int det = stoi(sm.str());
+    // line = sm.suffix().str();
+    // cout << "\ndet " << det;
+    // std::regex_search(line, sm, e2);
+    // int dimm = stoi(sm.str());
+   
     Matrix<int> matr(dimm, vector<int>(dimm));
     cout << "\ndimm " << dimm;
 
@@ -1227,7 +1235,7 @@ int main()
     ifstream datafile;
     myfile.open("example.txt");
 
-    datafile.open("data.txt");
+    datafile.open("det3.txt");
     matrix_with_det md = readFromFile(datafile);
     cout << md.det;
 
