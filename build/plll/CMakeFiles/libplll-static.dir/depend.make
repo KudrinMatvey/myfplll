@@ -13,6 +13,7 @@ plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic-gmp.cpp.o: ../plll/
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic-gmp.cpp.o: ../plll/include/plll/helper.hpp
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic-gmp.cpp.o: ../plll/src/arithmetic/arithmetic-gmp.cpp
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic-gmp.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic-gmp.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic-gmp.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic.cpp.o: ../plll/include/plll/arithmetic-expressions.hpp
@@ -27,6 +28,7 @@ plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic.cpp.o: ../plll/incl
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic.cpp.o: ../plll/include/plll/rational.hpp
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic.cpp.o: ../plll/src/arithmetic/arithmetic.cpp
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/ddqd-wrapper.cpp.o: ../plll/include-internal/ddqd-wrapper-conv.hpp
@@ -45,6 +47,7 @@ plll/CMakeFiles/libplll-static.dir/src/arithmetic/ddqd-wrapper.cpp.o: ../plll/in
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/ddqd-wrapper.cpp.o: ../plll/include/plll/rational.hpp
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/ddqd-wrapper.cpp.o: ../plll/src/arithmetic/ddqd-wrapper.cpp
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/ddqd-wrapper.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/arithmetic/ddqd-wrapper.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/ddqd-wrapper.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/factor.cpp.o: ../plll/include-internal/factor.hpp
@@ -58,6 +61,7 @@ plll/CMakeFiles/libplll-static.dir/src/arithmetic/factor.cpp.o: ../plll/include/
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/factor.cpp.o: ../plll/include/plll/helper.hpp
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/factor.cpp.o: ../plll/src/arithmetic/factor.cpp
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/factor.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/arithmetic/factor.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/factor.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/primes.cpp.o: ../plll/include-internal/primes.hpp
@@ -70,6 +74,7 @@ plll/CMakeFiles/libplll-static.dir/src/arithmetic/primes.cpp.o: ../plll/include/
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/primes.cpp.o: ../plll/include/plll/helper.hpp
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/primes.cpp.o: ../plll/src/arithmetic/primes.cpp
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/primes.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/arithmetic/primes.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/primes.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/rational.cpp.o: ../plll/include/plll/arithmetic-expressions.hpp
@@ -84,6 +89,7 @@ plll/CMakeFiles/libplll-static.dir/src/arithmetic/rational.cpp.o: ../plll/includ
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/rational.cpp.o: ../plll/include/plll/rational.hpp
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/rational.cpp.o: ../plll/src/arithmetic/rational.cpp
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/rational.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/arithmetic/rational.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/arithmetic/rational.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.o: ../plll/include-internal/myalloc.hpp
@@ -133,6 +139,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bi
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.o: ../plll/include-internal/nfp-wrapper-conv.hpp
@@ -169,6 +176,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bi
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.o: ../plll/include-internal/ensurehugeexponent.hpp
@@ -212,6 +220,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bi
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.o: ../plll/src/lattices/verifyimpl.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.o: ../plll/include-internal/ddqd-wrapper-conv.hpp
@@ -261,6 +270,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bi
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.o: ../plll/include-internal/ddqd-wrapper-conv.hpp
@@ -297,6 +307,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bi
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.o: ../plll/include-internal/ddqd-wrapper-conv.hpp
@@ -340,6 +351,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bi
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.o: ../plll/src/lattices/verifyimpl.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.o: ../plll/include-internal/myalloc.hpp
@@ -389,6 +401,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bi
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.o: ../plll/include-internal/nfp-wrapper-conv.hpp
@@ -425,6 +438,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bi
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.o: ../plll/include-internal/ensurehugeexponent.hpp
@@ -468,6 +482,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bi
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.o: ../plll/src/lattices/verifyimpl.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.o: ../plll/include-internal/ddqd-wrapper-conv.hpp
@@ -517,6 +532,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bi
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.o: ../plll/include-internal/ddqd-wrapper-conv.hpp
@@ -553,6 +569,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bi
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.o: ../plll/include-internal/ddqd-wrapper-conv.hpp
@@ -596,6 +613,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bi
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.o: ../plll/src/lattices/verifyimpl.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.o: ../plll/include-internal/myalloc.hpp
@@ -643,6 +661,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bi
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.o: ../plll/include/plll.hpp
@@ -677,6 +696,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bi
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.o: ../plll/include-internal/ensurehugeexponent.hpp
@@ -718,6 +738,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bi
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.o: ../plll/src/lattices/verifyimpl.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.o: ../plll/include-internal/myalloc.hpp
@@ -765,6 +786,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bi
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.o: ../plll/include/plll.hpp
@@ -799,6 +821,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bi
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.o: ../plll/include-internal/ensurehugeexponent.hpp
@@ -840,6 +863,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bi
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.o: ../plll/src/lattices/verifyimpl.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.o: ../plll/include-internal/myalloc.hpp
@@ -889,6 +913,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-lo
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.o: ../plll/include-internal/nfp-wrapper-conv.hpp
@@ -925,6 +950,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-lo
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.o: ../plll/include-internal/ensurehugeexponent.hpp
@@ -968,6 +994,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-lo
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.o: ../plll/src/lattices/verifyimpl.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.o: ../plll/include-internal/ddqd-wrapper-conv.hpp
@@ -1017,6 +1044,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-lo
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.o: ../plll/include-internal/ddqd-wrapper-conv.hpp
@@ -1053,6 +1081,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-lo
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.o: ../plll/include-internal/ddqd-wrapper-conv.hpp
@@ -1096,6 +1125,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-lo
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.o: ../plll/src/lattices/verifyimpl.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.o: ../plll/include-internal/myalloc.hpp
@@ -1145,6 +1175,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-lo
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.o: ../plll/include-internal/nfp-wrapper-conv.hpp
@@ -1181,6 +1212,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-lo
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.o: ../plll/include-internal/ensurehugeexponent.hpp
@@ -1224,6 +1256,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-lo
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.o: ../plll/src/lattices/verifyimpl.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.o: ../plll/include-internal/ddqd-wrapper-conv.hpp
@@ -1273,6 +1306,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-lo
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.o: ../plll/include-internal/ddqd-wrapper-conv.hpp
@@ -1309,6 +1343,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-lo
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.o: ../plll/include-internal/ddqd-wrapper-conv.hpp
@@ -1352,6 +1387,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-lo
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.o: ../plll/src/lattices/verifyimpl.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.o: ../plll/include-internal/myalloc.hpp
@@ -1399,6 +1435,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-lo
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.o: ../plll/include/plll.hpp
@@ -1433,6 +1470,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-lo
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.o: ../plll/include-internal/ensurehugeexponent.hpp
@@ -1474,6 +1512,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-lo
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.o: ../plll/src/lattices/verifyimpl.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.o: ../plll/include-internal/myalloc.hpp
@@ -1521,6 +1560,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-lo
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.o: ../plll/include/plll.hpp
@@ -1555,6 +1595,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-lo
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.o: ../plll/include-internal/ensurehugeexponent.hpp
@@ -1596,6 +1637,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-lo
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.o: ../plll/src/lattices/verifyimpl.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/lll2-multiplexer.cpp.o: ../plll/include-internal/ddqd-wrapper-conv.hpp
@@ -1624,6 +1666,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/lll2-multiplexer.cpp.o: ../plll/
 plll/CMakeFiles/libplll-static.dir/src/lattices/lll2-multiplexer.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/lll2-multiplexer.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/lll2-multiplexer.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/lll2-multiplexer.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/lll2-multiplexer.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/lll2.cpp.o: ../plll/include-internal/buffer.hpp
@@ -1652,6 +1695,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/lll2.cpp.o: ../plll/src/lattices
 plll/CMakeFiles/libplll-static.dir/src/lattices/lll2.cpp.o: ../plll/src/lattices/matrixconversion.hpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/lll2.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/lll2.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/lll2.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/lll2.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/lattices/transform-impl.cpp.o: ../plll/include/plll.hpp
@@ -1676,6 +1720,7 @@ plll/CMakeFiles/libplll-static.dir/src/lattices/transform-impl.cpp.o: ../plll/sr
 plll/CMakeFiles/libplll-static.dir/src/lattices/transform-impl.cpp.o: ../plll/src/lattices/transform-impl.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/transform-impl.cpp.o: ../plll/src/lattices/transform.cpp
 plll/CMakeFiles/libplll-static.dir/src/lattices/transform-impl.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/lattices/transform-impl.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/lattices/transform-impl.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/linalg/linalg.cpp.o: ../plll/include-internal/factor.hpp
@@ -1694,6 +1739,7 @@ plll/CMakeFiles/libplll-static.dir/src/linalg/linalg.cpp.o: ../plll/include/plll
 plll/CMakeFiles/libplll-static.dir/src/linalg/linalg.cpp.o: ../plll/include/plll/matrix.hpp
 plll/CMakeFiles/libplll-static.dir/src/linalg/linalg.cpp.o: ../plll/src/linalg/linalg.cpp
 plll/CMakeFiles/libplll-static.dir/src/linalg/linalg.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/linalg/linalg.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/linalg/linalg.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/utilities/arguments.cpp.o: ../plll/include/plll/arguments.hpp
@@ -1727,6 +1773,7 @@ plll/CMakeFiles/libplll-static.dir/src/utilities/taskmanager.cpp.o: ../plll/incl
 plll/CMakeFiles/libplll-static.dir/src/utilities/taskmanager.cpp.o: ../plll/include/plll/helper.hpp
 plll/CMakeFiles/libplll-static.dir/src/utilities/taskmanager.cpp.o: ../plll/src/utilities/taskmanager.cpp
 plll/CMakeFiles/libplll-static.dir/src/utilities/taskmanager.cpp.o: /usr/local/include/gmp.h
+plll/CMakeFiles/libplll-static.dir/src/utilities/taskmanager.cpp.o: /usr/local/include/mpfr.h
 plll/CMakeFiles/libplll-static.dir/src/utilities/taskmanager.cpp.o: plll/include/plll/config.hpp
 
 plll/CMakeFiles/libplll-static.dir/src/utilities/timer.cpp.o: ../plll/include-internal/timer.hpp

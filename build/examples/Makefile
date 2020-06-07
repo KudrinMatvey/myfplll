@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/plll-1.0
+CMAKE_SOURCE_DIR = /root/myfplll
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/plll-1.0/build
+CMAKE_BINARY_DIR = /root/myfplll/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/user/plll-1.0/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/user/plll-1.0/build/CMakeFiles /home/user/plll-1.0/build/examples/CMakeFiles/progress.marks
-	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/plll-1.0/build/CMakeFiles 0
+	cd /root/myfplll/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/myfplll/build/CMakeFiles /root/myfplll/build/examples/CMakeFiles/progress.marks
+	cd /root/myfplll/build && $(MAKE) -f CMakeFiles/Makefile2 examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/myfplll/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
+	cd /root/myfplll/build && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /root/myfplll/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /root/myfplll/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/user/plll-1.0/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/myfplll/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/CMakeFiles/example-01.dir/rule:
-	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/example-01.dir/rule
+	cd /root/myfplll/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/example-01.dir/rule
 .PHONY : examples/CMakeFiles/example-01.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ example-01: examples/CMakeFiles/example-01.dir/rule
 
 # fast build rule for target.
 example-01/fast:
-	cd /home/user/plll-1.0/build && $(MAKE) -f examples/CMakeFiles/example-01.dir/build.make examples/CMakeFiles/example-01.dir/build
+	cd /root/myfplll/build && $(MAKE) -f examples/CMakeFiles/example-01.dir/build.make examples/CMakeFiles/example-01.dir/build
 .PHONY : example-01/fast
 
 # Convenience name for target.
 examples/CMakeFiles/example-02.dir/rule:
-	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/example-02.dir/rule
+	cd /root/myfplll/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/example-02.dir/rule
 .PHONY : examples/CMakeFiles/example-02.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ example-02: examples/CMakeFiles/example-02.dir/rule
 
 # fast build rule for target.
 example-02/fast:
-	cd /home/user/plll-1.0/build && $(MAKE) -f examples/CMakeFiles/example-02.dir/build.make examples/CMakeFiles/example-02.dir/build
+	cd /root/myfplll/build && $(MAKE) -f examples/CMakeFiles/example-02.dir/build.make examples/CMakeFiles/example-02.dir/build
 .PHONY : example-02/fast
 
 src/example-01.o: src/example-01.cpp.o
@@ -192,7 +192,7 @@ src/example-01.o: src/example-01.cpp.o
 
 # target to build an object file
 src/example-01.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f examples/CMakeFiles/example-01.dir/build.make examples/CMakeFiles/example-01.dir/src/example-01.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f examples/CMakeFiles/example-01.dir/build.make examples/CMakeFiles/example-01.dir/src/example-01.cpp.o
 .PHONY : src/example-01.cpp.o
 
 src/example-01.i: src/example-01.cpp.i
@@ -201,7 +201,7 @@ src/example-01.i: src/example-01.cpp.i
 
 # target to preprocess a source file
 src/example-01.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f examples/CMakeFiles/example-01.dir/build.make examples/CMakeFiles/example-01.dir/src/example-01.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f examples/CMakeFiles/example-01.dir/build.make examples/CMakeFiles/example-01.dir/src/example-01.cpp.i
 .PHONY : src/example-01.cpp.i
 
 src/example-01.s: src/example-01.cpp.s
@@ -210,7 +210,7 @@ src/example-01.s: src/example-01.cpp.s
 
 # target to generate assembly for a file
 src/example-01.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f examples/CMakeFiles/example-01.dir/build.make examples/CMakeFiles/example-01.dir/src/example-01.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f examples/CMakeFiles/example-01.dir/build.make examples/CMakeFiles/example-01.dir/src/example-01.cpp.s
 .PHONY : src/example-01.cpp.s
 
 src/example-02.o: src/example-02.cpp.o
@@ -219,7 +219,7 @@ src/example-02.o: src/example-02.cpp.o
 
 # target to build an object file
 src/example-02.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f examples/CMakeFiles/example-02.dir/build.make examples/CMakeFiles/example-02.dir/src/example-02.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f examples/CMakeFiles/example-02.dir/build.make examples/CMakeFiles/example-02.dir/src/example-02.cpp.o
 .PHONY : src/example-02.cpp.o
 
 src/example-02.i: src/example-02.cpp.i
@@ -228,7 +228,7 @@ src/example-02.i: src/example-02.cpp.i
 
 # target to preprocess a source file
 src/example-02.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f examples/CMakeFiles/example-02.dir/build.make examples/CMakeFiles/example-02.dir/src/example-02.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f examples/CMakeFiles/example-02.dir/build.make examples/CMakeFiles/example-02.dir/src/example-02.cpp.i
 .PHONY : src/example-02.cpp.i
 
 src/example-02.s: src/example-02.cpp.s
@@ -237,7 +237,7 @@ src/example-02.s: src/example-02.cpp.s
 
 # target to generate assembly for a file
 src/example-02.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f examples/CMakeFiles/example-02.dir/build.make examples/CMakeFiles/example-02.dir/src/example-02.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f examples/CMakeFiles/example-02.dir/build.make examples/CMakeFiles/example-02.dir/src/example-02.cpp.s
 .PHONY : src/example-02.cpp.s
 
 # Help Target
@@ -271,6 +271,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/user/plll-1.0/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/myfplll/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

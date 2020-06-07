@@ -1,4 +1,4 @@
-# Install script for directory: /home/user/plll-1.0/plll
+# Install script for directory: /root/myfplll/plll
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/user/plll-1.0/build/plll/libplll.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/root/myfplll/build/plll/libplll.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -48,7 +48,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libplll.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/user/plll-1.0/build/plll/libplll.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/root/myfplll/build/plll/libplll.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libplll.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libplll.so")
     file(RPATH_CHANGE
@@ -62,31 +62,31 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/home/user/plll-1.0/plll/include/plll.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/root/myfplll/plll/include/plll.hpp")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/plll" TYPE FILE FILES
-    "/home/user/plll-1.0/build/plll/include/plll/config.hpp"
-    "/home/user/plll-1.0/plll/include/plll/arguments.hpp"
-    "/home/user/plll-1.0/plll/include/plll/arithmetic.hpp"
-    "/home/user/plll-1.0/plll/include/plll/arithmetic-expressions.hpp"
-    "/home/user/plll-1.0/plll/include/plll/arithmetic-gmp.hpp"
-    "/home/user/plll-1.0/plll/include/plll/arithmetic-gmp-conv.hpp"
-    "/home/user/plll-1.0/plll/include/plll/arithmetic-gmp-iops.hpp"
-    "/home/user/plll-1.0/plll/include/plll/arithmetic-gmp-rops.hpp"
-    "/home/user/plll-1.0/plll/include/plll/arithmetic-nint.hpp"
-    "/home/user/plll-1.0/plll/include/plll/arithmetic-nint-conv.hpp"
-    "/home/user/plll-1.0/plll/include/plll/documentation.hpp"
-    "/home/user/plll-1.0/plll/include/plll/helper.hpp"
-    "/home/user/plll-1.0/plll/include/plll/linalg.hpp"
-    "/home/user/plll-1.0/plll/include/plll/matrix.hpp"
-    "/home/user/plll-1.0/plll/include/plll/matrix-mem.hpp"
-    "/home/user/plll-1.0/plll/include/plll/matrix-ops.hpp"
-    "/home/user/plll-1.0/plll/include/plll/matrix-ops2.hpp"
-    "/home/user/plll-1.0/plll/include/plll/rational.hpp"
-    "/home/user/plll-1.0/plll/include/plll/rational-conv.hpp"
-    "/home/user/plll-1.0/plll/include/plll/rational-ops.hpp"
+    "/root/myfplll/build/plll/include/plll/config.hpp"
+    "/root/myfplll/plll/include/plll/arguments.hpp"
+    "/root/myfplll/plll/include/plll/arithmetic.hpp"
+    "/root/myfplll/plll/include/plll/arithmetic-expressions.hpp"
+    "/root/myfplll/plll/include/plll/arithmetic-gmp.hpp"
+    "/root/myfplll/plll/include/plll/arithmetic-gmp-conv.hpp"
+    "/root/myfplll/plll/include/plll/arithmetic-gmp-iops.hpp"
+    "/root/myfplll/plll/include/plll/arithmetic-gmp-rops.hpp"
+    "/root/myfplll/plll/include/plll/arithmetic-nint.hpp"
+    "/root/myfplll/plll/include/plll/arithmetic-nint-conv.hpp"
+    "/root/myfplll/plll/include/plll/documentation.hpp"
+    "/root/myfplll/plll/include/plll/helper.hpp"
+    "/root/myfplll/plll/include/plll/linalg.hpp"
+    "/root/myfplll/plll/include/plll/matrix.hpp"
+    "/root/myfplll/plll/include/plll/matrix-mem.hpp"
+    "/root/myfplll/plll/include/plll/matrix-ops.hpp"
+    "/root/myfplll/plll/include/plll/matrix-ops2.hpp"
+    "/root/myfplll/plll/include/plll/rational.hpp"
+    "/root/myfplll/plll/include/plll/rational-conv.hpp"
+    "/root/myfplll/plll/include/plll/rational-ops.hpp"
     )
 endif()
 

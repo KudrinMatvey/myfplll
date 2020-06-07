@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/plll-1.0
+CMAKE_SOURCE_DIR = /root/myfplll
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/plll-1.0/build
+CMAKE_BINARY_DIR = /root/myfplll/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/user/plll-1.0/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/user/plll-1.0/build/CMakeFiles /home/user/plll-1.0/build/plll/CMakeFiles/progress.marks
-	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 plll/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/plll-1.0/build/CMakeFiles 0
+	cd /root/myfplll/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/myfplll/build/CMakeFiles /root/myfplll/build/plll/CMakeFiles/progress.marks
+	cd /root/myfplll/build && $(MAKE) -f CMakeFiles/Makefile2 plll/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/myfplll/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 plll/clean
+	cd /root/myfplll/build && $(MAKE) -f CMakeFiles/Makefile2 plll/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 plll/preinstall
+	cd /root/myfplll/build && $(MAKE) -f CMakeFiles/Makefile2 plll/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 plll/preinstall
+	cd /root/myfplll/build && $(MAKE) -f CMakeFiles/Makefile2 plll/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/user/plll-1.0/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/myfplll/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plll/CMakeFiles/libplll-shared.dir/rule:
-	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 plll/CMakeFiles/libplll-shared.dir/rule
+	cd /root/myfplll/build && $(MAKE) -f CMakeFiles/Makefile2 plll/CMakeFiles/libplll-shared.dir/rule
 .PHONY : plll/CMakeFiles/libplll-shared.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ libplll-shared: plll/CMakeFiles/libplll-shared.dir/rule
 
 # fast build rule for target.
 libplll-shared/fast:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/build
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/build
 .PHONY : libplll-shared/fast
 
 # Convenience name for target.
 plll/CMakeFiles/libplll-static.dir/rule:
-	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 plll/CMakeFiles/libplll-static.dir/rule
+	cd /root/myfplll/build && $(MAKE) -f CMakeFiles/Makefile2 plll/CMakeFiles/libplll-static.dir/rule
 .PHONY : plll/CMakeFiles/libplll-static.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ libplll-static: plll/CMakeFiles/libplll-static.dir/rule
 
 # fast build rule for target.
 libplll-static/fast:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/build
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/build
 .PHONY : libplll-static/fast
 
 src/arithmetic/arithmetic-gmp.o: src/arithmetic/arithmetic-gmp.cpp.o
@@ -192,8 +192,8 @@ src/arithmetic/arithmetic-gmp.o: src/arithmetic/arithmetic-gmp.cpp.o
 
 # target to build an object file
 src/arithmetic/arithmetic-gmp.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/arithmetic-gmp.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic-gmp.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/arithmetic-gmp.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic-gmp.cpp.o
 .PHONY : src/arithmetic/arithmetic-gmp.cpp.o
 
 src/arithmetic/arithmetic-gmp.i: src/arithmetic/arithmetic-gmp.cpp.i
@@ -202,8 +202,8 @@ src/arithmetic/arithmetic-gmp.i: src/arithmetic/arithmetic-gmp.cpp.i
 
 # target to preprocess a source file
 src/arithmetic/arithmetic-gmp.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/arithmetic-gmp.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic-gmp.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/arithmetic-gmp.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic-gmp.cpp.i
 .PHONY : src/arithmetic/arithmetic-gmp.cpp.i
 
 src/arithmetic/arithmetic-gmp.s: src/arithmetic/arithmetic-gmp.cpp.s
@@ -212,8 +212,8 @@ src/arithmetic/arithmetic-gmp.s: src/arithmetic/arithmetic-gmp.cpp.s
 
 # target to generate assembly for a file
 src/arithmetic/arithmetic-gmp.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/arithmetic-gmp.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic-gmp.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/arithmetic-gmp.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic-gmp.cpp.s
 .PHONY : src/arithmetic/arithmetic-gmp.cpp.s
 
 src/arithmetic/arithmetic.o: src/arithmetic/arithmetic.cpp.o
@@ -222,8 +222,8 @@ src/arithmetic/arithmetic.o: src/arithmetic/arithmetic.cpp.o
 
 # target to build an object file
 src/arithmetic/arithmetic.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/arithmetic.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/arithmetic.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic.cpp.o
 .PHONY : src/arithmetic/arithmetic.cpp.o
 
 src/arithmetic/arithmetic.i: src/arithmetic/arithmetic.cpp.i
@@ -232,8 +232,8 @@ src/arithmetic/arithmetic.i: src/arithmetic/arithmetic.cpp.i
 
 # target to preprocess a source file
 src/arithmetic/arithmetic.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/arithmetic.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/arithmetic.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic.cpp.i
 .PHONY : src/arithmetic/arithmetic.cpp.i
 
 src/arithmetic/arithmetic.s: src/arithmetic/arithmetic.cpp.s
@@ -242,8 +242,8 @@ src/arithmetic/arithmetic.s: src/arithmetic/arithmetic.cpp.s
 
 # target to generate assembly for a file
 src/arithmetic/arithmetic.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/arithmetic.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/arithmetic.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/arithmetic.cpp.s
 .PHONY : src/arithmetic/arithmetic.cpp.s
 
 src/arithmetic/ddqd-wrapper.o: src/arithmetic/ddqd-wrapper.cpp.o
@@ -252,8 +252,8 @@ src/arithmetic/ddqd-wrapper.o: src/arithmetic/ddqd-wrapper.cpp.o
 
 # target to build an object file
 src/arithmetic/ddqd-wrapper.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/ddqd-wrapper.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/ddqd-wrapper.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/ddqd-wrapper.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/ddqd-wrapper.cpp.o
 .PHONY : src/arithmetic/ddqd-wrapper.cpp.o
 
 src/arithmetic/ddqd-wrapper.i: src/arithmetic/ddqd-wrapper.cpp.i
@@ -262,8 +262,8 @@ src/arithmetic/ddqd-wrapper.i: src/arithmetic/ddqd-wrapper.cpp.i
 
 # target to preprocess a source file
 src/arithmetic/ddqd-wrapper.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/ddqd-wrapper.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/ddqd-wrapper.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/ddqd-wrapper.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/ddqd-wrapper.cpp.i
 .PHONY : src/arithmetic/ddqd-wrapper.cpp.i
 
 src/arithmetic/ddqd-wrapper.s: src/arithmetic/ddqd-wrapper.cpp.s
@@ -272,8 +272,8 @@ src/arithmetic/ddqd-wrapper.s: src/arithmetic/ddqd-wrapper.cpp.s
 
 # target to generate assembly for a file
 src/arithmetic/ddqd-wrapper.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/ddqd-wrapper.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/ddqd-wrapper.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/ddqd-wrapper.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/ddqd-wrapper.cpp.s
 .PHONY : src/arithmetic/ddqd-wrapper.cpp.s
 
 src/arithmetic/factor.o: src/arithmetic/factor.cpp.o
@@ -282,8 +282,8 @@ src/arithmetic/factor.o: src/arithmetic/factor.cpp.o
 
 # target to build an object file
 src/arithmetic/factor.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/factor.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/factor.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/factor.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/factor.cpp.o
 .PHONY : src/arithmetic/factor.cpp.o
 
 src/arithmetic/factor.i: src/arithmetic/factor.cpp.i
@@ -292,8 +292,8 @@ src/arithmetic/factor.i: src/arithmetic/factor.cpp.i
 
 # target to preprocess a source file
 src/arithmetic/factor.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/factor.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/factor.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/factor.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/factor.cpp.i
 .PHONY : src/arithmetic/factor.cpp.i
 
 src/arithmetic/factor.s: src/arithmetic/factor.cpp.s
@@ -302,8 +302,8 @@ src/arithmetic/factor.s: src/arithmetic/factor.cpp.s
 
 # target to generate assembly for a file
 src/arithmetic/factor.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/factor.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/factor.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/factor.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/factor.cpp.s
 .PHONY : src/arithmetic/factor.cpp.s
 
 src/arithmetic/primes.o: src/arithmetic/primes.cpp.o
@@ -312,8 +312,8 @@ src/arithmetic/primes.o: src/arithmetic/primes.cpp.o
 
 # target to build an object file
 src/arithmetic/primes.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/primes.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/primes.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/primes.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/primes.cpp.o
 .PHONY : src/arithmetic/primes.cpp.o
 
 src/arithmetic/primes.i: src/arithmetic/primes.cpp.i
@@ -322,8 +322,8 @@ src/arithmetic/primes.i: src/arithmetic/primes.cpp.i
 
 # target to preprocess a source file
 src/arithmetic/primes.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/primes.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/primes.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/primes.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/primes.cpp.i
 .PHONY : src/arithmetic/primes.cpp.i
 
 src/arithmetic/primes.s: src/arithmetic/primes.cpp.s
@@ -332,8 +332,8 @@ src/arithmetic/primes.s: src/arithmetic/primes.cpp.s
 
 # target to generate assembly for a file
 src/arithmetic/primes.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/primes.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/primes.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/primes.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/primes.cpp.s
 .PHONY : src/arithmetic/primes.cpp.s
 
 src/arithmetic/rational.o: src/arithmetic/rational.cpp.o
@@ -342,8 +342,8 @@ src/arithmetic/rational.o: src/arithmetic/rational.cpp.o
 
 # target to build an object file
 src/arithmetic/rational.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/rational.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/rational.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/rational.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/rational.cpp.o
 .PHONY : src/arithmetic/rational.cpp.o
 
 src/arithmetic/rational.i: src/arithmetic/rational.cpp.i
@@ -352,8 +352,8 @@ src/arithmetic/rational.i: src/arithmetic/rational.cpp.i
 
 # target to preprocess a source file
 src/arithmetic/rational.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/rational.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/rational.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/rational.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/rational.cpp.i
 .PHONY : src/arithmetic/rational.cpp.i
 
 src/arithmetic/rational.s: src/arithmetic/rational.cpp.s
@@ -362,8 +362,8 @@ src/arithmetic/rational.s: src/arithmetic/rational.cpp.s
 
 # target to generate assembly for a file
 src/arithmetic/rational.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/rational.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/rational.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/arithmetic/rational.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/arithmetic/rational.cpp.s
 .PHONY : src/arithmetic/rational.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.o: src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.o
@@ -372,8 +372,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.o: src/lattices/co
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.i: src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.i
@@ -382,8 +382,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.i: src/lattices/co
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.s: src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.s
@@ -392,8 +392,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.s: src/lattices/co
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-double-enum.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.o: src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.o
@@ -402,8 +402,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.o: src/lattices/comp
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.i: src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.i
@@ -412,8 +412,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.i: src/lattices/comp
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.s: src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.s
@@ -422,8 +422,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.s: src/lattices/comp
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-double-gs.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-bigint-double-red.o: src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.o
@@ -432,8 +432,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-double-red.o: src/lattices/com
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-bigint-double-red.i: src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.i
@@ -442,8 +442,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-double-red.i: src/lattices/com
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-bigint-double-red.s: src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.s
@@ -452,8 +452,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-double-red.s: src/lattices/com
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-double-red.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.o: src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.o
@@ -462,8 +462,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.o: src/latti
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.i: src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.i
@@ -472,8 +472,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.i: src/latti
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.s: src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.s
@@ -482,8 +482,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.s: src/latti
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-enum.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.o: src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.o
@@ -492,8 +492,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.o: src/lattice
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.i: src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.i
@@ -502,8 +502,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.i: src/lattice
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.s: src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.s
@@ -512,8 +512,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.s: src/lattice
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-gs.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.o: src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.o
@@ -522,8 +522,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.o: src/lattic
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.i: src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.i
@@ -532,8 +532,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.i: src/lattic
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.s: src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.s
@@ -542,8 +542,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.s: src/lattic
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-doubledouble-red.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.o: src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.o
@@ -552,8 +552,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.o: src/lattice
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.i: src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.i
@@ -562,8 +562,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.i: src/lattice
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.s: src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.s
@@ -572,8 +572,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.s: src/lattice
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-enum.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.o: src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.o
@@ -582,8 +582,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.o: src/lattices/
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.i: src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.i
@@ -592,8 +592,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.i: src/lattices/
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.s: src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.s
@@ -602,8 +602,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.s: src/lattices/
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-gs.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.o: src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.o
@@ -612,8 +612,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.o: src/lattices
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.i: src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.i
@@ -622,8 +622,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.i: src/lattices
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.s: src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.s
@@ -632,8 +632,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.s: src/lattices
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-longdouble-red.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.o: src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.o
@@ -642,8 +642,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.o: src/lattice
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.i: src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.i
@@ -652,8 +652,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.i: src/lattice
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.s: src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.s
@@ -662,8 +662,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.s: src/lattice
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-enum.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.o: src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.o
@@ -672,8 +672,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.o: src/lattices/
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.i: src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.i
@@ -682,8 +682,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.i: src/lattices/
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.s: src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.s
@@ -692,8 +692,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.s: src/lattices/
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-gs.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.o: src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.o
@@ -702,8 +702,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.o: src/lattices
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.i: src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.i
@@ -712,8 +712,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.i: src/lattices
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.s: src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.s
@@ -722,8 +722,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.s: src/lattices
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-quaddouble-red.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.o: src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.o
@@ -732,8 +732,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.o: src/lattices/
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.i: src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.i
@@ -742,8 +742,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.i: src/lattices/
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.s: src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.s
@@ -752,8 +752,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.s: src/lattices/
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-rational-enum.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.o: src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.o
@@ -762,8 +762,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.o: src/lattices/co
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.i: src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.i
@@ -772,8 +772,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.i: src/lattices/co
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.s: src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.s
@@ -782,8 +782,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.s: src/lattices/co
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-rational-gs.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.o: src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.o
@@ -792,8 +792,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.o: src/lattices/c
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.i: src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.i
@@ -802,8 +802,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.i: src/lattices/c
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.s: src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.s
@@ -812,8 +812,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.s: src/lattices/c
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-rational-red.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.o: src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.o
@@ -822,8 +822,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.o: src/lattices/comp
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.i: src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.i
@@ -832,8 +832,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.i: src/lattices/comp
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.s: src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.s
@@ -842,8 +842,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.s: src/lattices/comp
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-real-enum.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.o: src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.o
@@ -852,8 +852,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.o: src/lattices/compil
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.i: src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.i
@@ -862,8 +862,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.i: src/lattices/compil
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.s: src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.s
@@ -872,8 +872,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.s: src/lattices/compil
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-real-gs.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-bigint-real-red.o: src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.o
@@ -882,8 +882,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-real-red.o: src/lattices/compi
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-bigint-real-red.i: src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.i
@@ -892,8 +892,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-real-red.i: src/lattices/compi
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-bigint-real-red.s: src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.s
@@ -902,8 +902,8 @@ src/lattices/compilewrappers/lll2-compunit-bigint-real-red.s: src/lattices/compi
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-bigint-real-red.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-longint-double-enum.o: src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.o
@@ -912,8 +912,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-double-enum.o: src/lattices/c
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-longint-double-enum.i: src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.i
@@ -922,8 +922,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-double-enum.i: src/lattices/c
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-longint-double-enum.s: src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.s
@@ -932,8 +932,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-double-enum.s: src/lattices/c
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-double-enum.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-longint-double-gs.o: src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.o
@@ -942,8 +942,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-double-gs.o: src/lattices/com
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-longint-double-gs.i: src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.i
@@ -952,8 +952,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-double-gs.i: src/lattices/com
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-longint-double-gs.s: src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.s
@@ -962,8 +962,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-double-gs.s: src/lattices/com
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-double-gs.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-longint-double-red.o: src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.o
@@ -972,8 +972,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-double-red.o: src/lattices/co
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-longint-double-red.i: src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.i
@@ -982,8 +982,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-double-red.i: src/lattices/co
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-longint-double-red.s: src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.s
@@ -992,8 +992,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-double-red.s: src/lattices/co
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-double-red.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.o: src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.o
@@ -1002,8 +1002,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.o: src/latt
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.i: src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.i
@@ -1012,8 +1012,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.i: src/latt
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.s: src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.s
@@ -1022,8 +1022,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.s: src/latt
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-enum.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.o: src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.o
@@ -1032,8 +1032,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.o: src/lattic
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.i: src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.i
@@ -1042,8 +1042,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.i: src/lattic
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.s: src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.s
@@ -1052,8 +1052,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.s: src/lattic
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-gs.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.o: src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.o
@@ -1062,8 +1062,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.o: src/latti
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.i: src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.i
@@ -1072,8 +1072,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.i: src/latti
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.s: src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.s
@@ -1082,8 +1082,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.s: src/latti
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-doubledouble-red.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.o: src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.o
@@ -1092,8 +1092,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.o: src/lattic
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.i: src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.i
@@ -1102,8 +1102,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.i: src/lattic
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.s: src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.s
@@ -1112,8 +1112,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.s: src/lattic
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-longdouble-enum.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.o: src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.o
@@ -1122,8 +1122,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.o: src/lattices
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.i: src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.i
@@ -1132,8 +1132,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.i: src/lattices
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.s: src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.s
@@ -1142,8 +1142,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.s: src/lattices
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-longdouble-gs.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.o: src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.o
@@ -1152,8 +1152,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.o: src/lattice
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.i: src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.i
@@ -1162,8 +1162,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.i: src/lattice
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.s: src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.s
@@ -1172,8 +1172,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.s: src/lattice
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-longdouble-red.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.o: src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.o
@@ -1182,8 +1182,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.o: src/lattic
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.i: src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.i
@@ -1192,8 +1192,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.i: src/lattic
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.s: src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.s
@@ -1202,8 +1202,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.s: src/lattic
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-enum.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.o: src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.o
@@ -1212,8 +1212,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.o: src/lattices
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.i: src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.i
@@ -1222,8 +1222,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.i: src/lattices
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.s: src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.s
@@ -1232,8 +1232,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.s: src/lattices
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-gs.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.o: src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.o
@@ -1242,8 +1242,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.o: src/lattice
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.i: src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.i
@@ -1252,8 +1252,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.i: src/lattice
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.s: src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.s
@@ -1262,8 +1262,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.s: src/lattice
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-quaddouble-red.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.o: src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.o
@@ -1272,8 +1272,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.o: src/lattices
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.i: src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.i
@@ -1282,8 +1282,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.i: src/lattices
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.s: src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.s
@@ -1292,8 +1292,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.s: src/lattices
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-rational-enum.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.o: src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.o
@@ -1302,8 +1302,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.o: src/lattices/c
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.i: src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.i
@@ -1312,8 +1312,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.i: src/lattices/c
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.s: src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.s
@@ -1322,8 +1322,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.s: src/lattices/c
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-rational-gs.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-longint-rational-red.o: src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.o
@@ -1332,8 +1332,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-rational-red.o: src/lattices/
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-longint-rational-red.i: src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.i
@@ -1342,8 +1342,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-rational-red.i: src/lattices/
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-longint-rational-red.s: src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.s
@@ -1352,8 +1352,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-rational-red.s: src/lattices/
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-rational-red.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-longint-real-enum.o: src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.o
@@ -1362,8 +1362,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-real-enum.o: src/lattices/com
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-longint-real-enum.i: src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.i
@@ -1372,8 +1372,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-real-enum.i: src/lattices/com
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-longint-real-enum.s: src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.s
@@ -1382,8 +1382,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-real-enum.s: src/lattices/com
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-real-enum.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-longint-real-gs.o: src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.o
@@ -1392,8 +1392,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-real-gs.o: src/lattices/compi
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-longint-real-gs.i: src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.i
@@ -1402,8 +1402,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-real-gs.i: src/lattices/compi
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-longint-real-gs.s: src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.s
@@ -1412,8 +1412,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-real-gs.s: src/lattices/compi
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-real-gs.cpp.s
 
 src/lattices/compilewrappers/lll2-compunit-longint-real-red.o: src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.o
@@ -1422,8 +1422,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-real-red.o: src/lattices/comp
 
 # target to build an object file
 src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.o
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.o
 
 src/lattices/compilewrappers/lll2-compunit-longint-real-red.i: src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.i
@@ -1432,8 +1432,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-real-red.i: src/lattices/comp
 
 # target to preprocess a source file
 src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.i
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.i
 
 src/lattices/compilewrappers/lll2-compunit-longint-real-red.s: src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.s
@@ -1442,8 +1442,8 @@ src/lattices/compilewrappers/lll2-compunit-longint-real-red.s: src/lattices/comp
 
 # target to generate assembly for a file
 src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.s
 .PHONY : src/lattices/compilewrappers/lll2-compunit-longint-real-red.cpp.s
 
 src/lattices/lll2-multiplexer.o: src/lattices/lll2-multiplexer.cpp.o
@@ -1452,8 +1452,8 @@ src/lattices/lll2-multiplexer.o: src/lattices/lll2-multiplexer.cpp.o
 
 # target to build an object file
 src/lattices/lll2-multiplexer.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/lll2-multiplexer.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/lll2-multiplexer.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/lll2-multiplexer.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/lll2-multiplexer.cpp.o
 .PHONY : src/lattices/lll2-multiplexer.cpp.o
 
 src/lattices/lll2-multiplexer.i: src/lattices/lll2-multiplexer.cpp.i
@@ -1462,8 +1462,8 @@ src/lattices/lll2-multiplexer.i: src/lattices/lll2-multiplexer.cpp.i
 
 # target to preprocess a source file
 src/lattices/lll2-multiplexer.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/lll2-multiplexer.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/lll2-multiplexer.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/lll2-multiplexer.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/lll2-multiplexer.cpp.i
 .PHONY : src/lattices/lll2-multiplexer.cpp.i
 
 src/lattices/lll2-multiplexer.s: src/lattices/lll2-multiplexer.cpp.s
@@ -1472,8 +1472,8 @@ src/lattices/lll2-multiplexer.s: src/lattices/lll2-multiplexer.cpp.s
 
 # target to generate assembly for a file
 src/lattices/lll2-multiplexer.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/lll2-multiplexer.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/lll2-multiplexer.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/lll2-multiplexer.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/lll2-multiplexer.cpp.s
 .PHONY : src/lattices/lll2-multiplexer.cpp.s
 
 src/lattices/lll2.o: src/lattices/lll2.cpp.o
@@ -1482,8 +1482,8 @@ src/lattices/lll2.o: src/lattices/lll2.cpp.o
 
 # target to build an object file
 src/lattices/lll2.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/lll2.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/lll2.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/lll2.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/lll2.cpp.o
 .PHONY : src/lattices/lll2.cpp.o
 
 src/lattices/lll2.i: src/lattices/lll2.cpp.i
@@ -1492,8 +1492,8 @@ src/lattices/lll2.i: src/lattices/lll2.cpp.i
 
 # target to preprocess a source file
 src/lattices/lll2.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/lll2.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/lll2.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/lll2.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/lll2.cpp.i
 .PHONY : src/lattices/lll2.cpp.i
 
 src/lattices/lll2.s: src/lattices/lll2.cpp.s
@@ -1502,8 +1502,8 @@ src/lattices/lll2.s: src/lattices/lll2.cpp.s
 
 # target to generate assembly for a file
 src/lattices/lll2.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/lll2.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/lll2.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/lll2.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/lll2.cpp.s
 .PHONY : src/lattices/lll2.cpp.s
 
 src/lattices/transform-impl.o: src/lattices/transform-impl.cpp.o
@@ -1512,8 +1512,8 @@ src/lattices/transform-impl.o: src/lattices/transform-impl.cpp.o
 
 # target to build an object file
 src/lattices/transform-impl.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/transform-impl.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/transform-impl.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/transform-impl.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/transform-impl.cpp.o
 .PHONY : src/lattices/transform-impl.cpp.o
 
 src/lattices/transform-impl.i: src/lattices/transform-impl.cpp.i
@@ -1522,8 +1522,8 @@ src/lattices/transform-impl.i: src/lattices/transform-impl.cpp.i
 
 # target to preprocess a source file
 src/lattices/transform-impl.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/transform-impl.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/transform-impl.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/transform-impl.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/transform-impl.cpp.i
 .PHONY : src/lattices/transform-impl.cpp.i
 
 src/lattices/transform-impl.s: src/lattices/transform-impl.cpp.s
@@ -1532,8 +1532,8 @@ src/lattices/transform-impl.s: src/lattices/transform-impl.cpp.s
 
 # target to generate assembly for a file
 src/lattices/transform-impl.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/transform-impl.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/transform-impl.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/lattices/transform-impl.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/lattices/transform-impl.cpp.s
 .PHONY : src/lattices/transform-impl.cpp.s
 
 src/linalg/linalg.o: src/linalg/linalg.cpp.o
@@ -1542,8 +1542,8 @@ src/linalg/linalg.o: src/linalg/linalg.cpp.o
 
 # target to build an object file
 src/linalg/linalg.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/linalg/linalg.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/linalg/linalg.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/linalg/linalg.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/linalg/linalg.cpp.o
 .PHONY : src/linalg/linalg.cpp.o
 
 src/linalg/linalg.i: src/linalg/linalg.cpp.i
@@ -1552,8 +1552,8 @@ src/linalg/linalg.i: src/linalg/linalg.cpp.i
 
 # target to preprocess a source file
 src/linalg/linalg.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/linalg/linalg.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/linalg/linalg.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/linalg/linalg.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/linalg/linalg.cpp.i
 .PHONY : src/linalg/linalg.cpp.i
 
 src/linalg/linalg.s: src/linalg/linalg.cpp.s
@@ -1562,8 +1562,8 @@ src/linalg/linalg.s: src/linalg/linalg.cpp.s
 
 # target to generate assembly for a file
 src/linalg/linalg.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/linalg/linalg.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/linalg/linalg.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/linalg/linalg.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/linalg/linalg.cpp.s
 .PHONY : src/linalg/linalg.cpp.s
 
 src/utilities/arguments.o: src/utilities/arguments.cpp.o
@@ -1572,8 +1572,8 @@ src/utilities/arguments.o: src/utilities/arguments.cpp.o
 
 # target to build an object file
 src/utilities/arguments.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/arguments.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/arguments.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/arguments.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/arguments.cpp.o
 .PHONY : src/utilities/arguments.cpp.o
 
 src/utilities/arguments.i: src/utilities/arguments.cpp.i
@@ -1582,8 +1582,8 @@ src/utilities/arguments.i: src/utilities/arguments.cpp.i
 
 # target to preprocess a source file
 src/utilities/arguments.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/arguments.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/arguments.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/arguments.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/arguments.cpp.i
 .PHONY : src/utilities/arguments.cpp.i
 
 src/utilities/arguments.s: src/utilities/arguments.cpp.s
@@ -1592,8 +1592,8 @@ src/utilities/arguments.s: src/utilities/arguments.cpp.s
 
 # target to generate assembly for a file
 src/utilities/arguments.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/arguments.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/arguments.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/arguments.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/arguments.cpp.s
 .PHONY : src/utilities/arguments.cpp.s
 
 src/utilities/dlalloc.o: src/utilities/dlalloc.cpp.o
@@ -1602,8 +1602,8 @@ src/utilities/dlalloc.o: src/utilities/dlalloc.cpp.o
 
 # target to build an object file
 src/utilities/dlalloc.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/dlalloc.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/dlalloc.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/dlalloc.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/dlalloc.cpp.o
 .PHONY : src/utilities/dlalloc.cpp.o
 
 src/utilities/dlalloc.i: src/utilities/dlalloc.cpp.i
@@ -1612,8 +1612,8 @@ src/utilities/dlalloc.i: src/utilities/dlalloc.cpp.i
 
 # target to preprocess a source file
 src/utilities/dlalloc.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/dlalloc.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/dlalloc.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/dlalloc.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/dlalloc.cpp.i
 .PHONY : src/utilities/dlalloc.cpp.i
 
 src/utilities/dlalloc.s: src/utilities/dlalloc.cpp.s
@@ -1622,8 +1622,8 @@ src/utilities/dlalloc.s: src/utilities/dlalloc.cpp.s
 
 # target to generate assembly for a file
 src/utilities/dlalloc.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/dlalloc.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/dlalloc.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/dlalloc.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/dlalloc.cpp.s
 .PHONY : src/utilities/dlalloc.cpp.s
 
 src/utilities/keccak.o: src/utilities/keccak.cpp.o
@@ -1632,8 +1632,8 @@ src/utilities/keccak.o: src/utilities/keccak.cpp.o
 
 # target to build an object file
 src/utilities/keccak.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/keccak.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/keccak.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/keccak.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/keccak.cpp.o
 .PHONY : src/utilities/keccak.cpp.o
 
 src/utilities/keccak.i: src/utilities/keccak.cpp.i
@@ -1642,8 +1642,8 @@ src/utilities/keccak.i: src/utilities/keccak.cpp.i
 
 # target to preprocess a source file
 src/utilities/keccak.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/keccak.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/keccak.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/keccak.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/keccak.cpp.i
 .PHONY : src/utilities/keccak.cpp.i
 
 src/utilities/keccak.s: src/utilities/keccak.cpp.s
@@ -1652,8 +1652,8 @@ src/utilities/keccak.s: src/utilities/keccak.cpp.s
 
 # target to generate assembly for a file
 src/utilities/keccak.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/keccak.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/keccak.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/keccak.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/keccak.cpp.s
 .PHONY : src/utilities/keccak.cpp.s
 
 src/utilities/myalloc.o: src/utilities/myalloc.cpp.o
@@ -1662,8 +1662,8 @@ src/utilities/myalloc.o: src/utilities/myalloc.cpp.o
 
 # target to build an object file
 src/utilities/myalloc.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/myalloc.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/myalloc.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/myalloc.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/myalloc.cpp.o
 .PHONY : src/utilities/myalloc.cpp.o
 
 src/utilities/myalloc.i: src/utilities/myalloc.cpp.i
@@ -1672,8 +1672,8 @@ src/utilities/myalloc.i: src/utilities/myalloc.cpp.i
 
 # target to preprocess a source file
 src/utilities/myalloc.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/myalloc.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/myalloc.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/myalloc.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/myalloc.cpp.i
 .PHONY : src/utilities/myalloc.cpp.i
 
 src/utilities/myalloc.s: src/utilities/myalloc.cpp.s
@@ -1682,8 +1682,8 @@ src/utilities/myalloc.s: src/utilities/myalloc.cpp.s
 
 # target to generate assembly for a file
 src/utilities/myalloc.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/myalloc.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/myalloc.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/myalloc.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/myalloc.cpp.s
 .PHONY : src/utilities/myalloc.cpp.s
 
 src/utilities/taskmanager.o: src/utilities/taskmanager.cpp.o
@@ -1692,8 +1692,8 @@ src/utilities/taskmanager.o: src/utilities/taskmanager.cpp.o
 
 # target to build an object file
 src/utilities/taskmanager.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/taskmanager.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/taskmanager.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/taskmanager.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/taskmanager.cpp.o
 .PHONY : src/utilities/taskmanager.cpp.o
 
 src/utilities/taskmanager.i: src/utilities/taskmanager.cpp.i
@@ -1702,8 +1702,8 @@ src/utilities/taskmanager.i: src/utilities/taskmanager.cpp.i
 
 # target to preprocess a source file
 src/utilities/taskmanager.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/taskmanager.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/taskmanager.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/taskmanager.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/taskmanager.cpp.i
 .PHONY : src/utilities/taskmanager.cpp.i
 
 src/utilities/taskmanager.s: src/utilities/taskmanager.cpp.s
@@ -1712,8 +1712,8 @@ src/utilities/taskmanager.s: src/utilities/taskmanager.cpp.s
 
 # target to generate assembly for a file
 src/utilities/taskmanager.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/taskmanager.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/taskmanager.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/taskmanager.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/taskmanager.cpp.s
 .PHONY : src/utilities/taskmanager.cpp.s
 
 src/utilities/timer.o: src/utilities/timer.cpp.o
@@ -1722,8 +1722,8 @@ src/utilities/timer.o: src/utilities/timer.cpp.o
 
 # target to build an object file
 src/utilities/timer.cpp.o:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/timer.cpp.o
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/timer.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/timer.cpp.o
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/timer.cpp.o
 .PHONY : src/utilities/timer.cpp.o
 
 src/utilities/timer.i: src/utilities/timer.cpp.i
@@ -1732,8 +1732,8 @@ src/utilities/timer.i: src/utilities/timer.cpp.i
 
 # target to preprocess a source file
 src/utilities/timer.cpp.i:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/timer.cpp.i
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/timer.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/timer.cpp.i
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/timer.cpp.i
 .PHONY : src/utilities/timer.cpp.i
 
 src/utilities/timer.s: src/utilities/timer.cpp.s
@@ -1742,8 +1742,8 @@ src/utilities/timer.s: src/utilities/timer.cpp.s
 
 # target to generate assembly for a file
 src/utilities/timer.cpp.s:
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/timer.cpp.s
-	cd /home/user/plll-1.0/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/timer.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-shared.dir/build.make plll/CMakeFiles/libplll-shared.dir/src/utilities/timer.cpp.s
+	cd /root/myfplll/build && $(MAKE) -f plll/CMakeFiles/libplll-static.dir/build.make plll/CMakeFiles/libplll-static.dir/src/utilities/timer.cpp.s
 .PHONY : src/utilities/timer.cpp.s
 
 # Help Target
@@ -1927,6 +1927,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/user/plll-1.0/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/myfplll/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

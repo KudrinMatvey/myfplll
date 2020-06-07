@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/user/plll-1.0/examples/src/example-02.cpp" "/home/user/plll-1.0/build/examples/CMakeFiles/example-02.dir/src/example-02.cpp.o"
+  "/root/myfplll/examples/src/example-02.cpp" "/root/myfplll/build/examples/CMakeFiles/example-02.dir/src/example-02.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/user/plll-1.0/build/plll/CMakeFiles/libplll-static.dir/DependInfo.cmake"
+  "/root/myfplll/build/plll/CMakeFiles/libplll-static.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

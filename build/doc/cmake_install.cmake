@@ -1,4 +1,4 @@
-# Install script for directory: /home/user/plll-1.0/doc
+# Install script for directory: /root/myfplll/doc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

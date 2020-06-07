@@ -1,3 +1,4 @@
+set (CMAKE_TOOLCHAIN_FILE /root/vcpkg/scripts/buildsystems/vcpkg.cmake)
 cmake_minimum_required(VERSION 2.8)
 project(pLLL)
 set (CMAKE_CXX_STANDARD 11)

@@ -1,4 +1,4 @@
-# Install script for directory: /home/user/plll-1.0
+# Install script for directory: /root/myfplll
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/user/plll-1.0/build/plll/cmake_install.cmake")
-  include("/home/user/plll-1.0/build/tests/cmake_install.cmake")
-  include("/home/user/plll-1.0/build/tools/cmake_install.cmake")
-  include("/home/user/plll-1.0/build/doc/cmake_install.cmake")
-  include("/home/user/plll-1.0/build/examples/cmake_install.cmake")
-  include("/home/user/plll-1.0/build/svp/cmake_install.cmake")
+  include("/root/myfplll/build/plll/cmake_install.cmake")
+  include("/root/myfplll/build/tests/cmake_install.cmake")
+  include("/root/myfplll/build/tools/cmake_install.cmake")
+  include("/root/myfplll/build/doc/cmake_install.cmake")
+  include("/root/myfplll/build/examples/cmake_install.cmake")
+  include("/root/myfplll/build/svp/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/user/plll-1.0/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/myfplll/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

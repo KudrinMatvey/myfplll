@@ -1,251 +1,190 @@
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 2]]
 
-voronoi duration 4482
+voronoi duration 551
 
 
-gauss iter : 286|
-gauss duration: 3876
+gauss iter : 277|
+gauss duration: 3670
 
 
 list iter : 233|
-list duration: 361
+list duration: 1296
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 15
+early exit gauss iter : 6|
+gauss with bound duration: 25
 
 
-early list iter : 2|
-list with bound duration: 5
-shortest with bound norm5
+early list iter : 1|
+list with bound duration: 7found different norms of vectors
+list with bound size: 2
+[ 0 -2 0 ] 
 
-$$$$$$$$$$$$$$$$$$$$$$$$
--2 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
+gauss with bound size: 1.41421
+[ 1 1 0 ] 
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
+0 -1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 3]]
 
-voronoi duration 569
+voronoi duration 223
 
 
-gauss iter : 317|
-gauss duration: 389
+gauss iter : 292|
+gauss duration: 1313
 
 
-list iter : 234|
-list duration: 344
+list iter : 231|
+list duration: 1382
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
+early exit gauss iter : 1|
+gauss with bound duration: 9
 
 
-early list iter : 7|
-list with bound duration: 10found different norms of vectors
-list with bound size: 2.23607
-[ -1 -2 0 ] 
+early list iter : 9|
+list with bound duration: 37
+shortest with bound norm5
 
-gauss with bound size: 1
-[ -1 0 0 ] 
+$$$$$$$$$$$$$$$$$$$$$$$$
+2 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
+1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 5]]
 
-voronoi duration 513
+voronoi duration 141
 
 
-gauss iter : 269|
-gauss duration: 335
+gauss iter : 289|
+gauss duration: 1334
 
 
-list iter : 233|
-list duration: 352
+list iter : 236|
+list duration: 1189
 bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
+early exit gauss iter : 6|
+gauss with bound duration: 25
 
 
-early list iter : 7|
-list with bound duration: 15found different norms of vectors
-list with bound size: 1
+early list iter : 8|
+list with bound duration: 34found different norms of vectors
+list with bound size: 1.41421
+[ 1 1 0 ] 
+
+gauss with bound size: 1
 [ 0 -1 0 ] 
-
-gauss with bound size: 1.41421
-[ -1 -1 0 ] 
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
+-1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 7]]
 
-voronoi duration 3218
+voronoi duration 139
 
 
-gauss iter : 303|
-gauss duration: 687
+gauss iter : 306|
+gauss duration: 1174
 
 
-list iter : 240|
-list duration: 408
+list iter : 231|
+list duration: 1838
 bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 8
+early exit gauss iter : 2|
+gauss with bound duration: 15
 
 
-early list iter : 2|
-list with bound duration: 8
-shortest with bound norm1
+early list iter : 3|
+list with bound duration: 23
+shortest with bound norm5
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
+-1 2 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
+0 -1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 11]]
 
-voronoi duration 1801
+voronoi duration 220
 
 
-gauss iter : 301|
-gauss duration: 921
+gauss iter : 308|
+gauss duration: 1278
 
 
-list iter : 242|
-list duration: 2300
+list iter : 233|
+list duration: 1005
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 13
+early exit gauss iter : 3|
+gauss with bound duration: 17
 
 
-early list iter : 7|
-list with bound duration: 15found different norms of vectors
-list with bound size: 1.41421
-[ 1 1 0 ] 
+early list iter : 2|
+list with bound duration: 10
+shortest with bound norm1
 
-gauss with bound size: 1
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+found different norms of vectors
+voronoi size: 1
+[ 0 1 0 ] 
+
+gauss size: 11.0454
+[ 1 0 11 ] 
+
+list size: 1
 [ 0 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 13]]
 
-voronoi duration 591
+voronoi duration 444
 
 
-gauss iter : 297|
-gauss duration: 624
-
-
-list iter : 235|
-list duration: 1950
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 11
-
-
-early list iter : 4|
-list with bound duration: 9found different norms of vectors
-list with bound size: 1.41421
-[ -1 -1 0 ] 
-
-gauss with bound size: 2.23607
-[ 2 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 17]]
-
-voronoi duration 1054
-
-
-gauss iter : 309|
-gauss duration: 417
+gauss iter : 326|
+gauss duration: 3034
 
 
 list iter : 234|
-list duration: 367
+list duration: 1732
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 6
+early exit gauss iter : 1|
+gauss with bound duration: 10
 
 
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 1.41421
-[ 1 1 0 ] 
-
-gauss with bound size: 1
-[ 0 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 19]]
-
-voronoi duration 652
-
-
-gauss iter : 315|
-gauss duration: 347
-
-
-list iter : 234|
-list duration: 376
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
-
-
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
+early list iter : 6|
+list with bound duration: 82found different norms of vectors
 list with bound size: 1
 [ -1 0 0 ] 
 
-gauss with bound size: 1.41421
-[ 1 -1 0 ] 
+gauss with bound size: 2.23607
+[ 2 -1 0 ] 
 
 shortest with norm1
 
@@ -255,124 +194,220 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 23]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 17]]
 
-voronoi duration 834
-
-
-gauss iter : 286|
-gauss duration: 356
+voronoi duration 272
 
 
-list iter : 234|
-list duration: 355
+gauss iter : 291|
+gauss duration: 2468
+
+
+list iter : 228|
+list duration: 3958
 bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 6
+early exit gauss iter : 4|
+gauss with bound duration: 22
 
 
 early list iter : 7|
-list with bound duration: 10found different norms of vectors
-list with bound size: 2
-[ -2 0 0 ] 
+list with bound duration: 42found different norms of vectors
+list with bound size: 2.23607
+[ -2 1 0 ] 
 
 gauss with bound size: 1
-[ 1 0 0 ] 
+[ -1 0 0 ] 
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 19]]
+
+voronoi duration 146
+
+
+gauss iter : 336|
+gauss duration: 2145
+
+
+list iter : 231|
+list duration: 1453
+bound 2.52303
+early exit gauss iter : 4|
+gauss with bound duration: 21
+
+
+early list iter : 3|
+list with bound duration: 15found different norms of vectors
+list with bound size: 1
+[ 0 1 0 ] 
+
+gauss with bound size: 2.23607
+[ -1 2 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 23]]
+
+voronoi duration 211
+
+
+gauss iter : 308|
+gauss duration: 1226
+
+
+list iter : 236|
+list duration: 5010
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 17
+
+
+early list iter : 2|
+list with bound duration: 14found different norms of vectors
+list with bound size: 1
+[ 0 -1 0 ] 
+
+gauss with bound size: 1.41421
+[ -1 -1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 29]]
 
-voronoi duration 2539
+voronoi duration 155
 
 
-gauss iter : 312|
-gauss duration: 375
+gauss iter : 285|
+gauss duration: 1514
 
 
-list iter : 230|
-list duration: 332
+list iter : 231|
+list duration: 2693
 bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 5
+early exit gauss iter : 1|
+gauss with bound duration: 11
 
 
 early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1
-[ 1 0 0 ] 
-
-gauss with bound size: 2.23607
+list with bound duration: 7found different norms of vectors
+list with bound size: 2.23607
 [ 1 2 0 ] 
+
+gauss with bound size: 1
+[ 0 -1 0 ] 
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
+0 -1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 31]]
 
-voronoi duration 647
+voronoi duration 132
 
 
-gauss iter : 309|
-gauss duration: 346
+gauss iter : 312|
+gauss duration: 2645
 
 
 list iter : 231|
-list duration: 442
+list duration: 1754
 bound 2.52303
 early exit gauss iter : 1|
-gauss with bound duration: 4
+gauss with bound duration: 12
 
 
 early list iter : 1|
-list with bound duration: 3
-shortest with bound norm1
+list with bound duration: 9found different norms of vectors
+list with bound size: 2
+[ 0 2 0 ] 
 
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
+gauss with bound size: 1
+[ -1 0 0 ] 
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
+0 1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 37]]
 
-voronoi duration 578
+voronoi duration 318
 
 
-gauss iter : 292|
-gauss duration: 5535
+gauss iter : 287|
+gauss duration: 2214
 
 
-list iter : 231|
-list duration: 395
+list iter : 235|
+list duration: 2000
 bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 5
+early exit gauss iter : 2|
+gauss with bound duration: 18
 
 
 early list iter : 1|
-list with bound duration: 3
+list with bound duration: 10found different norms of vectors
+list with bound size: 1.41421
+[ -1 1 0 ] 
+
+gauss with bound size: 2.23607
+[ 2 -1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 41]]
+
+voronoi duration 140
+
+
+gauss iter : 295|
+gauss duration: 1949
+
+
+list iter : 231|
+list duration: 2122
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 10
+
+
+early list iter : 7|
+list with bound duration: 35
 shortest with bound norm2
 
 $$$$$$$$$$$$$$$$$$$$$$$$
--1 1 0 
+1 -1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
@@ -383,93 +418,64 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 41]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 43]]
 
-voronoi duration 535
-
-
-gauss iter : 307|
-gauss duration: 369
+voronoi duration 319
 
 
-list iter : 230|
-list duration: 296
+gauss iter : 303|
+gauss duration: 2535
+
+
+list iter : 236|
+list duration: 1738
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
+early exit gauss iter : 6|
+gauss with bound duration: 26
 
 
 early list iter : 7|
-list with bound duration: 10found different norms of vectors
-list with bound size: 2.23607
-[ 2 -1 0 ] 
-
-gauss with bound size: 1.41421
-[ 1 -1 0 ] 
-
-shortest with norm1
+list with bound duration: 33
+shortest with bound norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
+1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
+found different norms of vectors
+voronoi size: 1
+[ 0 1 0 ] 
 
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 43]]
+gauss size: 43.0116
+[ 0 1 -43 ] 
 
-voronoi duration 616
-
-
-gauss iter : 297|
-gauss duration: 2059
-
-
-list iter : 233|
-list duration: 324
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 4|
-list with bound duration: 6
-shortest with bound norm4
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -2 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
+list size: 1
+[ -1 0 0 ] 
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 47]]
 
-voronoi duration 546
+voronoi duration 756
 
 
-gauss iter : 312|
-gauss duration: 374
+gauss iter : 319|
+gauss duration: 1885
 
 
-list iter : 231|
-list duration: 385
+list iter : 233|
+list duration: 1960
 bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 7
+early exit gauss iter : 1|
+gauss with bound duration: 14
 
 
-early list iter : 1|
-list with bound duration: 4found different norms of vectors
+early list iter : 3|
+list with bound duration: 61found different norms of vectors
 list with bound size: 1.41421
-[ -1 1 0 ] 
+[ 1 -1 0 ] 
 
-gauss with bound size: 2.23607
-[ 1 -2 0 ] 
+gauss with bound size: 1
+[ 0 -1 0 ] 
 
 shortest with norm1
 
@@ -481,155 +487,123 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 53]]
 
-voronoi duration 512
+voronoi duration 162
 
 
-gauss iter : 308|
-gauss duration: 361
+gauss iter : 354|
+gauss duration: 2743
 
 
-list iter : 233|
-list duration: 374
+list iter : 232|
+list duration: 1269
 bound 2.52303
 early exit gauss iter : 1|
-gauss with bound duration: 4
+gauss with bound duration: 10
 
 
-early list iter : 5|
-list with bound duration: 8found different norms of vectors
-list with bound size: 1.41421
-[ 1 1 0 ] 
+early list iter : 1|
+list with bound duration: 12found different norms of vectors
+list with bound size: 2.23607
+[ -2 -1 0 ] 
 
-gauss with bound size: 2
-[ 0 -2 0 ] 
+gauss with bound size: 1.41421
+[ 1 -1 0 ] 
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
+-1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 59]]
 
-voronoi duration 1042
+voronoi duration 359
 
 
-gauss iter : 310|
-gauss duration: 366
+gauss iter : 344|
+gauss duration: 2772
 
 
-list iter : 237|
-list duration: 379
+list iter : 232|
+list duration: 2202
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
+early exit gauss iter : 4|
+gauss with bound duration: 21
 
 
-early list iter : 1|
-list with bound duration: 2
-shortest with bound norm1
+early list iter : 11|
+list with bound duration: 45
+shortest with bound norm2
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
+-1 -1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
+0 -1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 61]]
 
-voronoi duration 837
+voronoi duration 223
 
 
-gauss iter : 318|
-gauss duration: 416
+gauss iter : 325|
+gauss duration: 2363
 
 
-list iter : 236|
-list duration: 436
+list iter : 230|
+list duration: 2020
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 7
+early exit gauss iter : 1|
+gauss with bound duration: 11
 
 
 early list iter : 1|
-list with bound duration: 3found different norms of vectors
-list with bound size: 1
-[ 0 -1 0 ] 
+list with bound duration: 7
+shortest with bound norm2
 
-gauss with bound size: 2
-[ -2 0 0 ] 
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
+-1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 67]]
 
-voronoi duration 574
+voronoi duration 134
 
 
-gauss iter : 293|
-gauss duration: 340
+gauss iter : 302|
+gauss duration: 2332
 
 
-list iter : 232|
-list duration: 330
-bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 6
-
-
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 2
-[ 0 2 0 ] 
-
-gauss with bound size: 2.23607
-[ -1 -2 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 71]]
-
-voronoi duration 572
-
-
-gauss iter : 315|
-gauss duration: 345
-
-
-list iter : 235|
-list duration: 476
+list iter : 233|
+list duration: 2627
 bound 2.52303
 early exit gauss iter : 2|
-gauss with bound duration: 5
+gauss with bound duration: 20
 
 
-early list iter : 2|
-list with bound duration: 4found different norms of vectors
-list with bound size: 2.23607
-[ -2 1 0 ] 
+early list iter : 9|
+list with bound duration: 65
+shortest with bound norm2
 
-gauss with bound size: 1.41421
-[ -1 1 0 ] 
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
 
@@ -639,29 +613,29 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 73]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 71]]
 
-voronoi duration 2586
+voronoi duration 184
 
 
-gauss iter : 329|
-gauss duration: 2967
+gauss iter : 309|
+gauss duration: 3012
 
 
 list iter : 230|
-list duration: 517
+list duration: 1190
 bound 2.52303
-early exit gauss iter : 7|
-gauss with bound duration: 11
+early exit gauss iter : 4|
+gauss with bound duration: 21
 
 
 early list iter : 3|
-list with bound duration: 9found different norms of vectors
-list with bound size: 2.23607
-[ 2 -1 0 ] 
+list with bound duration: 17found different norms of vectors
+list with bound size: 1
+[ -1 0 0 ] 
 
-gauss with bound size: 1
-[ 1 0 0 ] 
+gauss with bound size: 1.41421
+[ 1 1 0 ] 
 
 shortest with norm1
 
@@ -671,58 +645,122 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 79]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 73]]
 
-voronoi duration 1590
+voronoi duration 172
 
 
-gauss iter : 336|
-gauss duration: 374
+gauss iter : 331|
+gauss duration: 3015
 
 
 list iter : 231|
-list duration: 357
+list duration: 1823
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
+early exit gauss iter : 5|
+gauss with bound duration: 23
 
 
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1.41421
-[ -1 -1 0 ] 
+early list iter : 2|
+list with bound duration: 14
+shortest with bound norm5
 
-gauss with bound size: 1
-[ 1 0 0 ] 
+$$$$$$$$$$$$$$$$$$$$$$$$
+-2 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 79]]
+
+voronoi duration 338
+
+
+gauss iter : 322|
+gauss duration: 1991
+
+
+list iter : 233|
+list duration: 2517
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 11
+
+
+early list iter : 9|
+list with bound duration: 38found different norms of vectors
+list with bound size: 1
+[ 1 0 0 ] 
+
+gauss with bound size: 1.41421
+[ 1 1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 83]]
 
-voronoi duration 1015
+voronoi duration 140
 
 
-gauss iter : 277|
-gauss duration: 353
+gauss iter : 318|
+gauss duration: 2744
 
 
 list iter : 235|
-list duration: 324
+list duration: 1584
 bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
+early exit gauss iter : 4|
+gauss with bound duration: 26
 
 
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 2.23607
-[ -1 2 0 ] 
+early list iter : 2|
+list with bound duration: 14found different norms of vectors
+list with bound size: 1
+[ 0 1 0 ] 
+
+gauss with bound size: 1.41421
+[ -1 -1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 89]]
+
+voronoi duration 301
+
+
+gauss iter : 278|
+gauss duration: 2259
+
+
+list iter : 235|
+list duration: 1163
+bound 2.52303
+early exit gauss iter : 2|
+gauss with bound duration: 15
+
+
+early list iter : 1|
+list with bound duration: 7found different norms of vectors
+list with bound size: 2
+[ 0 -2 0 ] 
 
 gauss with bound size: 1
 [ 1 0 0 ] 
@@ -735,61 +773,29 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 89]]
-
-voronoi duration 551
-
-
-gauss iter : 268|
-gauss duration: 366
-
-
-list iter : 230|
-list duration: 316
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 1|
-list with bound duration: 2
-shortest with bound norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 97]]
 
-voronoi duration 807
+voronoi duration 1268
 
 
-gauss iter : 339|
-gauss duration: 368
+gauss iter : 310|
+gauss duration: 981
 
 
-list iter : 230|
-list duration: 357
+list iter : 233|
+list duration: 1673
 bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 4
+early exit gauss iter : 2|
+gauss with bound duration: 13
 
 
-early list iter : 4|
-list with bound duration: 7found different norms of vectors
-list with bound size: 2.23607
-[ 1 2 0 ] 
+early list iter : 3|
+list with bound duration: 17
+shortest with bound norm2
 
-gauss with bound size: 1
-[ 0 -1 0 ] 
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
 
@@ -801,24 +807,24 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 101]]
 
-voronoi duration 661
+voronoi duration 224
 
 
-gauss iter : 319|
-gauss duration: 2882
+gauss iter : 328|
+gauss duration: 1310
 
 
-list iter : 237|
-list duration: 359
+list iter : 233|
+list duration: 8133
 bound 2.52303
-early exit gauss iter : 6|
-gauss with bound duration: 10
+early exit gauss iter : 3|
+gauss with bound duration: 22
 
 
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 1.41421
-[ -1 1 0 ] 
+early list iter : 5|
+list with bound duration: 22found different norms of vectors
+list with bound size: 2.23607
+[ 1 -2 0 ] 
 
 gauss with bound size: 2
 [ 2 0 0 ] 
@@ -833,91 +839,91 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 103]]
 
-voronoi duration 1801
+voronoi duration 433
 
 
-gauss iter : 319|
-gauss duration: 4201
+gauss iter : 312|
+gauss duration: 2352
 
 
-list iter : 233|
-list duration: 889
+list iter : 232|
+list duration: 1838
 bound 2.52303
 early exit gauss iter : 1|
-gauss with bound duration: 6
+gauss with bound duration: 33
 
 
-early list iter : 5|
-list with bound duration: 11found different norms of vectors
+early list iter : 7|
+list with bound duration: 33found different norms of vectors
 list with bound size: 2
-[ 0 2 0 ] 
+[ -2 0 0 ] 
 
-gauss with bound size: 2.23607
-[ -2 -1 0 ] 
+gauss with bound size: 1
+[ 0 -1 0 ] 
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
+0 -1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 107]]
 
-voronoi duration 1900
+voronoi duration 968
 
 
-gauss iter : 312|
-gauss duration: 504
+gauss iter : 294|
+gauss duration: 1328
 
 
-list iter : 234|
-list duration: 385
+list iter : 233|
+list duration: 1178
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 7
+early exit gauss iter : 1|
+gauss with bound duration: 9
 
 
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 2
-[ 0 2 0 ] 
+early list iter : 2|
+list with bound duration: 10
+shortest with bound norm1
 
-gauss with bound size: 1
-[ 0 1 0 ] 
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
+1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 109]]
 
-voronoi duration 2546
+voronoi duration 180
 
 
-gauss iter : 305|
-gauss duration: 5283
+gauss iter : 312|
+gauss duration: 1253
 
 
-list iter : 233|
-list duration: 369
+list iter : 230|
+list duration: 1348
 bound 2.52303
 early exit gauss iter : 2|
-gauss with bound duration: 6
+gauss with bound duration: 19
 
 
-early list iter : 6|
-list with bound duration: 9
-shortest with bound norm5
+early list iter : 3|
+list with bound duration: 23found different norms of vectors
+list with bound size: 1.41421
+[ -1 -1 0 ] 
 
-$$$$$$$$$$$$$$$$$$$$$$$$
--2 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
+gauss with bound size: 1
+[ 0 -1 0 ] 
 
 shortest with norm1
 
@@ -929,1541 +935,22 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 113]]
 
-voronoi duration 1109
-
-
-gauss iter : 296|
-gauss duration: 356
-
-
-list iter : 232|
-list duration: 3840
-bound 2.52303
-early exit gauss iter : 5|
-gauss with bound duration: 15
-
-
-early list iter : 1|
-list with bound duration: 4found different norms of vectors
-list with bound size: 1.41421
-[ -1 -1 0 ] 
-
-gauss with bound size: 2.23607
-[ 2 1 0 ] 
-found different norms of vectors
-voronoi size: 1
-[ 0 1 0 ] 
-
-gauss size: 113.004
-[ 1 0 113 ] 
-
-list size: 1
-[ -1 0 0 ] 
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 127]]
-
-voronoi duration 897
-
-
-gauss iter : 314|
-gauss duration: 367
-
-
-list iter : 239|
-list duration: 10821
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 13
-
-
-early list iter : 1|
-list with bound duration: 4found different norms of vectors
-list with bound size: 1.41421
-[ -1 -1 0 ] 
-
-gauss with bound size: 1
-[ 0 -1 0 ] 
-found different norms of vectors
-voronoi size: 1
-[ 0 1 0 ] 
-
-gauss size: 127.004
-[ -1 0 -127 ] 
-
-list size: 1
-[ 0 1 0 ] 
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 131]]
-
-voronoi duration 1288
-
-
-gauss iter : 319|
-gauss duration: 395
-
-
-list iter : 231|
-list duration: 339
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 1|
-list with bound duration: 3found different norms of vectors
-list with bound size: 2.23607
-[ -1 -2 0 ] 
-
-gauss with bound size: 1
-[ -1 0 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 137]]
-
-voronoi duration 36236
-
-
-gauss iter : 312|
-gauss duration: 398
-
-
-list iter : 231|
-list duration: 5168
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 12
-
-
-early list iter : 1|
-list with bound duration: 7found different norms of vectors
-list with bound size: 1
-[ 0 1 0 ] 
-
-gauss with bound size: 1.41421
-[ -1 1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 139]]
-
-voronoi duration 785
-
-
-gauss iter : 323|
-gauss duration: 367
-
-
-list iter : 229|
-list duration: 333
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 4
-
-
-early list iter : 1|
-list with bound duration: 3
-shortest with bound norm2
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 149]]
-
-voronoi duration 845
-
-
-gauss iter : 308|
-gauss duration: 353
-
-
-list iter : 231|
-list duration: 350
-bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 6
-
-
-early list iter : 4|
-list with bound duration: 6found different norms of vectors
-list with bound size: 2
-[ 0 -2 0 ] 
-
-gauss with bound size: 1.41421
-[ -1 1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 151]]
-
-voronoi duration 625
-
-
-gauss iter : 313|
-gauss duration: 379
-
-
-list iter : 236|
-list duration: 353
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 4
-
-
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 2
-[ -2 0 0 ] 
-
-gauss with bound size: 1.41421
-[ 1 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 157]]
-
-voronoi duration 609
-
-
-gauss iter : 349|
-gauss duration: 362
-
-
-list iter : 231|
-list duration: 366
-bound 2.52303
-early exit gauss iter : 4|
-gauss with bound duration: 7
-
-
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1.41421
-[ -1 -1 0 ] 
-
-gauss with bound size: 1
-[ 0 1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 163]]
-
-voronoi duration 13386
-
-
-gauss iter : 296|
-gauss duration: 373
-
-
-list iter : 238|
-list duration: 351
-bound 2.52303
-early exit gauss iter : 7|
-gauss with bound duration: 9
-
-
-early list iter : 5|
-list with bound duration: 7found different norms of vectors
-list with bound size: 1
-[ 0 1 0 ] 
-
-gauss with bound size: 2.23607
-[ 2 1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 167]]
-
-voronoi duration 708
-
-
-gauss iter : 332|
-gauss duration: 347
-
-
-list iter : 230|
-list duration: 372
-bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 18
-
-
-early list iter : 1|
-list with bound duration: 3found different norms of vectors
-list with bound size: 1
-[ -1 0 0 ] 
-
-gauss with bound size: 2.23607
-[ 2 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 173]]
-
-voronoi duration 680
-
-
-gauss iter : 317|
-gauss duration: 356
-
-
-list iter : 235|
-list duration: 333
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 4|
-list with bound duration: 6found different norms of vectors
-list with bound size: 2.23607
-[ -1 2 0 ] 
-
-gauss with bound size: 1
-[ -1 0 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 179]]
-
-voronoi duration 974
-
-
-gauss iter : 327|
-gauss duration: 352
-
-
-list iter : 228|
-list duration: 409
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 6
-
-
-early list iter : 4|
-list with bound duration: 7found different norms of vectors
-list with bound size: 1
-[ -1 0 0 ] 
-
-gauss with bound size: 1.41421
-[ -1 1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 181]]
-
-voronoi duration 2099
-
-
-gauss iter : 317|
-gauss duration: 533
-
-
-list iter : 233|
-list duration: 347
-bound 2.52303
-early exit gauss iter : 4|
-gauss with bound duration: 7
-
-
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1
-[ 1 0 0 ] 
-
-gauss with bound size: 2
-[ 0 2 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 191]]
-
-voronoi duration 764
-
-
-gauss iter : 302|
-gauss duration: 342
-
-
-list iter : 232|
-list duration: 311
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
-
-
-early list iter : 2|
-list with bound duration: 4found different norms of vectors
-list with bound size: 1.41421
-[ 1 -1 0 ] 
-
-gauss with bound size: 1
-[ 0 1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 193]]
-
-voronoi duration 702
-
-
-gauss iter : 310|
-gauss duration: 353
-
-
-list iter : 234|
-list duration: 358
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 4
-
-
-early list iter : 2|
-list with bound duration: 4found different norms of vectors
-list with bound size: 2
-[ 2 0 0 ] 
-
-gauss with bound size: 1
-[ 0 1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 197]]
-
-voronoi duration 863
-
-
-gauss iter : 323|
-gauss duration: 448
-
-
-list iter : 232|
-list duration: 338
-bound 2.52303
-early exit gauss iter : 5|
-gauss with bound duration: 8
-
-
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 2.23607
-[ 1 -2 0 ] 
-
-gauss with bound size: 1
-[ -1 0 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 199]]
-
-voronoi duration 742
-
-
-gauss iter : 303|
-gauss duration: 489
-
-
-list iter : 231|
-list duration: 756
-bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 7
-
-
-early list iter : 4|
-list with bound duration: 8found different norms of vectors
-list with bound size: 1
-[ 0 -1 0 ] 
-
-gauss with bound size: 1.41421
-[ 1 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 211]]
-
-voronoi duration 2949
-
-
-gauss iter : 328|
-gauss duration: 1127
-
-
-list iter : 234|
-list duration: 516
-bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 8
-
-
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1.41421
-[ -1 -1 0 ] 
-
-gauss with bound size: 2.23607
-[ 1 2 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 223]]
-
-voronoi duration 933
-
-
-gauss iter : 299|
-gauss duration: 395
-
-
-list iter : 233|
-list duration: 336
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
-
-
-early list iter : 3|
-list with bound duration: 5
-shortest with bound norm5
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--2 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 227]]
-
-voronoi duration 1019
-
-
-gauss iter : 298|
-gauss duration: 400
-
-
-list iter : 231|
-list duration: 342
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 2|
-list with bound duration: 4found different norms of vectors
-list with bound size: 2.23607
-[ 1 2 0 ] 
-
-gauss with bound size: 2
-[ 0 -2 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 229]]
-
-voronoi duration 1470
-
-
-gauss iter : 321|
-gauss duration: 354
-
-
-list iter : 234|
-list duration: 326
-bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 9
-
-
-early list iter : 10|
-list with bound duration: 19found different norms of vectors
-list with bound size: 1.41421
-[ 1 1 0 ] 
-
-gauss with bound size: 2
-[ 0 -2 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 233]]
-
-voronoi duration 673
-
-
-gauss iter : 273|
-gauss duration: 329
-
-
-list iter : 230|
-list duration: 320
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 4
-
-
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 2
-[ 0 -2 0 ] 
-
-gauss with bound size: 2.23607
-[ -2 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 239]]
-
-voronoi duration 637
-
-
-gauss iter : 320|
-gauss duration: 343
-
-
-list iter : 233|
-list duration: 342
-bound 2.52303
-early exit gauss iter : 4|
-gauss with bound duration: 7
-
-
-early list iter : 1|
-list with bound duration: 2
-shortest with bound norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 241]]
-
-voronoi duration 691
-
-
-gauss iter : 310|
-gauss duration: 356
-
-
-list iter : 232|
-list duration: 328
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
-
-
-early list iter : 3|
-list with bound duration: 5
-shortest with bound norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 251]]
-
-voronoi duration 2325
-
-
-gauss iter : 279|
-gauss duration: 364
-
-
-list iter : 237|
-list duration: 366
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
-
-
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1
-[ 1 0 0 ] 
-
-gauss with bound size: 2.23607
-[ -2 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 257]]
-
-voronoi duration 1879
-
-
-gauss iter : 297|
-gauss duration: 348
-
-
-list iter : 228|
-list duration: 319
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
-
-
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1.41421
-[ 1 1 0 ] 
-
-gauss with bound size: 2
-[ 0 -2 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 263]]
-
-voronoi duration 794
-
-
-gauss iter : 304|
-gauss duration: 746
-
-
-list iter : 235|
-list duration: 426
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
-
-
-early list iter : 4|
-list with bound duration: 7
-shortest with bound norm2
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 269]]
-
-voronoi duration 2377
-
-
-gauss iter : 301|
-gauss duration: 470
-
-
-list iter : 234|
-list duration: 412
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 7
-
-
-early list iter : 6|
-list with bound duration: 12found different norms of vectors
-list with bound size: 2
-[ 0 -2 0 ] 
-
-gauss with bound size: 1.41421
-[ -1 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 271]]
-
-voronoi duration 2145
-
-
-gauss iter : 300|
-gauss duration: 376
-
-
-list iter : 234|
-list duration: 375
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 5|
-list with bound duration: 8
-shortest with bound norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 277]]
-
-voronoi duration 1202
-
-
-gauss iter : 297|
-gauss duration: 378
-
-
-list iter : 232|
-list duration: 347
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
-
-
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 2
-[ -2 0 0 ] 
-
-gauss with bound size: 1
-[ 1 0 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 281]]
-
-voronoi duration 1096
-
-
-gauss iter : 282|
-gauss duration: 577
-
-
-list iter : 235|
-list duration: 380
-bound 2.52303
-early exit gauss iter : 5|
-gauss with bound duration: 10
-
-
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 2.23607
-[ -1 2 0 ] 
-
-gauss with bound size: 2
-[ -2 0 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 283]]
-
-voronoi duration 865
-
-
-gauss iter : 314|
-gauss duration: 346
-
-
-list iter : 233|
-list duration: 343
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
-
-
-early list iter : 2|
-list with bound duration: 4
-shortest with bound norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 293]]
-
-voronoi duration 1652
-
-
-gauss iter : 308|
-gauss duration: 463
-
-
-list iter : 231|
-list duration: 355
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 1|
-list with bound duration: 3found different norms of vectors
-list with bound size: 1
-[ 1 0 0 ] 
-
-gauss with bound size: 2
-[ 0 2 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 307]]
-
-voronoi duration 850
+voronoi duration 4412
 
 
 gauss iter : 324|
-gauss duration: 577
+gauss duration: 2555
 
 
 list iter : 233|
-list duration: 345
+list duration: 1245
 bound 2.52303
 early exit gauss iter : 1|
-gauss with bound duration: 4
-
-
-early list iter : 4|
-list with bound duration: 6found different norms of vectors
-list with bound size: 2
-[ 0 -2 0 ] 
-
-gauss with bound size: 1
-[ 1 0 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 311]]
-
-voronoi duration 935
-
-
-gauss iter : 301|
-gauss duration: 370
-
-
-list iter : 232|
-list duration: 308
-bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 5
-
-
-early list iter : 5|
-list with bound duration: 7found different norms of vectors
-list with bound size: 2
-[ 0 2 0 ] 
-
-gauss with bound size: 1.41421
-[ 1 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 313]]
-
-voronoi duration 4704
-
-
-gauss iter : 305|
-gauss duration: 637
-
-
-list iter : 235|
-list duration: 360
-bound 2.52303
-early exit gauss iter : 4|
-gauss with bound duration: 8
-
-
-early list iter : 2|
-list with bound duration: 4found different norms of vectors
-list with bound size: 1
-[ 1 0 0 ] 
-
-gauss with bound size: 2.23607
-[ 1 2 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 317]]
-
-voronoi duration 1080
-
-
-gauss iter : 313|
-gauss duration: 353
-
-
-list iter : 237|
-list duration: 351
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
-
-
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1.41421
-[ 1 1 0 ] 
-
-gauss with bound size: 1
-[ -1 0 0 ] 
-found different norms of vectors
-voronoi size: 1
-[ 0 1 0 ] 
-
-gauss size: 634.001
-[ 0 1 -634 ] 
-
-list size: 1
-[ -1 0 0 ] 
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 331]]
-
-voronoi duration 777
-
-
-gauss iter : 341|
-gauss duration: 436
-
-
-list iter : 234|
-list duration: 797
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 6
-
-
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1
-[ 1 0 0 ] 
-
-gauss with bound size: 2.23607
-[ 1 -2 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 337]]
-
-voronoi duration 1299
-
-
-gauss iter : 269|
-gauss duration: 357
-
-
-list iter : 234|
-list duration: 339
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 2|
-list with bound duration: 4found different norms of vectors
-list with bound size: 2
-[ 2 0 0 ] 
-
-gauss with bound size: 1
-[ -1 0 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 347]]
-
-voronoi duration 807
-
-
-gauss iter : 279|
-gauss duration: 366
-
-
-list iter : 230|
-list duration: 491
-bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 7
-
-
-early list iter : 4|
-list with bound duration: 6found different norms of vectors
-list with bound size: 2
-[ 2 0 0 ] 
-
-gauss with bound size: 2.23607
-[ -1 -2 0 ] 
-found different norms of vectors
-voronoi size: 1
-[ 0 1 0 ] 
-
-gauss size: 347.001
-[ -1 0 -347 ] 
-
-list size: 1
-[ -1 0 0 ] 
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 349]]
-
-voronoi duration 782
-
-
-gauss iter : 337|
-gauss duration: 355
-
-
-list iter : 236|
-list duration: 349
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 6|
-list with bound duration: 9
-shortest with bound norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 353]]
-
-voronoi duration 1159
-
-
-gauss iter : 290|
-gauss duration: 577
-
-
-list iter : 236|
-list duration: 349
-bound 2.52303
-early exit gauss iter : 5|
-gauss with bound duration: 8
+gauss with bound duration: 13
 
 
 early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 1
-[ -1 0 0 ] 
-
-gauss with bound size: 2.23607
-[ -1 -2 0 ] 
-found different norms of vectors
-voronoi size: 1
-[ 0 1 0 ] 
-
-gauss size: 353.001
-[ 0 1 -353 ] 
-
-list size: 1
-[ 0 -1 0 ] 
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 359]]
-
-voronoi duration 968
-
-
-gauss iter : 311|
-gauss duration: 355
-
-
-list iter : 231|
-list duration: 340
-bound 2.52303
-early exit gauss iter : 5|
-gauss with bound duration: 9
-
-
-early list iter : 5|
-list with bound duration: 8found different norms of vectors
-list with bound size: 2.23607
-[ -2 1 0 ] 
-
-gauss with bound size: 2
-[ 2 0 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 367]]
-
-voronoi duration 1547
-
-
-gauss iter : 292|
-gauss duration: 393
-
-
-list iter : 234|
-list duration: 339
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
-
-
-early list iter : 6|
-list with bound duration: 9
-shortest with bound norm2
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 373]]
-
-voronoi duration 767
-
-
-gauss iter : 296|
-gauss duration: 354
-
-
-list iter : 232|
-list duration: 326
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1
-[ 0 1 0 ] 
-
-gauss with bound size: 2.23607
-[ 1 2 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 379]]
-
-voronoi duration 925
-
-
-gauss iter : 283|
-gauss duration: 361
-
-
-list iter : 232|
-list duration: 329
-bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 7
-
-
-early list iter : 2|
-list with bound duration: 4found different norms of vectors
-list with bound size: 1
-[ -1 0 0 ] 
-
-gauss with bound size: 2.23607
-[ 1 -2 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 383]]
-
-voronoi duration 740
-
-
-gauss iter : 315|
-gauss duration: 485
-
-
-list iter : 238|
-list duration: 335
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 2
-[ 0 2 0 ] 
-
-gauss with bound size: 1
-[ -1 0 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 389]]
-
-voronoi duration 866
-
-
-gauss iter : 308|
-gauss duration: 367
-
-
-list iter : 234|
-list duration: 836
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 4
-
-
-early list iter : 10|
-list with bound duration: 15
+list with bound duration: 20
 shortest with bound norm5
 
 $$$$$$$$$$$$$$$$$$$$$$$$
@@ -2473,31 +960,63 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
+-1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 397]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 127]]
 
-voronoi duration 1105
+voronoi duration 350
 
 
-gauss iter : 302|
-gauss duration: 759
+gauss iter : 298|
+gauss duration: 2160
+
+
+list iter : 238|
+list duration: 1727
+bound 2.52303
+early exit gauss iter : 3|
+gauss with bound duration: 15
+
+
+early list iter : 1|
+list with bound duration: 7found different norms of vectors
+list with bound size: 1.41421
+[ -1 -1 0 ] 
+
+gauss with bound size: 1
+[ 0 -1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 131]]
+
+voronoi duration 407
+
+
+gauss iter : 348|
+gauss duration: 1456
 
 
 list iter : 231|
-list duration: 326
+list duration: 1612
 bound 2.52303
 early exit gauss iter : 1|
-gauss with bound duration: 3
+gauss with bound duration: 67
 
 
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
+early list iter : 1|
+list with bound duration: 10found different norms of vectors
 list with bound size: 1
-[ -1 0 0 ] 
+[ 0 1 0 ] 
 
 gauss with bound size: 1.41421
 [ 1 -1 0 ] 
@@ -2505,164 +1024,33 @@ gauss with bound size: 1.41421
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
+1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 401]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 137]]
 
-voronoi duration 2464
-
-
-gauss iter : 294|
-gauss duration: 1319
-
-
-list iter : 231|
-list duration: 418
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 4
-
-
-early list iter : 1|
-list with bound duration: 3found different norms of vectors
-list with bound size: 2.23607
-[ -2 -1 0 ] 
-
-gauss with bound size: 1
-[ 0 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 409]]
-
-voronoi duration 2135
-
-
-gauss iter : 321|
-gauss duration: 353
-
-
-list iter : 229|
-list duration: 319
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 1|
-list with bound duration: 3found different norms of vectors
-list with bound size: 2
-[ 0 -2 0 ] 
-
-gauss with bound size: 1
-[ 0 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 419]]
-
-voronoi duration 872
+voronoi duration 441
 
 
 gauss iter : 309|
-gauss duration: 567
+gauss duration: 14153
 
 
 list iter : 232|
-list duration: 619
+list duration: 4387
 bound 2.52303
 early exit gauss iter : 4|
-gauss with bound duration: 9
-
-
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 2
-[ 2 0 0 ] 
-
-gauss with bound size: 2.23607
-[ 1 -2 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 421]]
-
-voronoi duration 813
-
-
-gauss iter : 287|
-gauss duration: 442
-
-
-list iter : 232|
-list duration: 343
-bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 7
+gauss with bound duration: 17
 
 
 early list iter : 1|
-list with bound duration: 2
-shortest with bound norm1
+list with bound duration: 7
+shortest with bound norm5
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-found different norms of vectors
-voronoi size: 1
-[ 0 1 0 ] 
-
-gauss size: 421.001
-[ -1 0 -421 ] 
-
-list size: 1
-[ -1 0 0 ] 
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 431]]
-
-voronoi duration 930
-
-
-gauss iter : 313|
-gauss duration: 349
-
-
-list iter : 238|
-list duration: 349
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 5
-
-
-early list iter : 1|
-list with bound duration: 6
-shortest with bound norm2
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 -1 0 
+2 -1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
@@ -2673,61 +1061,29 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 433]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 139]]
 
-voronoi duration 5605
-
-
-gauss iter : 322|
-gauss duration: 360
+voronoi duration 941
 
 
-list iter : 232|
-list duration: 316
+gauss iter : 306|
+gauss duration: 3157
+
+
+list iter : 230|
+list duration: 4731
 bound 2.52303
 early exit gauss iter : 2|
-gauss with bound duration: 5
+gauss with bound duration: 16
 
 
-early list iter : 2|
-list with bound duration: 4found different norms of vectors
-list with bound size: 2.23607
-[ 1 -2 0 ] 
-
-gauss with bound size: 1
+early list iter : 5|
+list with bound duration: 25found different norms of vectors
+list with bound size: 1
 [ 1 0 0 ] 
 
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 439]]
-
-voronoi duration 1058
-
-
-gauss iter : 321|
-gauss duration: 453
-
-
-list iter : 234|
-list duration: 338
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 2
-[ -2 0 0 ] 
-
-gauss with bound size: 1
-[ -1 0 0 ] 
+gauss with bound size: 1.41421
+[ 1 1 0 ] 
 
 shortest with norm1
 
@@ -2737,24 +1093,56 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 443]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 149]]
 
-voronoi duration 931
-
-
-gauss iter : 316|
-gauss duration: 390
+voronoi duration 476
 
 
-list iter : 234|
-list duration: 354
+gauss iter : 298|
+gauss duration: 4332
+
+
+list iter : 233|
+list duration: 3145
 bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 6
+early exit gauss iter : 2|
+gauss with bound duration: 17
 
 
 early list iter : 2|
-list with bound duration: 3
+list with bound duration: 11found different norms of vectors
+list with bound size: 2.23607
+[ 1 2 0 ] 
+
+gauss with bound size: 1
+[ 1 0 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 151]]
+
+voronoi duration 1574
+
+
+gauss iter : 300|
+gauss duration: 2747
+
+
+list iter : 228|
+list duration: 3219
+bound 2.52303
+early exit gauss iter : 6|
+gauss with bound duration: 32
+
+
+early list iter : 7|
+list with bound duration: 34
 shortest with bound norm2
 
 $$$$$$$$$$$$$$$$$$$$$$$$
@@ -2769,28 +1157,92 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 449]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 157]]
 
-voronoi duration 925
-
-
-gauss iter : 321|
-gauss duration: 455
+voronoi duration 596
 
 
-list iter : 229|
-list duration: 320
+gauss iter : 306|
+gauss duration: 3750
+
+
+list iter : 233|
+list duration: 3984
 bound 2.52303
-early exit gauss iter : 4|
-gauss with bound duration: 6
+early exit gauss iter : 1|
+gauss with bound duration: 13
 
 
-early list iter : 7|
-list with bound duration: 9
-shortest with bound norm4
+early list iter : 1|
+list with bound duration: 7found different norms of vectors
+list with bound size: 1.41421
+[ -1 1 0 ] 
+
+gauss with bound size: 1
+[ 0 1 0 ] 
+
+shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 2 0 
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 163]]
+
+voronoi duration 464
+
+
+gauss iter : 341|
+gauss duration: 4221
+
+
+list iter : 235|
+list duration: 3925
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 11
+
+
+early list iter : 1|
+list with bound duration: 13found different norms of vectors
+list with bound size: 1.41421
+[ 1 -1 0 ] 
+
+gauss with bound size: 1
+[ -1 0 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 167]]
+
+voronoi duration 1604
+
+
+gauss iter : 279|
+gauss duration: 1903
+
+
+list iter : 235|
+list duration: 2315
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 12
+
+
+early list iter : 3|
+list with bound duration: 16
+shortest with bound norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
@@ -2801,24 +1253,446 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 457]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 173]]
 
-voronoi duration 1328
-
-
-gauss iter : 323|
-gauss duration: 389
+voronoi duration 233
 
 
-list iter : 234|
-list duration: 353
+gauss iter : 298|
+gauss duration: 950
+
+
+list iter : 236|
+list duration: 1368
+bound 2.52303
+early exit gauss iter : 3|
+gauss with bound duration: 26
+
+
+early list iter : 3|
+list with bound duration: 17
+shortest with bound norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 179]]
+
+voronoi duration 298
+
+
+gauss iter : 317|
+gauss duration: 2334
+
+
+list iter : 230|
+list duration: 2480
 bound 2.52303
 early exit gauss iter : 1|
-gauss with bound duration: 3
+gauss with bound duration: 11
 
 
 early list iter : 2|
-list with bound duration: 4found different norms of vectors
+list with bound duration: 12found different norms of vectors
+list with bound size: 2.23607
+[ -2 1 0 ] 
+
+gauss with bound size: 1
+[ -1 0 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 181]]
+
+voronoi duration 377
+
+
+gauss iter : 296|
+gauss duration: 2318
+
+
+list iter : 234|
+list duration: 2714
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 11
+
+
+early list iter : 3|
+list with bound duration: 21found different norms of vectors
+list with bound size: 2.23607
+[ 1 -2 0 ] 
+
+gauss with bound size: 1
+[ 1 0 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 191]]
+
+voronoi duration 131
+
+
+gauss iter : 335|
+gauss duration: 2255
+
+
+list iter : 235|
+list duration: 2812
+bound 2.52303
+early exit gauss iter : 4|
+gauss with bound duration: 25
+
+
+early list iter : 2|
+list with bound duration: 11found different norms of vectors
+list with bound size: 1
+[ 1 0 0 ] 
+
+gauss with bound size: 1.41421
+[ -1 1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 193]]
+
+voronoi duration 334
+
+
+gauss iter : 301|
+gauss duration: 2144
+
+
+list iter : 231|
+list duration: 2225
+bound 2.52303
+early exit gauss iter : 2|
+gauss with bound duration: 19
+
+
+early list iter : 6|
+list with bound duration: 27found different norms of vectors
+list with bound size: 2.23607
+[ -2 -1 0 ] 
+
+gauss with bound size: 1
+[ 0 -1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 197]]
+
+voronoi duration 449
+
+
+gauss iter : 325|
+gauss duration: 2230
+
+
+list iter : 235|
+list duration: 2500
+bound 2.52303
+early exit gauss iter : 5|
+gauss with bound duration: 26
+
+
+early list iter : 5|
+list with bound duration: 22found different norms of vectors
+list with bound size: 2
+[ 0 2 0 ] 
+
+gauss with bound size: 1.41421
+[ 1 -1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 199]]
+
+voronoi duration 137
+
+
+gauss iter : 311|
+gauss duration: 1820
+
+
+list iter : 234|
+list duration: 2447
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 11
+
+
+early list iter : 1|
+list with bound duration: 7
+shortest with bound norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+found different norms of vectors
+voronoi size: 1
+[ 0 1 0 ] 
+
+gauss size: 199.003
+[ -1 0 -199 ] 
+
+list size: 1
+[ -1 0 0 ] 
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 211]]
+
+voronoi duration 151
+
+
+gauss iter : 310|
+gauss duration: 1626
+
+
+list iter : 233|
+list duration: 2013
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 13
+
+
+early list iter : 2|
+list with bound duration: 22found different norms of vectors
+list with bound size: 1
+[ 0 -1 0 ] 
+
+gauss with bound size: 1.41421
+[ -1 1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 223]]
+
+voronoi duration 345
+
+
+gauss iter : 277|
+gauss duration: 1952
+
+
+list iter : 232|
+list duration: 2088
+bound 2.52303
+early exit gauss iter : 4|
+gauss with bound duration: 24
+
+
+early list iter : 4|
+list with bound duration: 25
+shortest with bound norm2
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 227]]
+
+voronoi duration 421
+
+
+gauss iter : 290|
+gauss duration: 2164
+
+
+list iter : 237|
+list duration: 2787
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 12
+
+
+early list iter : 4|
+list with bound duration: 19found different norms of vectors
+list with bound size: 2
+[ 0 2 0 ] 
+
+gauss with bound size: 1.41421
+[ 1 -1 0 ] 
+found different norms of vectors
+voronoi size: 1
+[ 0 1 0 ] 
+
+gauss size: 227.002
+[ 0 1 -227 ] 
+
+list size: 1
+[ 0 -1 0 ] 
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 229]]
+
+voronoi duration 282
+
+
+gauss iter : 304|
+gauss duration: 1941
+
+
+list iter : 237|
+list duration: 2246
+bound 2.52303
+early exit gauss iter : 3|
+gauss with bound duration: 26
+
+
+early list iter : 1|
+list with bound duration: 9
+shortest with bound norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 233]]
+
+voronoi duration 839
+
+
+gauss iter : 292|
+gauss duration: 1657
+
+
+list iter : 237|
+list duration: 2168
+bound 2.52303
+early exit gauss iter : 5|
+gauss with bound duration: 23
+
+
+early list iter : 6|
+list with bound duration: 30found different norms of vectors
+list with bound size: 1.41421
+[ -1 1 0 ] 
+
+gauss with bound size: 2.23607
+[ 2 -1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 239]]
+
+voronoi duration 310
+
+
+gauss iter : 315|
+gauss duration: 2137
+
+
+list iter : 235|
+list duration: 2658
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 12
+
+
+early list iter : 6|
+list with bound duration: 30found different norms of vectors
+list with bound size: 1.41421
+[ -1 -1 0 ] 
+
+gauss with bound size: 1
+[ 1 0 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 241]]
+
+voronoi duration 233
+
+
+gauss iter : 273|
+gauss duration: 995
+
+
+list iter : 233|
+list duration: 4457
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 9
+
+
+early list iter : 1|
+list with bound duration: 7found different norms of vectors
 list with bound size: 2.23607
 [ 1 -2 0 ] 
 
@@ -2833,29 +1707,1158 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 461]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 251]]
 
-voronoi duration 866
+voronoi duration 442
 
 
-gauss iter : 294|
-gauss duration: 340
+gauss iter : 317|
+gauss duration: 2050
+
+
+list iter : 232|
+list duration: 2343
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 11
+
+
+early list iter : 5|
+list with bound duration: 23found different norms of vectors
+list with bound size: 1.41421
+[ 1 -1 0 ] 
+
+gauss with bound size: 1
+[ -1 0 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 257]]
+
+voronoi duration 149
+
+
+gauss iter : 315|
+gauss duration: 2235
+
+
+list iter : 233|
+list duration: 2603
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 13
+
+
+early list iter : 6|
+list with bound duration: 26found different norms of vectors
+list with bound size: 1
+[ 1 0 0 ] 
+
+gauss with bound size: 2.23607
+[ 2 -1 0 ] 
+found different norms of vectors
+voronoi size: 1
+[ 0 1 0 ] 
+
+gauss size: 257.002
+[ 0 1 257 ] 
+
+list size: 1
+[ -1 0 0 ] 
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 263]]
+
+voronoi duration 143
+
+
+gauss iter : 310|
+gauss duration: 2361
 
 
 list iter : 230|
-list duration: 325
+list duration: 1501
 bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
+early exit gauss iter : 2|
+gauss with bound duration: 16
 
 
 early list iter : 1|
-list with bound duration: 2found different norms of vectors
+list with bound duration: 6
+shortest with bound norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 269]]
+
+voronoi duration 801
+
+
+gauss iter : 305|
+gauss duration: 3369
+
+
+list iter : 234|
+list duration: 1795
+bound 2.52303
+early exit gauss iter : 2|
+gauss with bound duration: 17
+
+
+early list iter : 4|
+list with bound duration: 21
+shortest with bound norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 271]]
+
+voronoi duration 239
+
+
+gauss iter : 324|
+gauss duration: 2700
+
+
+list iter : 234|
+list duration: 4316
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 11
+
+
+early list iter : 1|
+list with bound duration: 7
+shortest with bound norm2
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 277]]
+
+voronoi duration 131
+
+
+gauss iter : 279|
+gauss duration: 2259
+
+
+list iter : 232|
+list duration: 2416
+bound 2.52303
+early exit gauss iter : 5|
+gauss with bound duration: 22
+
+
+early list iter : 6|
+list with bound duration: 26
+shortest with bound norm5
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 -2 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 281]]
+
+voronoi duration 133
+
+
+gauss iter : 333|
+gauss duration: 2387
+
+
+list iter : 235|
+list duration: 2694
+bound 2.52303
+early exit gauss iter : 2|
+gauss with bound duration: 17
+
+
+early list iter : 1|
+list with bound duration: 7
+shortest with bound norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 283]]
+
+voronoi duration 137
+
+
+gauss iter : 300|
+gauss duration: 2670
+
+
+list iter : 233|
+list duration: 3029
+bound 2.52303
+early exit gauss iter : 2|
+gauss with bound duration: 17
+
+
+early list iter : 7|
+list with bound duration: 30found different norms of vectors
+list with bound size: 2
+[ 0 2 0 ] 
+
+gauss with bound size: 1.41421
+[ -1 1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 293]]
+
+voronoi duration 127
+
+
+gauss iter : 307|
+gauss duration: 1843
+
+
+list iter : 234|
+list duration: 1028
+bound 2.52303
+early exit gauss iter : 2|
+gauss with bound duration: 14
+
+
+early list iter : 3|
+list with bound duration: 15found different norms of vectors
+list with bound size: 1.41421
+[ 1 1 0 ] 
+
+gauss with bound size: 2.23607
+[ 1 -2 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 307]]
+
+voronoi duration 334
+
+
+gauss iter : 331|
+gauss duration: 6616
+
+
+list iter : 235|
+list duration: 2009
+bound 2.52303
+early exit gauss iter : 4|
+gauss with bound duration: 24
+
+
+early list iter : 3|
+list with bound duration: 15found different norms of vectors
+list with bound size: 1
+[ 1 0 0 ] 
+
+gauss with bound size: 2.23607
+[ -1 2 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 311]]
+
+voronoi duration 164
+
+
+gauss iter : 294|
+gauss duration: 3019
+
+
+list iter : 230|
+list duration: 3498
+bound 2.52303
+early exit gauss iter : 3|
+gauss with bound duration: 16
+
+
+early list iter : 7|
+list with bound duration: 30found different norms of vectors
+list with bound size: 1.41421
+[ 1 1 0 ] 
+
+gauss with bound size: 1
+[ 0 1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 313]]
+
+voronoi duration 478
+
+
+gauss iter : 295|
+gauss duration: 3836
+
+
+list iter : 236|
+list duration: 2379
+bound 2.52303
+early exit gauss iter : 3|
+gauss with bound duration: 21
+
+
+early list iter : 6|
+list with bound duration: 26found different norms of vectors
+list with bound size: 2.23607
+[ -2 1 0 ] 
+
+gauss with bound size: 1.41421
+[ -1 1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 317]]
+
+voronoi duration 136
+
+
+gauss iter : 322|
+gauss duration: 2006
+
+
+list iter : 238|
+list duration: 2117
+bound 2.52303
+early exit gauss iter : 2|
+gauss with bound duration: 22
+
+
+early list iter : 2|
+list with bound duration: 15
+shortest with bound norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 331]]
+
+voronoi duration 359
+
+
+gauss iter : 291|
+gauss duration: 3657
+
+
+list iter : 235|
+list duration: 3271
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 15
+
+
+early list iter : 5|
+list with bound duration: 25found different norms of vectors
+list with bound size: 1.41421
+[ -1 -1 0 ] 
+
+gauss with bound size: 1
+[ -1 0 0 ] 
+found different norms of vectors
+voronoi size: 1
+[ 0 1 0 ] 
+
+gauss size: 331.002
+[ 0 -1 331 ] 
+
+list size: 1
+[ 1 0 0 ] 
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 337]]
+
+voronoi duration 175
+
+
+gauss iter : 300|
+gauss duration: 2562
+
+
+list iter : 230|
+list duration: 1662
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 16
+
+
+early list iter : 4|
+list with bound duration: 28found different norms of vectors
+list with bound size: 2
+[ 0 -2 0 ] 
+
+gauss with bound size: 1
+[ 0 1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 347]]
+
+voronoi duration 218
+
+
+gauss iter : 279|
+gauss duration: 2575
+
+
+list iter : 231|
+list duration: 2193
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 13
+
+
+early list iter : 1|
+list with bound duration: 7found different norms of vectors
+list with bound size: 2.23607
+[ 1 2 0 ] 
+
+gauss with bound size: 1.41421
+[ -1 1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 349]]
+
+voronoi duration 325
+
+
+gauss iter : 287|
+gauss duration: 2131
+
+
+list iter : 233|
+list duration: 2211
+bound 2.52303
+early exit gauss iter : 5|
+gauss with bound duration: 26
+
+
+early list iter : 3|
+list with bound duration: 20found different norms of vectors
+list with bound size: 2
+[ 2 0 0 ] 
+
+gauss with bound size: 1.41421
+[ 1 1 0 ] 
+found different norms of vectors
+voronoi size: 1
+[ 0 1 0 ] 
+
+gauss size: 349.001
+[ 1 0 -349 ] 
+
+list size: 1
+[ -1 0 0 ] 
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 353]]
+
+voronoi duration 301
+
+
+gauss iter : 327|
+gauss duration: 2627
+
+
+list iter : 230|
+list duration: 5160
+bound 2.52303
+early exit gauss iter : 2|
+gauss with bound duration: 18
+
+
+early list iter : 3|
+list with bound duration: 21found different norms of vectors
+list with bound size: 2
+[ -2 0 0 ] 
+
+gauss with bound size: 1.41421
+[ 1 -1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 359]]
+
+voronoi duration 340
+
+
+gauss iter : 310|
+gauss duration: 2635
+
+
+list iter : 232|
+list duration: 3201
+bound 2.52303
+early exit gauss iter : 3|
+gauss with bound duration: 23
+
+
+early list iter : 3|
+list with bound duration: 16found different norms of vectors
+list with bound size: 2
+[ -2 0 0 ] 
+
+gauss with bound size: 1.41421
+[ -1 1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 367]]
+
+voronoi duration 522
+
+
+gauss iter : 303|
+gauss duration: 3097
+
+
+list iter : 229|
+list duration: 4118
+bound 2.52303
+early exit gauss iter : 3|
+gauss with bound duration: 22
+
+
+early list iter : 4|
+list with bound duration: 18
+shortest with bound norm2
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 373]]
+
+voronoi duration 483
+
+
+gauss iter : 318|
+gauss duration: 2006
+
+
+list iter : 237|
+list duration: 2282
+bound 2.52303
+early exit gauss iter : 2|
+gauss with bound duration: 16
+
+
+early list iter : 4|
+list with bound duration: 18found different norms of vectors
+list with bound size: 1.41421
+[ 1 1 0 ] 
+
+gauss with bound size: 1
+[ 1 0 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 379]]
+
+voronoi duration 204
+
+
+gauss iter : 315|
+gauss duration: 2097
+
+
+list iter : 236|
+list duration: 2266
+bound 2.52303
+early exit gauss iter : 2|
+gauss with bound duration: 14
+
+
+early list iter : 8|
+list with bound duration: 33found different norms of vectors
+list with bound size: 2
+[ -2 0 0 ] 
+
+gauss with bound size: 1.41421
+[ -1 1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 383]]
+
+voronoi duration 321
+
+
+gauss iter : 331|
+gauss duration: 2001
+
+
+list iter : 229|
+list duration: 2002
+bound 2.52303
+early exit gauss iter : 2|
+gauss with bound duration: 15
+
+
+early list iter : 8|
+list with bound duration: 37found different norms of vectors
+list with bound size: 2.23607
+[ 1 2 0 ] 
+
+gauss with bound size: 1
+[ -1 0 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 389]]
+
+voronoi duration 186
+
+
+gauss iter : 314|
+gauss duration: 1566
+
+
+list iter : 235|
+list duration: 2322
+bound 2.52303
+early exit gauss iter : 4|
+gauss with bound duration: 19
+
+
+early list iter : 6|
+list with bound duration: 26found different norms of vectors
+list with bound size: 2
+[ 0 2 0 ] 
+
+gauss with bound size: 1
+[ 0 -1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 397]]
+
+voronoi duration 128
+
+
+gauss iter : 342|
+gauss duration: 1211
+
+
+list iter : 235|
+list duration: 9114
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 12
+
+
+early list iter : 2|
+list with bound duration: 11
+shortest with bound norm5
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-2 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 401]]
+
+voronoi duration 368
+
+
+gauss iter : 270|
+gauss duration: 2895
+
+
+list iter : 229|
+list duration: 3855
+bound 2.52303
+early exit gauss iter : 6|
+gauss with bound duration: 37
+
+
+early list iter : 1|
+list with bound duration: 11found different norms of vectors
+list with bound size: 1
+[ 0 -1 0 ] 
+
+gauss with bound size: 1.41421
+[ -1 1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 409]]
+
+voronoi duration 509
+
+
+gauss iter : 296|
+gauss duration: 2358
+
+
+list iter : 233|
+list duration: 3471
+bound 2.52303
+early exit gauss iter : 2|
+gauss with bound duration: 17
+
+
+early list iter : 5|
+list with bound duration: 27
+shortest with bound norm2
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 419]]
+
+voronoi duration 849
+
+
+gauss iter : 310|
+gauss duration: 3317
+
+
+list iter : 231|
+list duration: 3075
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 14
+
+
+early list iter : 1|
+list with bound duration: 11found different norms of vectors
+list with bound size: 2.23607
+[ 1 2 0 ] 
+
+gauss with bound size: 1.41421
+[ 1 1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 421]]
+
+voronoi duration 682
+
+
+gauss iter : 293|
+gauss duration: 6140
+
+
+list iter : 230|
+list duration: 5107
+bound 2.52303
+early exit gauss iter : 2|
+gauss with bound duration: 18
+
+
+early list iter : 3|
+list with bound duration: 19found different norms of vectors
+list with bound size: 2.23607
+[ 2 -1 0 ] 
+
+gauss with bound size: 2
+[ 2 0 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 431]]
+
+voronoi duration 162
+
+
+gauss iter : 296|
+gauss duration: 2506
+
+
+list iter : 235|
+list duration: 2684
+bound 2.52303
+early exit gauss iter : 8|
+gauss with bound duration: 29
+
+
+early list iter : 3|
+list with bound duration: 14found different norms of vectors
+list with bound size: 1.41421
+[ -1 1 0 ] 
+
+gauss with bound size: 1
+[ 1 0 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 433]]
+
+voronoi duration 167
+
+
+gauss iter : 270|
+gauss duration: 2789
+
+
+list iter : 233|
+list duration: 2259
+bound 2.52303
+early exit gauss iter : 3|
+gauss with bound duration: 23
+
+
+early list iter : 3|
+list with bound duration: 20found different norms of vectors
+list with bound size: 2
+[ 0 -2 0 ] 
+
+gauss with bound size: 1
+[ 0 -1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 439]]
+
+voronoi duration 474
+
+
+gauss iter : 318|
+gauss duration: 2027
+
+
+list iter : 230|
+list duration: 2498
+bound 2.52303
+early exit gauss iter : 7|
+gauss with bound duration: 30
+
+
+early list iter : 2|
+list with bound duration: 11found different norms of vectors
 list with bound size: 1
 [ 0 1 0 ] 
 
-gauss with bound size: 2.23607
-[ 2 1 0 ] 
+gauss with bound size: 1.41421
+[ 1 1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 443]]
+
+voronoi duration 366
+
+
+gauss iter : 321|
+gauss duration: 1999
+
+
+list iter : 234|
+list duration: 2024
+bound 2.52303
+early exit gauss iter : 2|
+gauss with bound duration: 16
+
+
+early list iter : 3|
+list with bound duration: 18found different norms of vectors
+list with bound size: 2
+[ 0 2 0 ] 
+
+gauss with bound size: 1.41421
+[ -1 1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 449]]
+
+voronoi duration 360
+
+
+gauss iter : 279|
+gauss duration: 2048
+
+
+list iter : 231|
+list duration: 2306
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 11
+
+
+early list iter : 5|
+list with bound duration: 26found different norms of vectors
+list with bound size: 2.23607
+[ 2 -1 0 ] 
+
+gauss with bound size: 1
+[ 1 0 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 457]]
+
+voronoi duration 378
+
+
+gauss iter : 347|
+gauss duration: 1945
+
+
+list iter : 237|
+list duration: 2227
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 12
+
+
+early list iter : 1|
+list with bound duration: 7
+shortest with bound norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 461]]
+
+voronoi duration 220
+
+
+gauss iter : 306|
+gauss duration: 2244
+
+
+list iter : 231|
+list duration: 2138
+bound 2.52303
+early exit gauss iter : 5|
+gauss with bound duration: 26
+
+
+early list iter : 4|
+list with bound duration: 18found different norms of vectors
+list with bound size: 2.23607
+[ -1 2 0 ] 
+
+gauss with bound size: 1.41421
+[ -1 -1 0 ] 
 
 shortest with norm1
 
@@ -2867,61 +2870,122 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 463]]
 
-voronoi duration 3912
+voronoi duration 330
 
 
-gauss iter : 290|
-gauss duration: 1402
+gauss iter : 314|
+gauss duration: 2006
 
 
 list iter : 232|
-list duration: 339
+list duration: 2088
 bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 5
+early exit gauss iter : 1|
+gauss with bound duration: 10
 
 
 early list iter : 1|
-list with bound duration: 2
-shortest with bound norm1
+list with bound duration: 7found different norms of vectors
+list with bound size: 2.23607
+[ -2 -1 0 ] 
 
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-found different norms of vectors
-voronoi size: 1
-[ 0 1 0 ] 
-
-gauss size: 463.001
-[ 0 -1 -463 ] 
-
-list size: 1
+gauss with bound size: 1
 [ 0 -1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 467]]
 
-voronoi duration 1242
+voronoi duration 383
 
 
-gauss iter : 282|
-gauss duration: 448
+gauss iter : 312|
+gauss duration: 1416
 
 
-list iter : 233|
-list duration: 333
+list iter : 234|
+list duration: 2027
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 4
+early exit gauss iter : 1|
+gauss with bound duration: 11
 
 
-early list iter : 1|
-list with bound duration: 5
-shortest with bound norm2
+early list iter : 2|
+list with bound duration: 11found different norms of vectors
+list with bound size: 1
+[ 0 -1 0 ] 
+
+gauss with bound size: 1.41421
+[ -1 1 0 ] 
+
+shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
--1 -1 0 
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 479]]
+
+voronoi duration 5217
+
+
+gauss iter : 306|
+gauss duration: 3878
+
+
+list iter : 234|
+list duration: 2367
+bound 2.52303
+early exit gauss iter : 5|
+gauss with bound duration: 28
+
+
+early list iter : 4|
+list with bound duration: 19found different norms of vectors
+list with bound size: 2
+[ 0 2 0 ] 
+
+gauss with bound size: 2.23607
+[ 2 -1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 487]]
+
+voronoi duration 212
+
+
+gauss iter : 306|
+gauss duration: 949
+
+
+list iter : 235|
+list duration: 5314
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 14
+
+
+early list iter : 7|
+list with bound duration: 35
+shortest with bound norm5
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-2 -1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
@@ -2932,24 +2996,24 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 479]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 491]]
 
-voronoi duration 851
-
-
-gauss iter : 292|
-gauss duration: 627
+voronoi duration 398
 
 
-list iter : 231|
-list duration: 335
+gauss iter : 300|
+gauss duration: 2020
+
+
+list iter : 232|
+list duration: 2005
 bound 2.52303
-early exit gauss iter : 4|
-gauss with bound duration: 7
+early exit gauss iter : 2|
+gauss with bound duration: 16
 
 
 early list iter : 1|
-list with bound duration: 5
+list with bound duration: 20
 shortest with bound norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
@@ -2959,130 +3023,66 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 487]]
-
-voronoi duration 1558
-
-
-gauss iter : 325|
-gauss duration: 383
-
-
-list iter : 238|
-list duration: 355
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 1.41421
-[ 1 -1 0 ] 
-
-gauss with bound size: 2.23607
-[ -2 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 491]]
-
-voronoi duration 1738
-
-
-gauss iter : 299|
-gauss duration: 417
-
-
-list iter : 236|
-list duration: 335
-bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 6
-
-
-early list iter : 4|
-list with bound duration: 6found different norms of vectors
-list with bound size: 1
-[ 0 -1 0 ] 
-
-gauss with bound size: 2.23607
-[ 1 2 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
+1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 499]]
 
-voronoi duration 960
+voronoi duration 284
 
 
-gauss iter : 297|
-gauss duration: 397
+gauss iter : 305|
+gauss duration: 2176
 
 
-list iter : 236|
-list duration: 348
+list iter : 230|
+list duration: 1936
 bound 2.52303
 early exit gauss iter : 3|
-gauss with bound duration: 7
+gauss with bound duration: 17
 
 
-early list iter : 2|
-list with bound duration: 4found different norms of vectors
-list with bound size: 1
-[ 0 1 0 ] 
+early list iter : 3|
+list with bound duration: 22found different norms of vectors
+list with bound size: 1.41421
+[ -1 1 0 ] 
 
-gauss with bound size: 1.41421
-[ 1 -1 0 ] 
+gauss with bound size: 1
+[ 1 0 0 ] 
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
+1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 503]]
 
-voronoi duration 6685
+voronoi duration 263
 
 
-gauss iter : 333|
-gauss duration: 8536
+gauss iter : 300|
+gauss duration: 2024
 
 
-list iter : 236|
-list duration: 437
+list iter : 230|
+list duration: 2650
 bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 5
+early exit gauss iter : 2|
+gauss with bound duration: 16
 
 
-early list iter : 4|
-list with bound duration: 7found different norms of vectors
-list with bound size: 1.41421
-[ 1 -1 0 ] 
+early list iter : 2|
+list with bound duration: 11
+shortest with bound norm1
 
-gauss with bound size: 1
-[ -1 0 0 ] 
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
 
@@ -3094,24 +3094,24 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 509]]
 
-voronoi duration 2572
+voronoi duration 128
 
 
-gauss iter : 302|
-gauss duration: 356
+gauss iter : 327|
+gauss duration: 2288
 
 
 list iter : 233|
-list duration: 343
+list duration: 2307
 bound 2.52303
 early exit gauss iter : 1|
-gauss with bound duration: 4
+gauss with bound duration: 12
 
 
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 2
-[ 0 2 0 ] 
+early list iter : 1|
+list with bound duration: 7found different norms of vectors
+list with bound size: 1
+[ -1 0 0 ] 
 
 gauss with bound size: 1.41421
 [ 1 -1 0 ] 
@@ -3119,34 +3119,34 @@ gauss with bound size: 1.41421
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
+0 1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 521]]
 
-voronoi duration 1004
+voronoi duration 317
 
 
-gauss iter : 304|
-gauss duration: 384
+gauss iter : 280|
+gauss duration: 2032
 
 
-list iter : 234|
-list duration: 334
+list iter : 229|
+list duration: 2852
 bound 2.52303
 early exit gauss iter : 1|
-gauss with bound duration: 4
+gauss with bound duration: 12
 
 
-early list iter : 2|
-list with bound duration: 4found different norms of vectors
+early list iter : 6|
+list with bound duration: 30found different norms of vectors
 list with bound size: 2.23607
-[ 2 -1 0 ] 
+[ -2 1 0 ] 
 
 gauss with bound size: 1.41421
-[ 1 1 0 ] 
+[ -1 -1 0 ] 
 
 shortest with norm1
 
@@ -3158,24 +3158,184 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 523]]
 
-voronoi duration 1018
+voronoi duration 387
 
 
-gauss iter : 277|
-gauss duration: 337
+gauss iter : 297|
+gauss duration: 1957
 
 
 list iter : 232|
-list duration: 329
+list duration: 2123
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
+early exit gauss iter : 4|
+gauss with bound duration: 20
+
+
+early list iter : 4|
+list with bound duration: 18found different norms of vectors
+list with bound size: 1.41421
+[ 1 -1 0 ] 
+
+gauss with bound size: 1
+[ 0 1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 541]]
+
+voronoi duration 330
+
+
+gauss iter : 323|
+gauss duration: 1073
+
+
+list iter : 228|
+list duration: 4928
+bound 2.52303
+early exit gauss iter : 3|
+gauss with bound duration: 22
 
 
 early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1
-[ 0 1 0 ] 
+list with bound duration: 9found different norms of vectors
+list with bound size: 2.23607
+[ 2 1 0 ] 
+
+gauss with bound size: 1
+[ 1 0 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 547]]
+
+voronoi duration 139
+
+
+gauss iter : 302|
+gauss duration: 1933
+
+
+list iter : 236|
+list duration: 2052
+bound 2.52303
+early exit gauss iter : 3|
+gauss with bound duration: 20
+
+
+early list iter : 3|
+list with bound duration: 18
+shortest with bound norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 557]]
+
+voronoi duration 301
+
+
+gauss iter : 276|
+gauss duration: 1946
+
+
+list iter : 232|
+list duration: 2038
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 11
+
+
+early list iter : 7|
+list with bound duration: 29found different norms of vectors
+list with bound size: 2.23607
+[ -2 -1 0 ] 
+
+gauss with bound size: 1
+[ 0 -1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 563]]
+
+voronoi duration 139
+
+
+gauss iter : 298|
+gauss duration: 2977
+
+
+list iter : 236|
+list duration: 5282
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 11
+
+
+early list iter : 2|
+list with bound duration: 11found different norms of vectors
+list with bound size: 2.23607
+[ -2 -1 0 ] 
+
+gauss with bound size: 1
+[ 0 -1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 569]]
+
+voronoi duration 413
+
+
+gauss iter : 312|
+gauss duration: 2185
+
+
+list iter : 235|
+list duration: 3131
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 11
+
+
+early list iter : 2|
+list with bound duration: 11found different norms of vectors
+list with bound size: 2
+[ -2 0 0 ] 
 
 gauss with bound size: 1.41421
 [ 1 -1 0 ] 
@@ -3188,125 +3348,29 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 541]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 571]]
 
-voronoi duration 5868
-
-
-gauss iter : 325|
-gauss duration: 366
+voronoi duration 396
 
 
-list iter : 233|
-list duration: 310
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
+gauss iter : 292|
+gauss duration: 2346
 
 
-early list iter : 2|
-list with bound duration: 4found different norms of vectors
-list with bound size: 2.23607
-[ -1 -2 0 ] 
-
-gauss with bound size: 2
-[ 2 0 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 547]]
-
-voronoi duration 1012
-
-
-gauss iter : 311|
-gauss duration: 347
-
-
-list iter : 240|
-list duration: 403
-bound 2.52303
-early exit gauss iter : 4|
-gauss with bound duration: 8
-
-
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 1.41421
-[ -1 1 0 ] 
-
-gauss with bound size: 2.23607
-[ 2 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 557]]
-
-voronoi duration 1573
-
-
-gauss iter : 302|
-gauss duration: 364
-
-
-list iter : 229|
-list duration: 309
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 5|
-list with bound duration: 8found different norms of vectors
-list with bound size: 1.41421
-[ 1 1 0 ] 
-
-gauss with bound size: 2.23607
-[ 2 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 563]]
-
-voronoi duration 837
-
-
-gauss iter : 307|
-gauss duration: 1534
-
-
-list iter : 233|
-list duration: 357
+list iter : 232|
+list duration: 3466
 bound 2.52303
 early exit gauss iter : 3|
-gauss with bound duration: 8
+gauss with bound duration: 16
 
 
 early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1.41421
-[ 1 1 0 ] 
+list with bound duration: 7found different norms of vectors
+list with bound size: 1
+[ -1 0 0 ] 
 
-gauss with bound size: 2
-[ -2 0 0 ] 
+gauss with bound size: 2.23607
+[ -2 1 0 ] 
 
 shortest with norm1
 
@@ -3316,125 +3380,61 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 569]]
-
-voronoi duration 966
-
-
-gauss iter : 315|
-gauss duration: 346
-
-
-list iter : 232|
-list duration: 314
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 1|
-list with bound duration: 2
-shortest with bound norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 571]]
-
-voronoi duration 5602
-
-
-gauss iter : 292|
-gauss duration: 14940
-
-
-list iter : 235|
-list duration: 3144
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 8
-
-
-early list iter : 1|
-list with bound duration: 4
-shortest with bound norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 577]]
 
-voronoi duration 1024
+voronoi duration 517
 
 
-gauss iter : 298|
-gauss duration: 341
+gauss iter : 279|
+gauss duration: 3506
 
 
-list iter : 232|
-list duration: 4501
+list iter : 238|
+list duration: 2568
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 12
+early exit gauss iter : 1|
+gauss with bound duration: 11
 
 
-early list iter : 4|
-list with bound duration: 12found different norms of vectors
+early list iter : 1|
+list with bound duration: 10found different norms of vectors
 list with bound size: 2.23607
-[ 1 2 0 ] 
+[ -1 -2 0 ] 
 
-gauss with bound size: 1.41421
-[ -1 -1 0 ] 
+gauss with bound size: 1
+[ -1 0 0 ] 
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
+-1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 587]]
 
-voronoi duration 1271
+voronoi duration 449
 
 
-gauss iter : 305|
-gauss duration: 338
+gauss iter : 284|
+gauss duration: 2012
 
 
-list iter : 237|
-list duration: 359
+list iter : 236|
+list duration: 5792
 bound 2.52303
-early exit gauss iter : 4|
-gauss with bound duration: 7
+early exit gauss iter : 1|
+gauss with bound duration: 11
 
 
 early list iter : 4|
-list with bound duration: 6found different norms of vectors
+list with bound duration: 23found different norms of vectors
 list with bound size: 2.23607
-[ 1 -2 0 ] 
+[ -2 -1 0 ] 
 
-gauss with bound size: 1
-[ 0 1 0 ] 
+gauss with bound size: 2
+[ -2 0 0 ] 
 
 shortest with norm1
 
@@ -3446,91 +3446,59 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 593]]
 
-voronoi duration 1634
+voronoi duration 382
 
 
-gauss iter : 286|
-gauss duration: 343
+gauss iter : 301|
+gauss duration: 2138
 
 
-list iter : 235|
-list duration: 344
+list iter : 237|
+list duration: 2650
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 7
+early exit gauss iter : 1|
+gauss with bound duration: 11
 
 
-early list iter : 3|
-list with bound duration: 9found different norms of vectors
-list with bound size: 2.23607
-[ 1 2 0 ] 
+early list iter : 2|
+list with bound duration: 11found different norms of vectors
+list with bound size: 1
+[ -1 0 0 ] 
 
 gauss with bound size: 1.41421
-[ 1 1 0 ] 
+[ -1 -1 0 ] 
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
+1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 599]]
 
-voronoi duration 962
+voronoi duration 597
 
 
-gauss iter : 308|
-gauss duration: 412
+gauss iter : 333|
+gauss duration: 2323
 
 
-list iter : 234|
-list duration: 334
+list iter : 233|
+list duration: 2044
 bound 2.52303
 early exit gauss iter : 2|
-gauss with bound duration: 5
-
-
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1
-[ 0 -1 0 ] 
-
-gauss with bound size: 2.23607
-[ -1 -2 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 601]]
-
-voronoi duration 1991
-
-
-gauss iter : 308|
-gauss duration: 350
-
-
-list iter : 237|
-list duration: 341
-bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 7
+gauss with bound duration: 18
 
 
 early list iter : 2|
-list with bound duration: 4
-shortest with bound norm4
+list with bound duration: 11found different norms of vectors
+list with bound size: 2.23607
+[ 1 -2 0 ] 
 
-$$$$$$$$$$$$$$$$$$$$$$$$
-2 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
+gauss with bound size: 1
+[ 0 -1 0 ] 
 
 shortest with norm1
 
@@ -3540,29 +3508,29 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 607]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 601]]
 
-voronoi duration 1364
-
-
-gauss iter : 291|
-gauss duration: 362
+voronoi duration 362
 
 
-list iter : 232|
-list duration: 376
+gauss iter : 318|
+gauss duration: 1976
+
+
+list iter : 236|
+list duration: 2314
 bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 8
+early exit gauss iter : 1|
+gauss with bound duration: 13
 
 
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
+early list iter : 2|
+list with bound duration: 14found different norms of vectors
 list with bound size: 2.23607
-[ -1 2 0 ] 
+[ 2 -1 0 ] 
 
-gauss with bound size: 1
-[ 0 1 0 ] 
+gauss with bound size: 1.41421
+[ -1 1 0 ] 
 
 shortest with norm1
 
@@ -3572,29 +3540,61 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 613]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 607]]
 
-voronoi duration 1201
-
-
-gauss iter : 290|
-gauss duration: 353
+voronoi duration 516
 
 
-list iter : 231|
-list duration: 313
+gauss iter : 315|
+gauss duration: 1927
+
+
+list iter : 234|
+list duration: 2091
 bound 2.52303
-early exit gauss iter : 6|
-gauss with bound duration: 8
+early exit gauss iter : 2|
+gauss with bound duration: 21
 
 
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1
+early list iter : 3|
+list with bound duration: 18found different norms of vectors
+list with bound size: 2.23607
+[ 1 -2 0 ] 
+
+gauss with bound size: 1
 [ 0 1 0 ] 
 
-gauss with bound size: 2.23607
-[ -1 -2 0 ] 
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 613]]
+
+voronoi duration 364
+
+
+gauss iter : 332|
+gauss duration: 2304
+
+
+list iter : 241|
+list duration: 5070
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 14
+
+
+early list iter : 4|
+list with bound duration: 20found different norms of vectors
+list with bound size: 2
+[ 2 0 0 ] 
+
+gauss with bound size: 1
+[ 0 1 0 ] 
 
 shortest with norm1
 
@@ -3606,22 +3606,54 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 617]]
 
-voronoi duration 1120
+voronoi duration 141
 
 
-gauss iter : 343|
-gauss duration: 356
+gauss iter : 324|
+gauss duration: 2450
 
 
-list iter : 230|
-list duration: 341
+list iter : 233|
+list duration: 1919
 bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
+early exit gauss iter : 3|
+gauss with bound duration: 32
+
+
+early list iter : 2|
+list with bound duration: 10
+shortest with bound norm5
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 2 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 619]]
+
+voronoi duration 312
+
+
+gauss iter : 309|
+gauss duration: 2110
+
+
+list iter : 236|
+list duration: 2060
+bound 2.52303
+early exit gauss iter : 4|
+gauss with bound duration: 22
 
 
 early list iter : 1|
-list with bound duration: 2
+list with bound duration: 9
 shortest with bound norm2
 
 $$$$$$$$$$$$$$$$$$$$$$$$
@@ -3631,162 +3663,130 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 619]]
-
-voronoi duration 1132
-
-
-gauss iter : 299|
-gauss duration: 340
-
-
-list iter : 238|
-list duration: 323
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 3|
-list with bound duration: 5
-shortest with bound norm4
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-2 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
+1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 631]]
 
-voronoi duration 1687
+voronoi duration 532
 
 
-gauss iter : 310|
-gauss duration: 347
+gauss iter : 299|
+gauss duration: 3021
 
 
-list iter : 239|
-list duration: 419
+list iter : 236|
+list duration: 2428
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
+early exit gauss iter : 5|
+gauss with bound duration: 31
 
 
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 2.23607
-[ -2 1 0 ] 
+early list iter : 4|
+list with bound duration: 19found different norms of vectors
+list with bound size: 1
+[ 1 0 0 ] 
 
-gauss with bound size: 2
-[ -2 0 0 ] 
+gauss with bound size: 1.41421
+[ 1 1 0 ] 
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
+1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 641]]
 
-voronoi duration 861
+voronoi duration 552
 
 
-gauss iter : 312|
-gauss duration: 6091
+gauss iter : 304|
+gauss duration: 2050
 
 
-list iter : 236|
-list duration: 462
+list iter : 230|
+list duration: 2726
 bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 5
+early exit gauss iter : 5|
+gauss with bound duration: 27
 
 
 early list iter : 3|
-list with bound duration: 7
-shortest with bound norm5
+list with bound duration: 15found different norms of vectors
+list with bound size: 2
+[ 0 -2 0 ] 
 
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 2 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
+gauss with bound size: 2.23607
+[ 1 2 0 ] 
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
+1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 643]]
 
-voronoi duration 925
+voronoi duration 151
 
 
-gauss iter : 310|
-gauss duration: 354
+gauss iter : 297|
+gauss duration: 1890
 
 
-list iter : 231|
-list duration: 324
+list iter : 234|
+list duration: 2269
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 4
+early exit gauss iter : 3|
+gauss with bound duration: 21
 
 
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 2
-[ 0 2 0 ] 
+early list iter : 1|
+list with bound duration: 7found different norms of vectors
+list with bound size: 1.41421
+[ 1 -1 0 ] 
 
 gauss with bound size: 1
-[ 0 1 0 ] 
+[ -1 0 0 ] 
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
+1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 647]]
 
-voronoi duration 973
+voronoi duration 505
 
 
-gauss iter : 299|
-gauss duration: 365
+gauss iter : 307|
+gauss duration: 2195
 
 
-list iter : 236|
-list duration: 333
+list iter : 238|
+list duration: 2132
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
+early exit gauss iter : 1|
+gauss with bound duration: 12
 
 
-early list iter : 2|
-list with bound duration: 3found different norms of vectors
+early list iter : 3|
+list with bound duration: 18found different norms of vectors
 list with bound size: 1.41421
-[ 1 1 0 ] 
+[ -1 -1 0 ] 
 
-gauss with bound size: 2
-[ 0 -2 0 ] 
+gauss with bound size: 2.23607
+[ 2 -1 0 ] 
 
 shortest with norm1
 
@@ -3798,27 +3798,27 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 653]]
 
-voronoi duration 1389
+voronoi duration 721
 
 
-gauss iter : 284|
-gauss duration: 384
+gauss iter : 291|
+gauss duration: 2645
 
 
-list iter : 235|
-list duration: 338
+list iter : 229|
+list duration: 2106
 bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 6
+early exit gauss iter : 1|
+gauss with bound duration: 12
 
 
-early list iter : 2|
-list with bound duration: 4found different norms of vectors
+early list iter : 6|
+list with bound duration: 26found different norms of vectors
 list with bound size: 1
 [ 0 1 0 ] 
 
-gauss with bound size: 2.23607
-[ 1 -2 0 ] 
+gauss with bound size: 2
+[ 2 0 0 ] 
 
 shortest with norm1
 
@@ -3830,54 +3830,54 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 659]]
 
-voronoi duration 2201
+voronoi duration 460
 
 
-gauss iter : 296|
-gauss duration: 478
+gauss iter : 294|
+gauss duration: 2379
 
 
-list iter : 229|
-list duration: 363
+list iter : 230|
+list duration: 2178
 bound 2.52303
 early exit gauss iter : 1|
-gauss with bound duration: 4
+gauss with bound duration: 13
 
 
-early list iter : 1|
-list with bound duration: 3found different norms of vectors
-list with bound size: 1
-[ -1 0 0 ] 
-
-gauss with bound size: 2.23607
+early list iter : 3|
+list with bound duration: 18found different norms of vectors
+list with bound size: 2.23607
 [ -1 2 0 ] 
+
+gauss with bound size: 1
+[ 0 -1 0 ] 
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
+1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 661]]
 
-voronoi duration 1163
+voronoi duration 806
 
 
-gauss iter : 298|
-gauss duration: 346
+gauss iter : 297|
+gauss duration: 1655
 
 
-list iter : 230|
-list duration: 1026
+list iter : 235|
+list duration: 2168
 bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 9
+early exit gauss iter : 4|
+gauss with bound duration: 23
 
 
-early list iter : 1|
-list with bound duration: 7
+early list iter : 2|
+list with bound duration: 14
 shortest with bound norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
@@ -3894,187 +3894,123 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 673]]
 
-voronoi duration 4462
+voronoi duration 384
 
 
-gauss iter : 312|
-gauss duration: 426
+gauss iter : 324|
+gauss duration: 2164
 
 
-list iter : 235|
-list duration: 336
+list iter : 233|
+list duration: 2284
 bound 2.52303
 early exit gauss iter : 1|
-gauss with bound duration: 3
+gauss with bound duration: 12
 
 
-early list iter : 2|
-list with bound duration: 4found different norms of vectors
-list with bound size: 2.23607
-[ -1 2 0 ] 
+early list iter : 3|
+list with bound duration: 15
+shortest with bound norm4
 
-gauss with bound size: 1
-[ 1 0 0 ] 
+$$$$$$$$$$$$$$$$$$$$$$$$
+-2 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
+1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 677]]
 
-voronoi duration 1680
+voronoi duration 153
 
 
-gauss iter : 293|
-gauss duration: 342
+gauss iter : 307|
+gauss duration: 6702
 
 
-list iter : 231|
-list duration: 314
+list iter : 229|
+list duration: 3441
 bound 2.52303
-early exit gauss iter : 4|
-gauss with bound duration: 8
+early exit gauss iter : 2|
+gauss with bound duration: 18
 
 
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1.41421
-[ 1 -1 0 ] 
+early list iter : 3|
+list with bound duration: 18
+shortest with bound norm2
 
-gauss with bound size: 1
-[ 0 1 0 ] 
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
+1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 683]]
 
-voronoi duration 896
+voronoi duration 1199
 
 
-gauss iter : 310|
-gauss duration: 342
+gauss iter : 299|
+gauss duration: 4796
 
 
-list iter : 232|
-list duration: 314
+list iter : 238|
+list duration: 2102
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
+early exit gauss iter : 1|
+gauss with bound duration: 11
 
 
-early list iter : 3|
-list with bound duration: 5
-shortest with bound norm1
+early list iter : 6|
+list with bound duration: 27found different norms of vectors
+list with bound size: 2.23607
+[ 1 2 0 ] 
 
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
+gauss with bound size: 1.41421
+[ 1 1 0 ] 
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
+1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 691]]
 
-voronoi duration 2191
+voronoi duration 192
 
 
-gauss iter : 291|
-gauss duration: 492
+gauss iter : 269|
+gauss duration: 1865
 
 
-list iter : 229|
-list duration: 601
+list iter : 237|
+list duration: 2362
 bound 2.52303
-early exit gauss iter : 4|
-gauss with bound duration: 9
-
-
-early list iter : 1|
-list with bound duration: 2
-shortest with bound norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 701]]
-
-voronoi duration 4468
-
-
-gauss iter : 297|
-gauss duration: 736
-
-
-list iter : 233|
-list duration: 353
-bound 2.52303
-early exit gauss iter : 7|
-gauss with bound duration: 11
+early exit gauss iter : 3|
+gauss with bound duration: 22
 
 
 early list iter : 7|
-list with bound duration: 10found different norms of vectors
+list with bound duration: 32found different norms of vectors
 list with bound size: 2.23607
-[ -1 -2 0 ] 
+[ 2 1 0 ] 
 
 gauss with bound size: 1
 [ 0 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 709]]
-
-voronoi duration 1805
-
-
-gauss iter : 293|
-gauss duration: 540
-
-
-list iter : 234|
-list duration: 677
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 6
-
-
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 1.41421
-[ 1 1 0 ] 
-
-gauss with bound size: 2.23607
-[ 2 1 0 ] 
 
 shortest with norm1
 
@@ -4084,95 +4020,156 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 719]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 701]]
 
-voronoi duration 1277
-
-
-gauss iter : 305|
-gauss duration: 344
+voronoi duration 724
 
 
-list iter : 238|
-list duration: 366
+gauss iter : 289|
+gauss duration: 1611
+
+
+list iter : 233|
+list duration: 2146
 bound 2.52303
 early exit gauss iter : 1|
-gauss with bound duration: 3
+gauss with bound duration: 11
 
 
-early list iter : 2|
-list with bound duration: 4found different norms of vectors
+early list iter : 4|
+list with bound duration: 23found different norms of vectors
 list with bound size: 1
-[ -1 0 0 ] 
+[ 0 1 0 ] 
 
-gauss with bound size: 2.23607
-[ -2 -1 0 ] 
+gauss with bound size: 2
+[ 2 0 0 ] 
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 709]]
+
+voronoi duration 139
+
+
+gauss iter : 323|
+gauss duration: 2055
+
+
+list iter : 235|
+list duration: 2109
+bound 2.52303
+early exit gauss iter : 5|
+gauss with bound duration: 26
+
+
+early list iter : 11|
+list with bound duration: 43found different norms of vectors
+list with bound size: 1.41421
+[ -1 1 0 ] 
+
+gauss with bound size: 2
+[ 2 0 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 719]]
+
+voronoi duration 481
+
+
+gauss iter : 319|
+gauss duration: 2834
+
+
+list iter : 231|
+list duration: 3218
+bound 2.52303
+early exit gauss iter : 3|
+gauss with bound duration: 23
+
+
+early list iter : 1|
+list with bound duration: 12found different norms of vectors
+list with bound size: 2
+[ -2 0 0 ] 
+
+gauss with bound size: 1
+[ 0 1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 727]]
 
-voronoi duration 1448
+voronoi duration 785
 
 
-gauss iter : 296|
-gauss duration: 358
+gauss iter : 331|
+gauss duration: 1317
 
 
-list iter : 235|
-list duration: 393
+list iter : 234|
+list duration: 2090
 bound 2.52303
 early exit gauss iter : 1|
-gauss with bound duration: 5
+gauss with bound duration: 13
 
 
 early list iter : 1|
-list with bound duration: 3found different norms of vectors
-list with bound size: 1.41421
-[ 1 1 0 ] 
+list with bound duration: 10
+shortest with bound norm1
 
-gauss with bound size: 1
-[ -1 0 0 ] 
-found different norms of vectors
-voronoi size: 1
-[ 0 1 0 ] 
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
 
-gauss size: 1454
-[ 0 -1 1454 ] 
+shortest with norm1
 
-list size: 1
-[ 1 0 0 ] 
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 733]]
 
-voronoi duration 1040
+voronoi duration 413
 
 
-gauss iter : 283|
-gauss duration: 330
+gauss iter : 313|
+gauss duration: 1525
 
 
-list iter : 235|
-list duration: 411
+list iter : 230|
+list duration: 2849
 bound 2.52303
-early exit gauss iter : 6|
-gauss with bound duration: 11
+early exit gauss iter : 4|
+gauss with bound duration: 25
 
 
-early list iter : 4|
-list with bound duration: 6
-shortest with bound norm4
+early list iter : 3|
+list with bound duration: 18
+shortest with bound norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-2 0 0 
+1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
@@ -4185,59 +4182,62 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 739]]
 
-voronoi duration 1827
+voronoi duration 148
 
 
-gauss iter : 313|
-gauss duration: 2340
+gauss iter : 294|
+gauss duration: 2096
 
 
-list iter : 232|
-list duration: 337
+list iter : 234|
+list duration: 2043
 bound 2.52303
-early exit gauss iter : 5|
-gauss with bound duration: 10
+early exit gauss iter : 4|
+gauss with bound duration: 25
 
 
 early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 1.41421
-[ -1 -1 0 ] 
-
-gauss with bound size: 1
-[ 0 -1 0 ] 
-
-shortest with norm1
+list with bound duration: 15
+shortest with bound norm4
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
+0 -2 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
+found different norms of vectors
+voronoi size: 1
+[ 0 1 0 ] 
+
+gauss size: 1478
+[ 0 0 -1478 ] 
+
+list size: 1
+[ 1 0 0 ] 
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 743]]
 
-voronoi duration 1788
+voronoi duration 257
 
 
-gauss iter : 300|
-gauss duration: 374
+gauss iter : 274|
+gauss duration: 2121
 
 
-list iter : 232|
-list duration: 319
+list iter : 236|
+list duration: 2378
 bound 2.52303
 early exit gauss iter : 1|
-gauss with bound duration: 3
+gauss with bound duration: 11
 
 
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 1
-[ -1 0 0 ] 
+early list iter : 1|
+list with bound duration: 8
+shortest with bound norm4
 
-gauss with bound size: 1.41421
-[ 1 1 0 ] 
+$$$$$$$$$$$$$$$$$$$$$$$$
+-2 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
 
@@ -4249,27 +4249,27 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 751]]
 
-voronoi duration 1217
+voronoi duration 374
 
 
-gauss iter : 297|
-gauss duration: 345
+gauss iter : 302|
+gauss duration: 2103
 
 
-list iter : 233|
-list duration: 463
+list iter : 234|
+list duration: 2721
 bound 2.52303
 early exit gauss iter : 1|
-gauss with bound duration: 3
+gauss with bound duration: 11
 
 
-early list iter : 5|
-list with bound duration: 7found different norms of vectors
+early list iter : 2|
+list with bound duration: 11found different norms of vectors
 list with bound size: 1
-[ 1 0 0 ] 
+[ -1 0 0 ] 
 
-gauss with bound size: 1.41421
-[ -1 1 0 ] 
+gauss with bound size: 2.23607
+[ -2 1 0 ] 
 
 shortest with norm1
 
@@ -4281,59 +4281,193 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 757]]
 
-voronoi duration 1321
+voronoi duration 384
 
 
-gauss iter : 309|
-gauss duration: 357
+gauss iter : 310|
+gauss duration: 2079
 
 
-list iter : 229|
-list duration: 304
+list iter : 235|
+list duration: 1735
 bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
+early exit gauss iter : 2|
+gauss with bound duration: 15
 
 
-early list iter : 2|
-list with bound duration: 4found different norms of vectors
-list with bound size: 1
-[ 1 0 0 ] 
+early list iter : 3|
+list with bound duration: 14found different norms of vectors
+list with bound size: 2
+[ 0 2 0 ] 
 
 gauss with bound size: 1.41421
-[ -1 -1 0 ] 
+[ -1 1 0 ] 
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
+0 -1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 761]]
 
-voronoi duration 1626
+voronoi duration 320
 
 
-gauss iter : 300|
-gauss duration: 345
+gauss iter : 311|
+gauss duration: 2251
 
 
-list iter : 236|
-list duration: 352
+list iter : 230|
+list duration: 2095
 bound 2.52303
 early exit gauss iter : 2|
-gauss with bound duration: 4
+gauss with bound duration: 17
 
 
-early list iter : 4|
-list with bound duration: 6found different norms of vectors
+early list iter : 1|
+list with bound duration: 7found different norms of vectors
 list with bound size: 2
 [ 0 2 0 ] 
 
-gauss with bound size: 1.41421
-[ 1 -1 0 ] 
+gauss with bound size: 2.23607
+[ -2 1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 769]]
+
+voronoi duration 393
+
+
+gauss iter : 309|
+gauss duration: 2077
+
+
+list iter : 235|
+list duration: 2127
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 13
+
+
+early list iter : 1|
+list with bound duration: 10
+shortest with bound norm2
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 773]]
+
+voronoi duration 400
+
+
+gauss iter : 315|
+gauss duration: 2856
+
+
+list iter : 227|
+list duration: 2110
+bound 2.52303
+early exit gauss iter : 5|
+gauss with bound duration: 21
+
+
+early list iter : 4|
+list with bound duration: 19
+shortest with bound norm2
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+found different norms of vectors
+voronoi size: 1
+[ 0 1 0 ] 
+
+gauss size: 773.001
+[ 1 0 773 ] 
+
+list size: 1
+[ -1 0 0 ] 
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 787]]
+
+voronoi duration 272
+
+
+gauss iter : 306|
+gauss duration: 2208
+
+
+list iter : 232|
+list duration: 2084
+bound 2.52303
+early exit gauss iter : 2|
+gauss with bound duration: 17
+
+
+early list iter : 2|
+list with bound duration: 14found different norms of vectors
+list with bound size: 2
+[ 2 0 0 ] 
+
+gauss with bound size: 1
+[ 1 0 0 ] 
+found different norms of vectors
+voronoi size: 1
+[ 0 1 0 ] 
+
+gauss size: 787.001
+[ 0 1 -787 ] 
+
+list size: 1
+[ 1 0 0 ] 
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 797]]
+
+voronoi duration 320
+
+
+gauss iter : 312|
+gauss duration: 2029
+
+
+list iter : 230|
+list duration: 2068
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 12
+
+
+early list iter : 2|
+list with bound duration: 14
+shortest with bound norm2
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
 
@@ -4343,157 +4477,29 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 769]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 809]]
 
-voronoi duration 4944
-
-
-gauss iter : 288|
-gauss duration: 447
+voronoi duration 126
 
 
-list iter : 233|
-list duration: 362
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 2
-[ -2 0 0 ] 
-
-gauss with bound size: 1
-[ 0 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 773]]
-
-voronoi duration 1466
-
-
-gauss iter : 301|
-gauss duration: 344
+gauss iter : 329|
+gauss duration: 2208
 
 
 list iter : 231|
-list duration: 451
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 1|
-list with bound duration: 2
-shortest with bound norm4
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -2 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 787]]
-
-voronoi duration 1650
-
-
-gauss iter : 343|
-gauss duration: 398
-
-
-list iter : 229|
-list duration: 322
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
-
-
-early list iter : 2|
-list with bound duration: 4
-shortest with bound norm4
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -2 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 797]]
-
-voronoi duration 1047
-
-
-gauss iter : 303|
-gauss duration: 844
-
-
-list iter : 229|
-list duration: 331
-bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 6
-
-
-early list iter : 2|
-list with bound duration: 4found different norms of vectors
-list with bound size: 2.23607
-[ 1 2 0 ] 
-
-gauss with bound size: 1
-[ 1 0 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 809]]
-
-voronoi duration 1418
-
-
-gauss iter : 325|
-gauss duration: 375
-
-
-list iter : 232|
-list duration: 336
+list duration: 2153
 bound 2.52303
 early exit gauss iter : 4|
-gauss with bound duration: 9
+gauss with bound duration: 22
 
 
 early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 1.41421
-[ -1 -1 0 ] 
+list with bound duration: 14
+shortest with bound norm1
 
-gauss with bound size: 1
-[ 1 0 0 ] 
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
 
@@ -4505,187 +4511,27 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 811]]
 
-voronoi duration 5537
+voronoi duration 116
 
 
-gauss iter : 321|
-gauss duration: 360
-
-
-list iter : 234|
-list duration: 340
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 1|
-list with bound duration: 3
-shortest with bound norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 821]]
-
-voronoi duration 1414
-
-
-gauss iter : 326|
-gauss duration: 370
-
-
-list iter : 237|
-list duration: 369
-bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 6
-
-
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1
-[ 0 -1 0 ] 
-
-gauss with bound size: 1.41421
-[ 1 1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 823]]
-
-voronoi duration 1508
-
-
-gauss iter : 294|
-gauss duration: 344
-
-
-list iter : 229|
-list duration: 308
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 4
-
-
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 2
-[ 0 -2 0 ] 
-
-gauss with bound size: 1
-[ 1 0 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 827]]
-
-voronoi duration 1073
-
-
-gauss iter : 276|
-gauss duration: 338
-
-
-list iter : 230|
-list duration: 321
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 2.23607
-[ 2 1 0 ] 
-
-gauss with bound size: 1
-[ 0 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 829]]
-
-voronoi duration 969
-
-
-gauss iter : 309|
-gauss duration: 339
+gauss iter : 308|
+gauss duration: 1407
 
 
 list iter : 232|
-list duration: 329
+list duration: 2065
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 4
+early exit gauss iter : 5|
+gauss with bound duration: 26
 
 
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1
-[ 0 1 0 ] 
+early list iter : 3|
+list with bound duration: 18found different norms of vectors
+list with bound size: 2
+[ 0 -2 0 ] 
 
-gauss with bound size: 2
-[ -2 0 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 839]]
-
-voronoi duration 11598
-
-
-gauss iter : 310|
-gauss duration: 359
-
-
-list iter : 231|
-list duration: 330
-bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
-
-
-early list iter : 9|
-list with bound duration: 13
-shortest with bound norm2
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
+gauss with bound size: 2.23607
+[ -2 -1 0 ] 
 
 shortest with norm1
 
@@ -4695,26 +4541,122 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 853]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 821]]
 
-voronoi duration 1574
+voronoi duration 305
 
 
-gauss iter : 288|
-gauss duration: 354
+gauss iter : 319|
+gauss duration: 1275
+
+
+list iter : 233|
+list duration: 973
+bound 2.52303
+early exit gauss iter : 2|
+gauss with bound duration: 13
+
+
+early list iter : 4|
+list with bound duration: 17
+shortest with bound norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 823]]
+
+voronoi duration 225
+
+
+gauss iter : 310|
+gauss duration: 4593
+
+
+list iter : 230|
+list duration: 2198
+bound 2.52303
+early exit gauss iter : 2|
+gauss with bound duration: 22
+
+
+early list iter : 1|
+list with bound duration: 13found different norms of vectors
+list with bound size: 1.41421
+[ -1 1 0 ] 
+
+gauss with bound size: 1
+[ 1 0 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 827]]
+
+voronoi duration 222
+
+
+gauss iter : 324|
+gauss duration: 2154
+
+
+list iter : 230|
+list duration: 2031
+bound 2.52303
+early exit gauss iter : 3|
+gauss with bound duration: 21
+
+
+early list iter : 5|
+list with bound duration: 23found different norms of vectors
+list with bound size: 2
+[ -2 0 0 ] 
+
+gauss with bound size: 1
+[ 1 0 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 829]]
+
+voronoi duration 330
+
+
+gauss iter : 287|
+gauss duration: 1927
 
 
 list iter : 229|
-list duration: 509
+list duration: 2060
 bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 7
+early exit gauss iter : 1|
+gauss with bound duration: 21
 
 
-early list iter : 6|
-list with bound duration: 13found different norms of vectors
+early list iter : 5|
+list with bound duration: 27found different norms of vectors
 list with bound size: 2.23607
-[ -2 -1 0 ] 
+[ -1 -2 0 ] 
 
 gauss with bound size: 1.41421
 [ -1 -1 0 ] 
@@ -4722,34 +4664,98 @@ gauss with bound size: 1.41421
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
+0 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 839]]
+
+voronoi duration 672
+
+
+gauss iter : 277|
+gauss duration: 2024
+
+
+list iter : 235|
+list duration: 2103
+bound 2.52303
+early exit gauss iter : 6|
+gauss with bound duration: 31
+
+
+early list iter : 10|
+list with bound duration: 43found different norms of vectors
+list with bound size: 1.41421
+[ -1 1 0 ] 
+
+gauss with bound size: 1
+[ -1 0 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 853]]
+
+voronoi duration 518
+
+
+gauss iter : 311|
+gauss duration: 1848
+
+
+list iter : 232|
+list duration: 6125
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 22
+
+
+early list iter : 4|
+list with bound duration: 20
+shortest with bound norm4
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -2 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 -1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 857]]
 
-voronoi duration 1476
+voronoi duration 477
 
 
-gauss iter : 316|
-gauss duration: 348
+gauss iter : 320|
+gauss duration: 2571
 
 
-list iter : 234|
-list duration: 337
+list iter : 231|
+list duration: 2728
 bound 2.52303
 early exit gauss iter : 1|
-gauss with bound duration: 3
+gauss with bound duration: 14
 
 
-early list iter : 2|
-list with bound duration: 4found different norms of vectors
-list with bound size: 1
-[ 1 0 0 ] 
+early list iter : 7|
+list with bound duration: 191found different norms of vectors
+list with bound size: 2.23607
+[ 1 2 0 ] 
 
-gauss with bound size: 1.41421
-[ 1 -1 0 ] 
+gauss with bound size: 2
+[ -2 0 0 ] 
 
 shortest with norm1
 
@@ -4761,91 +4767,27 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 859]]
 
-voronoi duration 2056
+voronoi duration 1577
 
 
-gauss iter : 322|
-gauss duration: 426
+gauss iter : 289|
+gauss duration: 2127
 
 
-list iter : 228|
-list duration: 374
+list iter : 234|
+list duration: 2119
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 6
+early exit gauss iter : 1|
+gauss with bound duration: 13
 
 
-early list iter : 1|
-list with bound duration: 11found different norms of vectors
-list with bound size: 1
-[ 1 0 0 ] 
+early list iter : 4|
+list with bound duration: 33found different norms of vectors
+list with bound size: 1.41421
+[ -1 -1 0 ] 
 
-gauss with bound size: 1.41421
-[ 1 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 863]]
-
-voronoi duration 1542
-
-
-gauss iter : 313|
-gauss duration: 367
-
-
-list iter : 232|
-list duration: 379
-bound 2.52303
-early exit gauss iter : 6|
-gauss with bound duration: 10
-
-
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1
-[ 0 -1 0 ] 
-
-gauss with bound size: 2.23607
-[ -1 -2 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 877]]
-
-voronoi duration 1782
-
-
-gauss iter : 328|
-gauss duration: 355
-
-
-list iter : 236|
-list duration: 375
-bound 2.52303
-early exit gauss iter : 4|
-gauss with bound duration: 10
-
-
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 2
-[ 0 2 0 ] 
-
-gauss with bound size: 1
-[ 0 -1 0 ] 
+gauss with bound size: 2
+[ 0 -2 0 ] 
 
 shortest with norm1
 
@@ -4855,26 +4797,26 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 881]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 863]]
 
-voronoi duration 2079
+voronoi duration 426
 
 
-gauss iter : 334|
-gauss duration: 368
+gauss iter : 302|
+gauss duration: 1916
 
 
 list iter : 233|
-list duration: 346
+list duration: 2303
 bound 2.52303
-early exit gauss iter : 4|
-gauss with bound duration: 8
+early exit gauss iter : 1|
+gauss with bound duration: 11
 
 
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
+early list iter : 2|
+list with bound duration: 14found different norms of vectors
 list with bound size: 1.41421
-[ -1 1 0 ] 
+[ -1 -1 0 ] 
 
 gauss with bound size: 1
 [ 0 -1 0 ] 
@@ -4882,31 +4824,31 @@ gauss with bound size: 1
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
+1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 883]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 877]]
 
-voronoi duration 1123
-
-
-gauss iter : 295|
-gauss duration: 342
+voronoi duration 146
 
 
-list iter : 236|
-list duration: 356
+gauss iter : 310|
+gauss duration: 2245
+
+
+list iter : 233|
+list duration: 2035
 bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 3
+early exit gauss iter : 4|
+gauss with bound duration: 21
 
 
-early list iter : 4|
-list with bound duration: 11found different norms of vectors
-list with bound size: 1.41421
-[ 1 1 0 ] 
+early list iter : 7|
+list with bound duration: 35found different norms of vectors
+list with bound size: 1
+[ 0 1 0 ] 
 
 gauss with bound size: 2
 [ 0 2 0 ] 
@@ -4914,34 +4856,98 @@ found different norms of vectors
 voronoi size: 1
 [ 0 1 0 ] 
 
-gauss size: 883.001
-[ 0 1 883 ] 
+gauss size: 877.001
+[ 0 -1 877 ] 
 
 list size: 1
-[ -1 0 0 ] 
+[ 0 -1 0 ] 
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 881]]
+
+voronoi duration 304
+
+
+gauss iter : 343|
+gauss duration: 2109
+
+
+list iter : 231|
+list duration: 2131
+bound 2.52303
+early exit gauss iter : 3|
+gauss with bound duration: 20
+
+
+early list iter : 1|
+list with bound duration: 9found different norms of vectors
+list with bound size: 1
+[ 0 -1 0 ] 
+
+gauss with bound size: 2.23607
+[ 1 -2 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 883]]
+
+voronoi duration 484
+
+
+gauss iter : 330|
+gauss duration: 2138
+
+
+list iter : 233|
+list duration: 2123
+bound 2.52303
+early exit gauss iter : 3|
+gauss with bound duration: 22
+
+
+early list iter : 7|
+list with bound duration: 33
+shortest with bound norm5
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+2 -1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 887]]
 
-voronoi duration 1973
+voronoi duration 116
 
 
-gauss iter : 287|
-gauss duration: 325
+gauss iter : 301|
+gauss duration: 1198
 
 
-list iter : 236|
-list duration: 508
+list iter : 231|
+list duration: 999
 bound 2.52303
 early exit gauss iter : 2|
-gauss with bound duration: 6
+gauss with bound duration: 19
 
 
-early list iter : 4|
-list with bound duration: 7found different norms of vectors
-list with bound size: 1.41421
-[ -1 1 0 ] 
+early list iter : 8|
+list with bound duration: 38found different norms of vectors
+list with bound size: 1
+[ -1 0 0 ] 
 
 gauss with bound size: 2.23607
 [ 2 -1 0 ] 
@@ -4956,152 +4962,24 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 907]]
 
-voronoi duration 3663
+voronoi duration 137
 
 
-gauss iter : 300|
-gauss duration: 427
+gauss iter : 292|
+gauss duration: 1911
 
 
-list iter : 233|
-list duration: 558
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 6
-
-
-early list iter : 4|
-list with bound duration: 6found different norms of vectors
-list with bound size: 1.41421
-[ 1 -1 0 ] 
-
-gauss with bound size: 2
-[ 0 2 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 911]]
-
-voronoi duration 1710
-
-
-gauss iter : 296|
-gauss duration: 959
-
-
-list iter : 230|
-list duration: 310
-bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 7
-
-
-early list iter : 1|
-list with bound duration: 2found different norms of vectors
-list with bound size: 1
-[ 0 -1 0 ] 
-
-gauss with bound size: 2
-[ 0 2 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 919]]
-
-voronoi duration 3268
-
-
-gauss iter : 330|
-gauss duration: 365
-
-
-list iter : 236|
-list duration: 843
-bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 9
-
-
-early list iter : 1|
-list with bound duration: 3found different norms of vectors
-list with bound size: 1.41421
-[ -1 -1 0 ] 
-
-gauss with bound size: 2.23607
-[ 2 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 929]]
-
-voronoi duration 3235
-
-
-gauss iter : 303|
-gauss duration: 356
-
-
-list iter : 230|
-list duration: 315
-bound 2.52303
-early exit gauss iter : 5|
-gauss with bound duration: 8
-
-
-early list iter : 2|
-list with bound duration: 4found different norms of vectors
-list with bound size: 1
-[ -1 0 0 ] 
-
-gauss with bound size: 1.41421
-[ 1 1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 937]]
-
-voronoi duration 4474
-
-
-gauss iter : 268|
-gauss duration: 374
-
-
-list iter : 238|
-list duration: 383
+list iter : 239|
+list duration: 2382
 bound 2.52303
 early exit gauss iter : 1|
-gauss with bound duration: 3
+gauss with bound duration: 11
 
 
 early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 2.23607
-[ 1 -2 0 ] 
+list with bound duration: 16found different norms of vectors
+list with bound size: 1.41421
+[ 1 1 0 ] 
 
 gauss with bound size: 1
 [ -1 0 0 ] 
@@ -5109,34 +4987,34 @@ gauss with bound size: 1
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
+0 -1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 941]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 911]]
 
-voronoi duration 2598
-
-
-gauss iter : 302|
-gauss duration: 390
+voronoi duration 375
 
 
-list iter : 235|
-list duration: 355
+gauss iter : 281|
+gauss duration: 2225
+
+
+list iter : 232|
+list duration: 2279
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
+early exit gauss iter : 1|
+gauss with bound duration: 11
 
 
-early list iter : 3|
-list with bound duration: 5
-shortest with bound norm5
+early list iter : 9|
+list with bound duration: 38found different norms of vectors
+list with bound size: 1
+[ 0 1 0 ] 
 
-$$$$$$$$$$$$$$$$$$$$$$$$
-2 -1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
+gauss with bound size: 2.23607
+[ -2 -1 0 ] 
 
 shortest with norm1
 
@@ -5146,26 +5024,122 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 947]]
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 919]]
 
-voronoi duration 2195
+voronoi duration 419
 
 
-gauss iter : 305|
-gauss duration: 433
+gauss iter : 322|
+gauss duration: 2738
 
 
 list iter : 231|
-list duration: 334
+list duration: 1100
 bound 2.52303
-early exit gauss iter : 11|
-gauss with bound duration: 12
+early exit gauss iter : 2|
+gauss with bound duration: 15
 
 
-early list iter : 7|
-list with bound duration: 9found different norms of vectors
+early list iter : 1|
+list with bound duration: 7found different norms of vectors
+list with bound size: 2
+[ 0 -2 0 ] 
+
+gauss with bound size: 1
+[ 0 -1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 929]]
+
+voronoi duration 1408
+
+
+gauss iter : 332|
+gauss duration: 2594
+
+
+list iter : 237|
+list duration: 2287
+bound 2.52303
+early exit gauss iter : 2|
+gauss with bound duration: 17
+
+
+early list iter : 4|
+list with bound duration: 21found different norms of vectors
+list with bound size: 1
+[ 1 0 0 ] 
+
+gauss with bound size: 1.41421
+[ 1 -1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 937]]
+
+voronoi duration 147
+
+
+gauss iter : 294|
+gauss duration: 2012
+
+
+list iter : 228|
+list duration: 2176
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 14
+
+
+early list iter : 5|
+list with bound duration: 24found different norms of vectors
 list with bound size: 2.23607
-[ -2 -1 0 ] 
+[ 1 2 0 ] 
+
+gauss with bound size: 1
+[ 1 0 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 941]]
+
+voronoi duration 393
+
+
+gauss iter : 307|
+gauss duration: 1997
+
+
+list iter : 235|
+list duration: 2887
+bound 2.52303
+early exit gauss iter : 5|
+gauss with bound duration: 26
+
+
+early list iter : 1|
+list with bound duration: 7found different norms of vectors
+list with bound size: 1.41421
+[ 1 1 0 ] 
 
 gauss with bound size: 1
 [ 0 1 0 ] 
@@ -5173,34 +5147,66 @@ gauss with bound size: 1
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 -1 0 
+0 1 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 947]]
+
+voronoi duration 368
+
+
+gauss iter : 291|
+gauss duration: 2053
+
+
+list iter : 234|
+list duration: 2070
+bound 2.52303
+early exit gauss iter : 1|
+gauss with bound duration: 16
+
+
+early list iter : 1|
+list with bound duration: 14found different norms of vectors
+list with bound size: 1.41421
+[ 1 1 0 ] 
+
+gauss with bound size: 2.23607
+[ -1 -2 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+0 1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 953]]
 
-voronoi duration 6050
+voronoi duration 421
 
 
-gauss iter : 322|
-gauss duration: 370
+gauss iter : 305|
+gauss duration: 1656
 
 
-list iter : 235|
-list duration: 350
+list iter : 234|
+list duration: 2138
 bound 2.52303
 early exit gauss iter : 2|
-gauss with bound duration: 5
+gauss with bound duration: 20
 
 
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 2
-[ 0 2 0 ] 
+early list iter : 7|
+list with bound duration: 34found different norms of vectors
+list with bound size: 1
+[ 0 -1 0 ] 
 
-gauss with bound size: 2.23607
-[ 2 -1 0 ] 
+gauss with bound size: 1.41421
+[ 1 -1 0 ] 
 
 shortest with norm1
 
@@ -5212,88 +5218,123 @@ $$$$$$$$$$$$$$$$$$$$$$$$
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 967]]
 
-voronoi duration 1597
+voronoi duration 149
 
 
-gauss iter : 301|
-gauss duration: 347
+gauss iter : 312|
+gauss duration: 2253
 
 
 list iter : 232|
-list duration: 374
+list duration: 2358
 bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 5
+early exit gauss iter : 7|
+gauss with bound duration: 27
 
 
-early list iter : 3|
-list with bound duration: 5found different norms of vectors
-list with bound size: 2.23607
-[ -1 2 0 ] 
+early list iter : 1|
+list with bound duration: 9
+shortest with bound norm1
 
-gauss with bound size: 1
-[ 0 -1 0 ] 
+$$$$$$$$$$$$$$$$$$$$$$$$
+1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
+0 -1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 971]]
 
-voronoi duration 2824
+voronoi duration 146
 
 
-gauss iter : 293|
-gauss duration: 339
+gauss iter : 286|
+gauss duration: 3128
 
 
-list iter : 233|
-list duration: 1290
+list iter : 237|
+list duration: 1707
 bound 2.52303
-early exit gauss iter : 3|
-gauss with bound duration: 12
+early exit gauss iter : 4|
+gauss with bound duration: 26
 
 
-early list iter : 1|
-list with bound duration: 3found different norms of vectors
+early list iter : 2|
+list with bound duration: 17found different norms of vectors
 list with bound size: 1
-[ 1 0 0 ] 
+[ 0 1 0 ] 
 
 gauss with bound size: 1.41421
-[ -1 -1 0 ] 
+[ 1 1 0 ] 
 
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-1 0 0 
+-1 0 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 977]]
 
-voronoi duration 2335
+voronoi duration 249
 
 
-gauss iter : 287|
-gauss duration: 516
+gauss iter : 316|
+gauss duration: 3296
 
 
-list iter : 234|
-list duration: 372
+list iter : 237|
+list duration: 3668
 bound 2.52303
 early exit gauss iter : 2|
-gauss with bound duration: 5
+gauss with bound duration: 25
 
 
-early list iter : 5|
-list with bound duration: 33found different norms of vectors
-list with bound size: 2
+early list iter : 1|
+list with bound duration: 11found different norms of vectors
+list with bound size: 2.23607
+[ -1 -2 0 ] 
+
+gauss with bound size: 2
 [ 0 2 0 ] 
+found different norms of vectors
+voronoi size: 1
+[ 0 1 0 ] 
+
+gauss size: 1.41421
+[ 1 1 0 ] 
+
+list size: 1
+[ -1 0 0 ] 
+---------------------------------------------------------------------
+
+The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
+voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 983]]
+
+voronoi duration 501
+
+
+gauss iter : 322|
+gauss duration: 3323
+
+
+list iter : 233|
+list duration: 3236
+bound 2.52303
+early exit gauss iter : 3|
+gauss with bound duration: 21
+
+
+early list iter : 2|
+list with bound duration: 11found different norms of vectors
+list with bound size: 1.41421
+[ 1 -1 0 ] 
 
 gauss with bound size: 1
 [ 1 0 0 ] 
@@ -5301,101 +5342,66 @@ gauss with bound size: 1
 shortest with norm1
 
 $$$$$$$$$$$$$$$$$$$$$$$$
-0 1 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
----------------------------------------------------------------------
-
-The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
-voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 983]]
-
-voronoi duration 1892
-
-
-gauss iter : 316|
-gauss duration: 361
-
-
-list iter : 233|
-list duration: 343
-bound 2.52303
-early exit gauss iter : 2|
-gauss with bound duration: 7
-
-
-early list iter : 5|
-list with bound duration: 10found different norms of vectors
-list with bound size: 2
-[ 0 -2 0 ] 
-
-gauss with bound size: 1.41421
-[ -1 -1 0 ] 
-
-shortest with norm1
-
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
+0 -1 0 
 $$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 991]]
 
-voronoi duration 1327
+voronoi duration 252
 
 
-gauss iter : 330|
-gauss duration: 843
+gauss iter : 307|
+gauss duration: 2512
 
 
-list iter : 233|
-list duration: 339
+list iter : 234|
+list duration: 2871
 bound 2.52303
-early exit gauss iter : 4|
-gauss with bound duration: 8
+early exit gauss iter : 2|
+gauss with bound duration: 18
 
 
-early list iter : 4|
-list with bound duration: 6found different norms of vectors
+early list iter : 2|
+list with bound duration: 11found different norms of vectors
 list with bound size: 1.41421
-[ -1 -1 0 ] 
-
-gauss with bound size: 1
-[ 1 0 0 ] 
-found different norms of vectors
-voronoi size: 1
-[ 0 1 0 ] 
-
-gauss size: 1.41421
 [ 1 -1 0 ] 
 
-list size: 1
+gauss with bound size: 1
 [ 0 -1 0 ] 
+
+shortest with norm1
+
+$$$$$$$$$$$$$$$$$$$$$$$$
+-1 0 0 
+$$$$$$$$$$$$$$$$$$$$$$$$
 ---------------------------------------------------------------------
 
 The currently shortest vector is mat<1,3>[[0, 1, 0]] with squared norm 1 (Integer)
 voronoi res mat<3,3>[[0, 1, 0], [1, 0, 0], [0, 0, 997]]
 
-voronoi duration 1984
+voronoi duration 154
 
 
-gauss iter : 332|
-gauss duration: 369
+gauss iter : 300|
+gauss duration: 2050
 
 
-list iter : 239|
-list duration: 5525
+list iter : 235|
+list duration: 2413
 bound 2.52303
-early exit gauss iter : 1|
-gauss with bound duration: 9
+early exit gauss iter : 3|
+gauss with bound duration: 20
 
 
-early list iter : 3|
-list with bound duration: 8
-shortest with bound norm1
+early list iter : 6|
+list with bound duration: 27found different norms of vectors
+list with bound size: 2
+[ 0 2 0 ] 
 
-$$$$$$$$$$$$$$$$$$$$$$$$
--1 0 0 
-$$$$$$$$$$$$$$$$$$$$$$$$
+gauss with bound size: 1
+[ -1 0 0 ] 
 
 shortest with norm1
 
