@@ -35,6 +35,11 @@
 # GMPXX_INCLUDE_DIR - The GMP C++ interface include directory
 # GMPXX_LIBRARIES - Libraries needed to use GMP's C++ interface
 
+message(STATUS "DIR is ${GMP_INCLUDE_DIR}")
+message(STATUS "DIR is ${GMP_LIBRARIES}")
+message(STATUS "DIR is ${GMPXX_INCLUDE_DIR}")
+message(STATUS "DIR is ${GMPXX_LIBRARIES}")
+
 IF(GMP_INCLUDE_DIR AND GMP_LIBRARIES AND GMPXX_INCLUDE_DIR AND GMPXX_LIBRARIES)
 	# Already in cache, be silent
 	SET(GMP_FIND_QUIETLY TRUE)

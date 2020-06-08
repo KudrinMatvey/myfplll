@@ -601,12 +601,37 @@
 },
 {
   "directory": "/home/user/plll-1.0/build/svp",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -isystem /usr/local/include/eigen3   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/svp2.dir/src/svp2.cpp.o -c /home/user/plll-1.0/svp/src/svp2.cpp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -std=c++14 -pthread -o -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/d-svp.dir/src/denis/svp.cpp.o -c /home/user/plll-1.0/svp/src/denis/svp.cpp",
+  "file": "/home/user/plll-1.0/svp/src/denis/svp.cpp"
+},
+{
+  "directory": "/home/user/plll-1.0/build/svp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -std=c++14 -pthread -o -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/svp.dir/src/svp.cpp.o -c /home/user/plll-1.0/svp/src/svp.cpp",
+  "file": "/home/user/plll-1.0/svp/src/svp.cpp"
+},
+{
+  "directory": "/home/user/plll-1.0/build/svp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -std=c++14 -pthread -o -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/d-main.dir/src/denis/main.cpp.o -c /home/user/plll-1.0/svp/src/denis/main.cpp",
+  "file": "/home/user/plll-1.0/svp/src/denis/main.cpp"
+},
+{
+  "directory": "/home/user/plll-1.0/build/svp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -std=c++14 -pthread -o -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/d-main.dir/src/denis/svp.cpp.o -c /home/user/plll-1.0/svp/src/denis/svp.cpp",
+  "file": "/home/user/plll-1.0/svp/src/denis/svp.cpp"
+},
+{
+  "directory": "/home/user/plll-1.0/build/svp",
+  "command": "/usr/bin/g++-7  -DASIO_DISABLE_STD_STRING_VIEW -DASIO_HAS_STD_CHRONO -DASIO_STANDALONE -DFMT_HEADER_ONLY=1 -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -isystem /usr/local/include/eigen3 -isystem /home/user/vcpkg/installed/x64-linux/include   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -std=c++14 -pthread -o -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/helloworld.dir/src/helloworld.cpp.o -c /home/user/plll-1.0/svp/src/helloworld.cpp",
+  "file": "/home/user/plll-1.0/svp/src/helloworld.cpp"
+},
+{
+  "directory": "/home/user/plll-1.0/build/svp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -isystem /usr/local/include/eigen3   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -std=c++14 -pthread -o -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/svp2.dir/src/svp2.cpp.o -c /home/user/plll-1.0/svp/src/svp2.cpp",
   "file": "/home/user/plll-1.0/svp/src/svp2.cpp"
 },
 {
   "directory": "/home/user/plll-1.0/build/svp",
-  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/svp.dir/src/svp.cpp.o -c /home/user/plll-1.0/svp/src/svp.cpp",
-  "file": "/home/user/plll-1.0/svp/src/svp.cpp"
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -isystem /usr/local/include/eigen3   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -std=c++14 -pthread -o -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/svp2.dir/src/denis/svp.cpp.o -c /home/user/plll-1.0/svp/src/denis/svp.cpp",
+  "file": "/home/user/plll-1.0/svp/src/denis/svp.cpp"
 }
 ]

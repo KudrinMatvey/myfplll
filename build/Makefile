@@ -391,17 +391,17 @@ example-02/fast:
 .PHONY : example-02/fast
 
 #=============================================================================
-# Target rules for targets named svp2
+# Target rules for targets named d-svp
 
 # Build rule for target.
-svp2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 svp2
-.PHONY : svp2
+d-svp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 d-svp
+.PHONY : d-svp
 
 # fast build rule for target.
-svp2/fast:
-	$(MAKE) -f svp/CMakeFiles/svp2.dir/build.make svp/CMakeFiles/svp2.dir/build
-.PHONY : svp2/fast
+d-svp/fast:
+	$(MAKE) -f svp/CMakeFiles/d-svp.dir/build.make svp/CMakeFiles/d-svp.dir/build
+.PHONY : d-svp/fast
 
 #=============================================================================
 # Target rules for targets named svp
@@ -415,6 +415,45 @@ svp: cmake_check_build_system
 svp/fast:
 	$(MAKE) -f svp/CMakeFiles/svp.dir/build.make svp/CMakeFiles/svp.dir/build
 .PHONY : svp/fast
+
+#=============================================================================
+# Target rules for targets named d-main
+
+# Build rule for target.
+d-main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 d-main
+.PHONY : d-main
+
+# fast build rule for target.
+d-main/fast:
+	$(MAKE) -f svp/CMakeFiles/d-main.dir/build.make svp/CMakeFiles/d-main.dir/build
+.PHONY : d-main/fast
+
+#=============================================================================
+# Target rules for targets named helloworld
+
+# Build rule for target.
+helloworld: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 helloworld
+.PHONY : helloworld
+
+# fast build rule for target.
+helloworld/fast:
+	$(MAKE) -f svp/CMakeFiles/helloworld.dir/build.make svp/CMakeFiles/helloworld.dir/build
+.PHONY : helloworld/fast
+
+#=============================================================================
+# Target rules for targets named svp2
+
+# Build rule for target.
+svp2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 svp2
+.PHONY : svp2
+
+# fast build rule for target.
+svp2/fast:
+	$(MAKE) -f svp/CMakeFiles/svp2.dir/build.make svp/CMakeFiles/svp2.dir/build
+.PHONY : svp2/fast
 
 # Help Target
 help:
@@ -446,8 +485,11 @@ help:
 	@echo "... pruningoptimize"
 	@echo "... example-01"
 	@echo "... example-02"
-	@echo "... svp2"
+	@echo "... d-svp"
 	@echo "... svp"
+	@echo "... d-main"
+	@echo "... helloworld"
+	@echo "... svp2"
 .PHONY : help
 
 

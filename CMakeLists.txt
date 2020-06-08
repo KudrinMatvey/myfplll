@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
+set(CMAKE_TOOLCHAIN_FILE ~/vcpkg/scripts/buildsystems/vcpkg.cmake)
+
 project(pLLL)
 set (CMAKE_CXX_STANDARD 11)
 set(EIGEN3_ROOT ${EIGEN3_INCLUDE_DIR}/packages/eigen)

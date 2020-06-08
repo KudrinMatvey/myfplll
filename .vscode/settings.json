@@ -65,7 +65,9 @@
         "regex": "cpp",
         "hash_map": "cpp",
         "future": "cpp",
-        "mutex": "cpp"
+        "mutex": "cpp",
+        "variant": "cpp",
+        "unordered_set": "cpp"
     },
     "git.ignoreLimitWarning": true
 }

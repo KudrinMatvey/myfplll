@@ -80,28 +80,6 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -123,6 +101,28 @@ install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -157,19 +157,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-svp/CMakeFiles/svp2.dir/rule:
-	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 svp/CMakeFiles/svp2.dir/rule
-.PHONY : svp/CMakeFiles/svp2.dir/rule
+svp/CMakeFiles/d-svp.dir/rule:
+	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 svp/CMakeFiles/d-svp.dir/rule
+.PHONY : svp/CMakeFiles/d-svp.dir/rule
 
 # Convenience name for target.
-svp2: svp/CMakeFiles/svp2.dir/rule
+d-svp: svp/CMakeFiles/d-svp.dir/rule
 
-.PHONY : svp2
+.PHONY : d-svp
 
 # fast build rule for target.
-svp2/fast:
-	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/svp2.dir/build.make svp/CMakeFiles/svp2.dir/build
-.PHONY : svp2/fast
+d-svp/fast:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/d-svp.dir/build.make svp/CMakeFiles/d-svp.dir/build
+.PHONY : d-svp/fast
 
 # Convenience name for target.
 svp/CMakeFiles/svp.dir/rule:
@@ -185,6 +185,138 @@ svp: svp/CMakeFiles/svp.dir/rule
 svp/fast:
 	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/svp.dir/build.make svp/CMakeFiles/svp.dir/build
 .PHONY : svp/fast
+
+# Convenience name for target.
+svp/CMakeFiles/d-main.dir/rule:
+	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 svp/CMakeFiles/d-main.dir/rule
+.PHONY : svp/CMakeFiles/d-main.dir/rule
+
+# Convenience name for target.
+d-main: svp/CMakeFiles/d-main.dir/rule
+
+.PHONY : d-main
+
+# fast build rule for target.
+d-main/fast:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/d-main.dir/build.make svp/CMakeFiles/d-main.dir/build
+.PHONY : d-main/fast
+
+# Convenience name for target.
+svp/CMakeFiles/helloworld.dir/rule:
+	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 svp/CMakeFiles/helloworld.dir/rule
+.PHONY : svp/CMakeFiles/helloworld.dir/rule
+
+# Convenience name for target.
+helloworld: svp/CMakeFiles/helloworld.dir/rule
+
+.PHONY : helloworld
+
+# fast build rule for target.
+helloworld/fast:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/helloworld.dir/build.make svp/CMakeFiles/helloworld.dir/build
+.PHONY : helloworld/fast
+
+# Convenience name for target.
+svp/CMakeFiles/svp2.dir/rule:
+	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 svp/CMakeFiles/svp2.dir/rule
+.PHONY : svp/CMakeFiles/svp2.dir/rule
+
+# Convenience name for target.
+svp2: svp/CMakeFiles/svp2.dir/rule
+
+.PHONY : svp2
+
+# fast build rule for target.
+svp2/fast:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/svp2.dir/build.make svp/CMakeFiles/svp2.dir/build
+.PHONY : svp2/fast
+
+src/denis/main.o: src/denis/main.cpp.o
+
+.PHONY : src/denis/main.o
+
+# target to build an object file
+src/denis/main.cpp.o:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/d-main.dir/build.make svp/CMakeFiles/d-main.dir/src/denis/main.cpp.o
+.PHONY : src/denis/main.cpp.o
+
+src/denis/main.i: src/denis/main.cpp.i
+
+.PHONY : src/denis/main.i
+
+# target to preprocess a source file
+src/denis/main.cpp.i:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/d-main.dir/build.make svp/CMakeFiles/d-main.dir/src/denis/main.cpp.i
+.PHONY : src/denis/main.cpp.i
+
+src/denis/main.s: src/denis/main.cpp.s
+
+.PHONY : src/denis/main.s
+
+# target to generate assembly for a file
+src/denis/main.cpp.s:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/d-main.dir/build.make svp/CMakeFiles/d-main.dir/src/denis/main.cpp.s
+.PHONY : src/denis/main.cpp.s
+
+src/denis/svp.o: src/denis/svp.cpp.o
+
+.PHONY : src/denis/svp.o
+
+# target to build an object file
+src/denis/svp.cpp.o:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/d-svp.dir/build.make svp/CMakeFiles/d-svp.dir/src/denis/svp.cpp.o
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/d-main.dir/build.make svp/CMakeFiles/d-main.dir/src/denis/svp.cpp.o
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/svp2.dir/build.make svp/CMakeFiles/svp2.dir/src/denis/svp.cpp.o
+.PHONY : src/denis/svp.cpp.o
+
+src/denis/svp.i: src/denis/svp.cpp.i
+
+.PHONY : src/denis/svp.i
+
+# target to preprocess a source file
+src/denis/svp.cpp.i:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/d-svp.dir/build.make svp/CMakeFiles/d-svp.dir/src/denis/svp.cpp.i
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/d-main.dir/build.make svp/CMakeFiles/d-main.dir/src/denis/svp.cpp.i
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/svp2.dir/build.make svp/CMakeFiles/svp2.dir/src/denis/svp.cpp.i
+.PHONY : src/denis/svp.cpp.i
+
+src/denis/svp.s: src/denis/svp.cpp.s
+
+.PHONY : src/denis/svp.s
+
+# target to generate assembly for a file
+src/denis/svp.cpp.s:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/d-svp.dir/build.make svp/CMakeFiles/d-svp.dir/src/denis/svp.cpp.s
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/d-main.dir/build.make svp/CMakeFiles/d-main.dir/src/denis/svp.cpp.s
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/svp2.dir/build.make svp/CMakeFiles/svp2.dir/src/denis/svp.cpp.s
+.PHONY : src/denis/svp.cpp.s
+
+src/helloworld.o: src/helloworld.cpp.o
+
+.PHONY : src/helloworld.o
+
+# target to build an object file
+src/helloworld.cpp.o:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/helloworld.dir/build.make svp/CMakeFiles/helloworld.dir/src/helloworld.cpp.o
+.PHONY : src/helloworld.cpp.o
+
+src/helloworld.i: src/helloworld.cpp.i
+
+.PHONY : src/helloworld.i
+
+# target to preprocess a source file
+src/helloworld.cpp.i:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/helloworld.dir/build.make svp/CMakeFiles/helloworld.dir/src/helloworld.cpp.i
+.PHONY : src/helloworld.cpp.i
+
+src/helloworld.s: src/helloworld.cpp.s
+
+.PHONY : src/helloworld.s
+
+# target to generate assembly for a file
+src/helloworld.cpp.s:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/helloworld.dir/build.make svp/CMakeFiles/helloworld.dir/src/helloworld.cpp.s
+.PHONY : src/helloworld.cpp.s
 
 src/svp.o: src/svp.cpp.o
 
@@ -248,12 +380,24 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... list_install_components"
+	@echo "... d-svp"
+	@echo "... install"
+	@echo "... svp"
+	@echo "... d-main"
+	@echo "... rebuild_cache"
+	@echo "... helloworld"
 	@echo "... svp2"
 	@echo "... edit_cache"
-	@echo "... rebuild_cache"
-	@echo "... list_install_components"
-	@echo "... svp"
-	@echo "... install"
+	@echo "... src/denis/main.o"
+	@echo "... src/denis/main.i"
+	@echo "... src/denis/main.s"
+	@echo "... src/denis/svp.o"
+	@echo "... src/denis/svp.i"
+	@echo "... src/denis/svp.s"
+	@echo "... src/helloworld.o"
+	@echo "... src/helloworld.i"
+	@echo "... src/helloworld.s"
 	@echo "... src/svp.o"
 	@echo "... src/svp.i"
 	@echo "... src/svp.s"

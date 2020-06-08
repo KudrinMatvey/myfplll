@@ -107,6 +107,15 @@ svp/svp: /usr/lib/x86_64-linux-gnu/libboost_atomic.a
 svp/svp: /usr/lib/x86_64-linux-gnu/libpthread.so
 svp/svp: /usr/local/lib/libgmp.so
 svp/svp: /usr/lib/x86_64-linux-gnu/libmpfr.so
+svp/svp: plll/libplll.a
+svp/svp: /usr/lib/x86_64-linux-gnu/libboost_thread.a
+svp/svp: /usr/lib/x86_64-linux-gnu/libboost_system.a
+svp/svp: /usr/lib/x86_64-linux-gnu/libboost_chrono.a
+svp/svp: /usr/lib/x86_64-linux-gnu/libboost_date_time.a
+svp/svp: /usr/lib/x86_64-linux-gnu/libboost_atomic.a
+svp/svp: /usr/lib/x86_64-linux-gnu/libpthread.so
+svp/svp: /usr/local/lib/libgmp.so
+svp/svp: /usr/lib/x86_64-linux-gnu/libmpfr.so
 svp/svp: svp/CMakeFiles/svp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/plll-1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable svp"
 	cd /home/user/plll-1.0/build/svp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/svp.dir/link.txt --verbose=$(VERBOSE)
