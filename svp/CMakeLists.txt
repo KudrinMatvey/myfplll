@@ -22,7 +22,7 @@ file(GLOB SOURCES
 )
 add_executable(d-main src/denis/main.cpp ${SOURCES})
 add_executable(svp2 src/svp2.cpp ${SOURCES})
-add_executable(main2 src/main2.cpp src/kudrin/ksvp.cpp src/kudrin/ksvp.h)
+add_executable(main2 src/kudrin/main2.cpp src/kudrin/ksvp.cpp src/kudrin/ksvp.h)
 
 
 # RESTinio dependencies:
@@ -43,3 +43,4 @@ target_link_libraries(svp ${libraries})
 target_link_libraries(d-svp ${libraries})
 target_link_libraries(d-main ${libraries})
 target_link_libraries(svp2 ${libraries} Eigen3::Eigen)
+target_link_libraries(main2 ${libraries} Eigen3::Eigen)

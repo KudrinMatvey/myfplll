@@ -231,6 +231,21 @@ svp2/fast:
 	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/svp2.dir/build.make svp/CMakeFiles/svp2.dir/build
 .PHONY : svp2/fast
 
+# Convenience name for target.
+svp/CMakeFiles/main2.dir/rule:
+	cd /home/user/plll-1.0/build && $(MAKE) -f CMakeFiles/Makefile2 svp/CMakeFiles/main2.dir/rule
+.PHONY : svp/CMakeFiles/main2.dir/rule
+
+# Convenience name for target.
+main2: svp/CMakeFiles/main2.dir/rule
+
+.PHONY : main2
+
+# fast build rule for target.
+main2/fast:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/main2.dir/build.make svp/CMakeFiles/main2.dir/build
+.PHONY : main2/fast
+
 src/denis/main.o: src/denis/main.cpp.o
 
 .PHONY : src/denis/main.o
@@ -318,6 +333,60 @@ src/helloworld.cpp.s:
 	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/helloworld.dir/build.make svp/CMakeFiles/helloworld.dir/src/helloworld.cpp.s
 .PHONY : src/helloworld.cpp.s
 
+src/kudrin/ksvp.o: src/kudrin/ksvp.cpp.o
+
+.PHONY : src/kudrin/ksvp.o
+
+# target to build an object file
+src/kudrin/ksvp.cpp.o:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/main2.dir/build.make svp/CMakeFiles/main2.dir/src/kudrin/ksvp.cpp.o
+.PHONY : src/kudrin/ksvp.cpp.o
+
+src/kudrin/ksvp.i: src/kudrin/ksvp.cpp.i
+
+.PHONY : src/kudrin/ksvp.i
+
+# target to preprocess a source file
+src/kudrin/ksvp.cpp.i:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/main2.dir/build.make svp/CMakeFiles/main2.dir/src/kudrin/ksvp.cpp.i
+.PHONY : src/kudrin/ksvp.cpp.i
+
+src/kudrin/ksvp.s: src/kudrin/ksvp.cpp.s
+
+.PHONY : src/kudrin/ksvp.s
+
+# target to generate assembly for a file
+src/kudrin/ksvp.cpp.s:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/main2.dir/build.make svp/CMakeFiles/main2.dir/src/kudrin/ksvp.cpp.s
+.PHONY : src/kudrin/ksvp.cpp.s
+
+src/kudrin/main2.o: src/kudrin/main2.cpp.o
+
+.PHONY : src/kudrin/main2.o
+
+# target to build an object file
+src/kudrin/main2.cpp.o:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/main2.dir/build.make svp/CMakeFiles/main2.dir/src/kudrin/main2.cpp.o
+.PHONY : src/kudrin/main2.cpp.o
+
+src/kudrin/main2.i: src/kudrin/main2.cpp.i
+
+.PHONY : src/kudrin/main2.i
+
+# target to preprocess a source file
+src/kudrin/main2.cpp.i:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/main2.dir/build.make svp/CMakeFiles/main2.dir/src/kudrin/main2.cpp.i
+.PHONY : src/kudrin/main2.cpp.i
+
+src/kudrin/main2.s: src/kudrin/main2.cpp.s
+
+.PHONY : src/kudrin/main2.s
+
+# target to generate assembly for a file
+src/kudrin/main2.cpp.s:
+	cd /home/user/plll-1.0/build && $(MAKE) -f svp/CMakeFiles/main2.dir/build.make svp/CMakeFiles/main2.dir/src/kudrin/main2.cpp.s
+.PHONY : src/kudrin/main2.cpp.s
+
 src/svp.o: src/svp.cpp.o
 
 .PHONY : src/svp.o
@@ -387,8 +456,9 @@ help:
 	@echo "... d-main"
 	@echo "... rebuild_cache"
 	@echo "... helloworld"
-	@echo "... svp2"
 	@echo "... edit_cache"
+	@echo "... svp2"
+	@echo "... main2"
 	@echo "... src/denis/main.o"
 	@echo "... src/denis/main.i"
 	@echo "... src/denis/main.s"
@@ -398,6 +468,12 @@ help:
 	@echo "... src/helloworld.o"
 	@echo "... src/helloworld.i"
 	@echo "... src/helloworld.s"
+	@echo "... src/kudrin/ksvp.o"
+	@echo "... src/kudrin/ksvp.i"
+	@echo "... src/kudrin/ksvp.s"
+	@echo "... src/kudrin/main2.o"
+	@echo "... src/kudrin/main2.i"
+	@echo "... src/kudrin/main2.s"
 	@echo "... src/svp.o"
 	@echo "... src/svp.i"
 	@echo "... src/svp.s"

@@ -455,6 +455,19 @@ svp2/fast:
 	$(MAKE) -f svp/CMakeFiles/svp2.dir/build.make svp/CMakeFiles/svp2.dir/build
 .PHONY : svp2/fast
 
+#=============================================================================
+# Target rules for targets named main2
+
+# Build rule for target.
+main2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main2
+.PHONY : main2
+
+# fast build rule for target.
+main2/fast:
+	$(MAKE) -f svp/CMakeFiles/main2.dir/build.make svp/CMakeFiles/main2.dir/build
+.PHONY : main2/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -490,6 +503,7 @@ help:
 	@echo "... d-main"
 	@echo "... helloworld"
 	@echo "... svp2"
+	@echo "... main2"
 .PHONY : help
 
 

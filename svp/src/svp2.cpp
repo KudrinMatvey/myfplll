@@ -189,12 +189,14 @@ vector<T2> subtract(const vector<T> &v1, const vector<T2> &v2)
         ret[i] = (v1[i] - v2[i]);
     return ret;
 }
-template <typename T, typename T2>
-vector<T> operator-(const vector<T> &v1, const vector<T2> &v2)
+
+
+template <typename T>
+vector<T> operator+(const vector<T> &v1, const vector<T> &v2)
 {
     vector<T> ret(v1.size());
     for (int i = 0; i < v1.size(); ++i)
-        ret[i] = v1[i] - v2[i];
+        ret[i] = (v1.at(i) + v2.at(i));
     return ret;
 }
 template <typename T>

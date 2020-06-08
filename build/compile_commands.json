@@ -633,5 +633,15 @@
   "directory": "/home/user/plll-1.0/build/svp",
   "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -isystem /usr/local/include/eigen3   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -std=c++14 -pthread -o -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/svp2.dir/src/denis/svp.cpp.o -c /home/user/plll-1.0/svp/src/denis/svp.cpp",
   "file": "/home/user/plll-1.0/svp/src/denis/svp.cpp"
+},
+{
+  "directory": "/home/user/plll-1.0/build/svp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -isystem /usr/local/include/eigen3   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -std=c++14 -pthread -o -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/main2.dir/src/kudrin/main2.cpp.o -c /home/user/plll-1.0/svp/src/kudrin/main2.cpp",
+  "file": "/home/user/plll-1.0/svp/src/kudrin/main2.cpp"
+},
+{
+  "directory": "/home/user/plll-1.0/build/svp",
+  "command": "/usr/bin/g++-7   -I/usr/local/include -I/home/user/plll-1.0/plll/include -I/home/user/plll-1.0/build/plll/include -isystem /usr/local/include/eigen3   -O3 -mtune=native -march=native -pedantic -Wall -std=c++98 -Wno-long-long -std=c++14 -pthread -o -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/main2.dir/src/kudrin/ksvp.cpp.o -c /home/user/plll-1.0/svp/src/kudrin/ksvp.cpp",
+  "file": "/home/user/plll-1.0/svp/src/kudrin/ksvp.cpp"
 }
 ]

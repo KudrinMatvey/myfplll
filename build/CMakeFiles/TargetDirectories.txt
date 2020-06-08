@@ -61,5 +61,6 @@
 /home/user/plll-1.0/build/svp/CMakeFiles/d-main.dir
 /home/user/plll-1.0/build/svp/CMakeFiles/rebuild_cache.dir
 /home/user/plll-1.0/build/svp/CMakeFiles/helloworld.dir
-/home/user/plll-1.0/build/svp/CMakeFiles/svp2.dir
 /home/user/plll-1.0/build/svp/CMakeFiles/edit_cache.dir
+/home/user/plll-1.0/build/svp/CMakeFiles/svp2.dir
+/home/user/plll-1.0/build/svp/CMakeFiles/main2.dir
