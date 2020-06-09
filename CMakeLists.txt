@@ -50,6 +50,8 @@ include(Libraries.txt)
 configure_file(${PROJECT_SOURCE_DIR}/plll/include/plll/config.hpp.in ${PROJECT_BINARY_DIR}/plll/include/plll/config.hpp @ONLY)
 
 add_subdirectory(plll)
+add_definitions ( -DPLLL_FOUND=true )
+add_definitions ( -DEIGEN_FOUND=true )
 add_subdirectory(tests)
 add_subdirectory(tools)
 add_subdirectory(doc)

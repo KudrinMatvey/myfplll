@@ -1060,7 +1060,7 @@ clean: svp/CMakeFiles/svp2.dir/clean
 # Target rules for target svp/CMakeFiles/main2.dir
 
 # All Build rule for target.
-svp/CMakeFiles/main2.dir/all:
+svp/CMakeFiles/main2.dir/all: plll/CMakeFiles/libplll-static.dir/all
 	$(MAKE) -f svp/CMakeFiles/main2.dir/build.make svp/CMakeFiles/main2.dir/depend
 	$(MAKE) -f svp/CMakeFiles/main2.dir/build.make svp/CMakeFiles/main2.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/plll-1.0/build/CMakeFiles --progress-num=77,78 "Built target main2"
@@ -1073,7 +1073,7 @@ all: svp/CMakeFiles/main2.dir/all
 
 # Build rule for subdir invocation for target.
 svp/CMakeFiles/main2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/plll-1.0/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/plll-1.0/build/CMakeFiles 37
 	$(MAKE) -f CMakeFiles/Makefile2 svp/CMakeFiles/main2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/plll-1.0/build/CMakeFiles 0
 .PHONY : svp/CMakeFiles/main2.dir/rule

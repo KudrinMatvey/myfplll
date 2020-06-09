@@ -9,6 +9,7 @@ message(STATUS "ashk ${CMAKE_TOOLCHAIN_FILE}")
 link_directories(${pLLL_BINARY_DIR}/plll)
 link_directories(${PROJECT_SOURCE_DIR}/svp/src/denis)
 message(STATUS "ashk ${PROJECT_SOURCE_DIR}/svp/src/denis")
+message(STATUS "${PLLL_FOUND} ${EIGEN_FOUND}")
 
 add_executable(svp src/svp.cpp)
 add_executable(d-svp src/denis/svp.cpp)
